@@ -1,0 +1,40 @@
+Qwen3.5-4B-Instruct:
+  repo_id: mlx-community/Qwen3.5-4B-4bit
+  loader: mlx-lm
+  temperature: 0
+  thinking: false
+Qwen3-8B-MLX-4bit:
+  repo_id: Qwen/Qwen3-8B-MLX-4bit
+  loader: mlx-lm
+  temperature: 0
+  thinking: false
+Gemma-4-E4B-it:
+  repo_id: mlx-community/gemma-4-e4b-it-4bit
+  loader: mlx-vlm
+  temperature: 0
+  thinking: false
+Gemma-3-4B-it:
+  repo_id: mlx-community/gemma-3-4b-it-4bit
+  loader: mlx-vlm
+  temperature: 0
+  thinking: null        # Gemma 3 has no thinking mode
+Llama-3.2-3B-Instruct:
+  repo_id: mlx-community/Llama-3.2-3B-Instruct-4bit
+  loader: mlx-lm
+  temperature: 0
+  thinking: null        # Llama has no thinking mode
+Llama-3.1-8B-Instruct:
+  repo_id: mlx-community/Meta-Llama-3.1-8B-Instruct-4bit
+  loader: mlx-lm
+  temperature: 0
+  thinking: null
+Phi-4-mini-instruct:
+  repo_id: mlx-community/Phi-4-mini-instruct-4bit
+  loader: mlx-lm
+  temperature: 0
+  thinking: null         # Phi-4-mini has no thinking mode
+Phi-3.5-mini-instruct:
+  repo_id: mlx-community/Phi-3.5-mini-instruct-4bit
+  loader: mlx-lm
+  temperature: 0
+  thinking: null

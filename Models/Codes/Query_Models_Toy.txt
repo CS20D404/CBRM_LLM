@@ -1,0 +1,44 @@
+
+=== Qwen3.5-4B-Instruct (temp=0, thinking=False) ===
+Why don't scientists trust atoms?
+
+Because they **make up everything**!
+
+=== Qwen3-8B-MLX-4bit (temp=0, thinking=False) ===
+Sure! Here's a classic one:
+
+Why don't scientists trust atoms?
+
+Because they make up everything! 😄
+
+=== Gemma-4-E4B-it (temp=0, thinking=False) ===
+GenerationResult(text="Why don't scientists trust atoms?\n\nBecause they make up *everything*!", token=106, logprobs=array([-35.75, -25.875, -35.5, ..., -35.25, -35.5, -35.5], dtype=bfloat16), prompt_tokens=14, generation_tokens=18, total_tokens=32, prompt_tps=2.6164414564690293, generation_tps=44.55602240588703, peak_memory=9.501549374, cached_tokens=0, finish_reason='stop', diffusion_canvas_tokens=0, diffusion_denoising_steps=0, diffusion_work_tokens=0, diffusion_canvas_tps=0.0, diffusion_work_tps=0.0, is_draft=False, draft_text='', text_already_printed=False, diffusion_step=0, diffusion_total_steps=0, diffusion_canvas_index=0, diffusion_block_complete=False, token_ids=[11355, 1537, 236789, 236745, 16225, 5210, 14514, 236881, 108, 17574, 901, 1386, 872, 808, 73380, 236829, 236888, 106])
+
+=== Gemma-3-4B-it (temp=0, thinking=None) ===
+GenerationResult(text='Why did the scarecrow win an award? \n\n... Because he was outstanding in his field! 😄 \n\n---\n\nWould you like to hear another one?', token=106, logprobs=array([-89.5, -47.5, -60, ..., -67, -67, -67], dtype=bfloat16), prompt_tokens=14, generation_tokens=34, total_tokens=48, prompt_tps=4.351849577318869, generation_tps=53.86444026315311, peak_memory=9.501549374, cached_tokens=0, finish_reason='stop', diffusion_canvas_tokens=0, diffusion_denoising_steps=0, diffusion_work_tokens=0, diffusion_canvas_tps=0.0, diffusion_work_tps=0.0, is_draft=False, draft_text='', text_already_printed=False, diffusion_step=0, diffusion_total_steps=0, diffusion_canvas_index=0, diffusion_block_complete=False, token_ids=[11355, 1602, 506, 55134, 47129, 3345, 614, 8054, 236881, 236743, 108, 1390, 8468, 668, 691, 15647, 528, 914, 2135, 236888, 222194, 236743, 108, 7243, 108, 38786, 611, 1133, 531, 6899, 2264, 886, 236881, 106])
+
+=== Llama-3.2-3B-Instruct (temp=0, thinking=None) ===
+A man walked into a library and asked the librarian, "Do you have any books on Pavlov's dogs and Schrödinger's cat?" The librarian replied, "It rings a bell, but I'm not sure if it's here or not."
+
+=== Llama-3.1-8B-Instruct (temp=0, thinking=None) ===
+A man walked into a library and asked the librarian, "Do you have any books on Pavlov's dogs and Schrödinger's cat?" The librarian replied, "It rings a bell, but I'm not sure if it's here or not."
+
+=== Phi-4-mini-instruct (temp=0, thinking=None) ===
+Why of course! Here’s one for you:
+
+Why do we never tell secrets on Mars? 
+
+Because Mars won’t keep a secret, not even a little rock! 
+
+(End of transmission, I’m just a humble space rock.)
+
+=== Phi-3.5-mini-instruct (temp=0, thinking=None) ===
+Sure, here's a light-hearted joke for you:
+
+Why don't scientists trust atoms?
+
+Because they make up everything, even the air they breathe!
+
+(Note: This joke plays on the double meaning of "make up" – atoms literally make up all matter, and they also fabricate or "make up" stories, as in to invent or concoct something.)
+
+Remember, humor can be subjective, but I hope you found this one amusing!<|end|>
