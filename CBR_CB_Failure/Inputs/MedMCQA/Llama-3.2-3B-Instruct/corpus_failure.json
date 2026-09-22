@@ -1,0 +1,2994 @@
+[
+  {
+    "id": "medmcqa_train_174832",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "All of the following are true regarding Wegener's granulomatosis except: September 2008",
+    "options": {
+      "A": "Affects large size blood vessels",
+      "B": "May affect lungs and kidneys",
+      "C": "Necrotizing granuloma may be seen on microscopy",
+      "D": "PR3-ANCAs are present in upto 95% of cases"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Affects large size blood vessels",
+    "llm_output": "Option: D",
+    "prediction": "D",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_92714",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "The coronary blood flow (ml per minute) is:",
+    "options": {
+      "A": "250",
+      "B": "500",
+      "C": "750",
+      "D": "840"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "250",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_106529",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "The natural response to injury include all except",
+    "options": {
+      "A": "Immobility/rest",
+      "B": "Anorexia",
+      "C": "Catabolism",
+      "D": "Anabolism"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "Anabolism",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_162702",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Rupa Devi age 65 year old female with ovarian cancer is being treated with cisplatin based chemotherapy. All of the following are used to limit the toxicity of cisplatin except",
+    "options": {
+      "A": "N-acetylcycteine",
+      "B": "Slow rate of infusion",
+      "C": "Chloride diuresis",
+      "D": "Amifostine"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "N-acetylcycteine",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_40515",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Total body water constitute what percentage of body Weight-",
+    "options": {
+      "A": "80%",
+      "B": "60%",
+      "C": "33%",
+      "D": "25%"
+    },
+    "ground_truth": "B",
+    "ground_truth_text": "60%",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_107928",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "\"Satellite lesions\" are seen in",
+    "options": {
+      "A": "Intertrigo",
+      "B": "Tinea Versicolor",
+      "C": "Kerion",
+      "D": "Flavus"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Intertrigo",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_69941",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "In gout, tophi are present in all of the following tissues, EXCEPT:",
+    "options": {
+      "A": "Synol fluid",
+      "B": "Aicular cailage",
+      "C": "Joint capsule",
+      "D": "Skin"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "Joint capsule",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_validation_1013",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Which of the following is not true for rifabutin as compared to rifampicin?",
+    "options": {
+      "A": "Rifabutin has the longer half-life than rifampicin",
+      "B": "Rifabutin has lesser incidence of drug-interactions",
+      "C": "Rifabutin is more efficacious against MAC as compared to rifampicin",
+      "D": "Rifabutin is more efficacious for pulmonary TB as compared to rifampicin"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "Rifabutin is more efficacious for pulmonary TB as compared to rifampicin",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_28336",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Bowen's disease is:",
+    "options": {
+      "A": "Mimics chronic dermatosis",
+      "B": "Premalignant condition",
+      "C": "Presents with pruritus",
+      "D": "All of the above"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "All of the above",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_52316",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Hair perforation test is positive in infection with",
+    "options": {
+      "A": "Trichophyton",
+      "B": "Microsporum",
+      "C": "Epidermophyton",
+      "D": "All of the above"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Trichophyton",
+    "llm_output": "Option: D",
+    "prediction": "D",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_59662",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Which of the following was introduced by Faunce and Faunce?",
+    "options": {
+      "A": "Laminate veneers",
+      "B": "Strip Crowns",
+      "C": "Hu friedy crowns",
+      "D": "Hall crowns"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Laminate veneers",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_6203",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Definition of Blindness when visual acuity is less than ___________ in better eye according to NPCB and WHO respectively",
+    "options": {
+      "A": "< 3/60 and < 6/18",
+      "B": "< 6/18 and < 3/60",
+      "C": "< 3/60 and < 3/60",
+      "D": "< 6/18 and < 6/18"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "< 3/60 and < 3/60",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_173023",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Which of the following drug prevent these renal stones?",
+    "options": {
+      "A": "Acetazolamide",
+      "B": "Hydrochlohiazide",
+      "C": "Mannitol",
+      "D": "Furosemide"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Acetazolamide",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_18198",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Modified Cornoy's solution, used as a chemical cauterization agent, has which of these components missing from original Cornoy's solution?",
+    "options": {
+      "A": "Chloroform",
+      "B": "Glacial acetic acid",
+      "C": "Ferric chloride",
+      "D": "Alcohol"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Chloroform",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_73170",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Which one of the following statement is true of undescended testis -",
+    "options": {
+      "A": "Usually descends spontaneously at puberty",
+      "B": "Orchipexy to be done if no descent by puberty",
+      "C": "Has a higher incidence of malignancy",
+      "D": "Maintains normal sperm production"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "Has a higher incidence of malignancy",
+    "llm_output": "Option: A",
+    "prediction": "A",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_92050",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Which of the following is the best test for ble myocardium after MI?",
+    "options": {
+      "A": "Thallium scan",
+      "B": "MUGA scan",
+      "C": "MDCT",
+      "D": "Stress Echocardiography"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Thallium scan",
+    "llm_output": "Option: D",
+    "prediction": "D",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_168160",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "An example of CXC chemokine is_____.",
+    "options": {
+      "A": "IL 8",
+      "B": "IL 2",
+      "C": "Lymphotactin",
+      "D": "Fractalkine"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "IL 8",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_104773",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "which does not include microsomal enzymes",
+    "options": {
+      "A": "cimetidine",
+      "B": "griseofulvin",
+      "C": "rifampicin",
+      "D": "phenobarbitone"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "cimetidine",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_140565",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Lowest in the hierarchy of specialisation",
+    "options": {
+      "A": "Unipotent stem cells",
+      "B": "Totipotent stem cells",
+      "C": "Multipotent uncommitted stem cells",
+      "D": "Committed stem cells"
+    },
+    "ground_truth": "B",
+    "ground_truth_text": "Totipotent stem cells",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_86808",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Crohn&;s disease can be seen in",
+    "options": {
+      "A": "Jejunum only",
+      "B": "Colon only",
+      "C": "Terminal ileum and right side",
+      "D": "Mouth of anus"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "Mouth of anus",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_7235",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "NOT a content of Rectus sheath among the following is",
+    "options": {
+      "A": "Pyramidalis",
+      "B": "Superior epigastric artery",
+      "C": "T12",
+      "D": "T6"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "T6",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_68475",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Contralateral superior quadrantanopia and sensory aphasia occurs due to occlusion of which branch of MCA:",
+    "options": {
+      "A": "M2 MCA- inferior division",
+      "B": "M2 MCA - superior division",
+      "C": "MCA stem",
+      "D": "M1 MCA"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "M2 MCA- inferior division",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_28417",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Classification system of bone tumors is -",
+    "options": {
+      "A": "Enneking",
+      "B": "Manchester",
+      "C": "Edmonton",
+      "D": "TNM"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Enneking",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_113918",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "The first step when doing a penumononectomy for cancer of the bronchus is to -",
+    "options": {
+      "A": "Ligate the pulmonary vein",
+      "B": "Ligate pulmonary artery",
+      "C": "Divide the bronchus",
+      "D": "Perform lymphnode clearance"
+    },
+    "ground_truth": "B",
+    "ground_truth_text": "Ligate pulmonary artery",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_82228",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Definition of family is?",
+    "options": {
+      "A": "Biologically related members living together",
+      "B": "Biologically related members living under single roof",
+      "C": "Group of people living together and sharing a kitchen",
+      "D": "Biologically related people living together and sharing a kitchen"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "Biologically related people living together and sharing a kitchen",
+    "llm_output": "Option: A",
+    "prediction": "A",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_134066",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "An absent kidney is found in -",
+    "options": {
+      "A": "1:200 individuals",
+      "B": "1:700 individuals",
+      "C": "1:1400 individuals",
+      "D": "1:5000 individuals"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "1:1400 individuals",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_49828",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Theta waves are seen in-",
+    "options": {
+      "A": "Stage 1 REM",
+      "B": "Stage 2 REM",
+      "C": "Stage 1 NREM",
+      "D": "Stage 2 NREM"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "Stage 1 NREM",
+    "llm_output": "Option: D",
+    "prediction": "D",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_validation_2981",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Patient on dental chair during extraction becomes unconscious; patient is breathing but not responsive. Your first step will be:",
+    "options": {
+      "A": "Recline chair and shout for help and give oxygen",
+      "B": "Check BP and pulse and intubate",
+      "C": "Start CPR immediately",
+      "D": "ECG"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Recline chair and shout for help and give oxygen",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_114309",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Luschka's tonsil also know as",
+    "options": {
+      "A": "Adenoids",
+      "B": "Palatine Tonsil",
+      "C": "Lingual Tonsil",
+      "D": "Gerlach's  Tonsil"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Adenoids",
+    "llm_output": "Option: D",
+    "prediction": "D",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_175801",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Which of the following is ideal as overdenture abutments in maxillary arch?",
+    "options": {
+      "A": "Central incisors",
+      "B": "Lateral incisors",
+      "C": "Canines",
+      "D": "Second premolars"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Central incisors",
+    "llm_output": "Option: D",
+    "prediction": "D",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_95478",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Percentage of gallstones which are radiopaque:",
+    "options": {
+      "A": "10%",
+      "B": "20%",
+      "C": "30%",
+      "D": "40%"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "10%",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_113062",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Congenital adrenal hyperplasia is associated with -",
+    "options": {
+      "A": "Hypoglycemia",
+      "B": "Hyponatremia",
+      "C": "Hypokalemia",
+      "D": "All"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "All",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_174125",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Fan shaped patterns of small intradermal veins on medial or lateral aspect of ankle is called",
+    "options": {
+      "A": "Saphena varix",
+      "B": "Hyphen webs",
+      "C": "Corona phlebectasia",
+      "D": "Dermal flare"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "Corona phlebectasia",
+    "llm_output": "Option: A",
+    "prediction": "A",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_132939",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "An 85 year old man underwent Transurethral resection of prostate. A histological examination of his speciman showed foci of adenocarcinoma management will be -",
+    "options": {
+      "A": "Endocrine therapy",
+      "B": "Radical surgery",
+      "C": "Hormone therapy",
+      "D": "No further T/t"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "No further T/t",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_107057",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "A 6 year old patient, who was admitted for a dog bite on the face, unexpectedly developed anaphylaxis to a test dose of Augmentin. He developed stridor which needs immediate intubation. You are the only available doctor at the time. You have a No.3 curved blade laryngoscope ready and you have asked for an Endotracheal Tube (ET) to the nurse. What should be the appropriate internal diameter of the tube?",
+    "options": {
+      "A": "3.5mm",
+      "B": "4.5mm",
+      "C": "5.5mm",
+      "D": "6.5mm"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "5.5mm",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_50289",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Calcitriol acts on",
+    "options": {
+      "A": "G protein coupled receptor",
+      "B": "Cytosolic receptor",
+      "C": "Intranuclear receptor",
+      "D": "Enzymatic receptors"
+    },
+    "ground_truth": "B",
+    "ground_truth_text": "Cytosolic receptor",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_174307",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Rosenthal's syndrome is seen in deficiency of factor ?",
+    "options": {
+      "A": "II",
+      "B": "V",
+      "C": "IX",
+      "D": "XI"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "XI",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_99390",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "All of the following are true regarding Lung abscess, EXCEPT",
+    "options": {
+      "A": "Abscess > 2 cm in size require excision",
+      "B": "If ruptures into pleura simple drainage is sufficient",
+      "C": "Most common cause is secondary to upper respiratory tract infection",
+      "D": "Surgery is not usually part of the treatment"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Abscess > 2 cm in size require excision",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_149187",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Aery involved in 3rd cranial nerve lesion?",
+    "options": {
+      "A": "Anterior communicating",
+      "B": "Posterior communicating",
+      "C": "Posterior cerebral",
+      "D": "Anterior cerebral"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "Posterior cerebral",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_106450",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Percentage of Gall stones that are radiopaque are",
+    "options": {
+      "A": "10-20%",
+      "B": "30-40%",
+      "C": "50-60%",
+      "D": "70-80%"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "10-20%",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_143638",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Eosinophilic meningo-encephalitis is caused by-",
+    "options": {
+      "A": "Acanthamoeba",
+      "B": "Naegleria",
+      "C": "Angiostrongylus",
+      "D": "Toxoplasma"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "Angiostrongylus",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_171627",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Which of the following are stable cells:",
+    "options": {
+      "A": "The lining mucosa of the glands",
+      "B": "Mesenchymal cells",
+      "C": "Nerve cells",
+      "D": "Stratified squamous epithelium of the oral cavity"
+    },
+    "ground_truth": "B",
+    "ground_truth_text": "Mesenchymal cells",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_115909",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Both B and T cell defect is present in all EXCEPT:",
+    "options": {
+      "A": "SCID",
+      "B": "Common Variable immunodeficiency",
+      "C": "Wiskott-Aldrich syndrome",
+      "D": "X-linked Agammaglobulinemia"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "X-linked Agammaglobulinemia",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_134001",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "The commonest variation in the aeries arising from the arch of aoa is:",
+    "options": {
+      "A": "Absence of brachiocephalic trunk",
+      "B": "Left veebral aery arising from the arch",
+      "C": "Left common carotid aery arising from brachio cephalic trunk",
+      "D": "Presence of retroesophageal subclan aery"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "Left common carotid aery arising from brachio cephalic trunk",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_124042",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "A 68-year-old female smoker is seen in the ER due to mild hemoptysis and cough with 1 to 2 teaspoons of light-green sputum production in the A.M. She uses inhalers as needed for occasional shoness of breath. A routine chest x-ray is obtained.The abnormality seen on the CXR is most likely due to",
+    "options": {
+      "A": "Asbestos exposure",
+      "B": "Old TB with thoracoplasty",
+      "C": "Lung cancer",
+      "D": "Chronic bronchitis"
+    },
+    "ground_truth": "B",
+    "ground_truth_text": "Old TB with thoracoplasty",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_172713",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "When ohotoludine reagent is added to water and if free chuirine is present, what colour will be produced?",
+    "options": {
+      "A": "Pink",
+      "B": "Yellow",
+      "C": "Green",
+      "D": "Red"
+    },
+    "ground_truth": "B",
+    "ground_truth_text": "Yellow",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_87867",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Which of the following fungi is difficult to isolate on REGULAR SDA media",
+    "options": {
+      "A": "Candida",
+      "B": "Dermatophytes",
+      "C": "Cryptococcus",
+      "D": "Malassezia furfur"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "Malassezia furfur",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_81374",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "A new drug does not prevents a disease from occurring but reduce death due to that disease. Which of the following is true: March 2005, March 2013 (b)",
+    "options": {
+      "A": "It will increase the incidence and prevalence",
+      "B": "It will decrease the incidence and prevalence",
+      "C": "Prevalence is increased",
+      "D": "Incidence is increased"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "Prevalence is increased",
+    "llm_output": "B.",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_58888",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Most common effect of congenital adrenal hyper-plasia: Maharashtra 09",
+    "options": {
+      "A": "Female pseudohermaphroditism",
+      "B": "Male pseudohermaphroditism",
+      "C": "True hermaphroditism",
+      "D": "Gonadal dysgenesis"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Female pseudohermaphroditism",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_6402",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "What is the ratio of placental weight to fetal weight at term ?",
+    "options": {
+      "A": "1:04",
+      "B": "1:05",
+      "C": "1:06",
+      "D": "1:07"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "1:06",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_12114",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Toxic epidermal necrolysis {TEN} involves body surface area",
+    "options": {
+      "A": "<10%",
+      "B": "10-20%",
+      "C": "20-30%",
+      "D": ">30"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": ">30",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_160241",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Ectopic pregnancy is common in :",
+    "options": {
+      "A": "Tuboplasty",
+      "B": "Endometriosis",
+      "C": "Copper T users",
+      "D": "All"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "All",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_108643",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Pressure diuresis lowers arterial pressure because it:",
+    "options": {
+      "A": "Lowers renal release of renin",
+      "B": "Lowers systemic vascular resistance",
+      "C": "Lowers blood volume",
+      "D": "Causes renal vasodilation"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "Lowers blood volume",
+    "llm_output": "Option: D",
+    "prediction": "D",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_165089",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "78 yr old male came to OPD with chief complaint of diminution of vision in both eyes. IOP in both eyes was 24 mm Hg and there was inferior notch seen in optic nerve head. On visual fields there was a paracentral scotoma. Which of the following is the drug of choice?",
+    "options": {
+      "A": "Latanoprost",
+      "B": "Timolol",
+      "C": "Carbonic anhydrase inhibitor",
+      "D": "Brimonidine"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Latanoprost",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_38684",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Best sample for DNA karyotyping ?",
+    "options": {
+      "A": "Blood",
+      "B": "Bone marrow",
+      "C": "Amniotic fluid",
+      "D": "Chorionic villi"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Blood",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_180256",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Cause of death in Carcinoma penis is usually -",
+    "options": {
+      "A": "Metastasis to lung",
+      "B": "Metastasis to liver",
+      "C": "Erosion of Femoral blood vessels",
+      "D": "Urinary obstruction"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "Erosion of Femoral blood vessels",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_1453",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Other than cataract, which one among the following is the highest prevalent cause of blindness in the world -",
+    "options": {
+      "A": "Corneal opacity",
+      "B": "Diabetic retinopathy",
+      "C": "Glaucoma",
+      "D": "Trachoma"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "Glaucoma",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_57367",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "A 44-year-old man presented with acute onset of low backache radiating to the right lower limb. Examination revealed SL",
+    "options": {
+      "A": "Prolapsed interveebral disc L4-5",
+      "B": "Spondylolysis L5-S1",
+      "C": "Lumbar canal stenosis",
+      "D": "Spondylolisthesis L4-5"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Prolapsed interveebral disc L4-5",
+    "llm_output": "Option: D",
+    "prediction": "D",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_182429",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Which of the following techniques is the best for differentiating recurrence of brain tumour from radiation therapy induced necrosis?",
+    "options": {
+      "A": "MRI",
+      "B": "Contrast enhanced MR1",
+      "C": "PET scan",
+      "D": "CT scan"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "PET scan",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_146120",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Common sites of fracture non union are the following except -",
+    "options": {
+      "A": "Waist of scaphoid",
+      "B": "Neck of femur",
+      "C": "Distal 1/3 tibia fibula",
+      "D": "Distal end radius"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "Distal end radius",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_31813",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "False about eFAST",
+    "options": {
+      "A": "Detects free fluid in the abdomen or pericardium",
+      "B": "Will not reliably detect less than 100 mL of free blood",
+      "C": "Can reliably exclude injury in penetrating trauma",
+      "D": "Unreliable for assessment of the retroperitoneum"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "Can reliably exclude injury in penetrating trauma",
+    "llm_output": "Option: D",
+    "prediction": "D",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_34954",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "False about portal vein -",
+    "options": {
+      "A": "first 5 cm doesn't give any branches",
+      "B": "It arises behind pancreatic head",
+      "C": "It has constant length",
+      "D": "It is a part of the hepatic portal system."
+    },
+    "ground_truth": "B",
+    "ground_truth_text": "It arises behind pancreatic head",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_139233",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Enzyme common to cholesterol synthesis and ketone body synthesis:",
+    "options": {
+      "A": "HMG CoA Reductase",
+      "B": "HMG CoA Synthase",
+      "C": "Beta hydroxy butyrate Dehydrogenase",
+      "D": "Thiophorase"
+    },
+    "ground_truth": "B",
+    "ground_truth_text": "HMG CoA Synthase",
+    "llm_output": "Option: A",
+    "prediction": "A",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_83177",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Vascular injury during childhood is common in fracture of:",
+    "options": {
+      "A": "Lower end of humerus",
+      "B": "Lower end of radius",
+      "C": "Upper end of femur",
+      "D": "Upper end of radius"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Lower end of humerus",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_132324",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Jarish herxheimer reaction is seen in early cases of –",
+    "options": {
+      "A": "Syphilis",
+      "B": "Gonorrhoea",
+      "C": "LGV",
+      "D": "Granuloma inguinale"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Syphilis",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_111867",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Which of the following is the most common cause of midsystolic murmur in adults?",
+    "options": {
+      "A": "Aortic stenosis",
+      "B": "Aortic regurgitation",
+      "C": "Hypertrophic obstructive cardiac myopathy",
+      "D": "All of the above"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Aortic stenosis",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_67945",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "The most characteristic finding in lichen planus is –",
+    "options": {
+      "A": "Civatte bodies",
+      "B": "Basal cell degeneration",
+      "C": "Thinning of nail plate",
+      "D": "Violaceous lesions"
+    },
+    "ground_truth": "B",
+    "ground_truth_text": "Basal cell degeneration",
+    "llm_output": "Option: D",
+    "prediction": "D",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_167159",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Pt with low testosterone & low count will show can show all except -",
+    "options": {
+      "A": "Decreased FSH",
+      "B": "Decreased LH",
+      "C": "Increased FSH",
+      "D": "Obstruction of spermatic duct"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "Obstruction of spermatic duct",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_72695",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "A knownHIV positive patient is admitted in anisolation ward after an abdominal surgery followingan accident. The resident docter who changed hisdressing the next day found it to be soaked in blood. hich of the following would be the right method ofchoice of descarding the dressing -",
+    "options": {
+      "A": "Pour 1% hypochloric on the dressing materialand send it for incineration in a appropriate bag",
+      "B": "Pour 5% hypochlorite on the dressing materialand send it for incineration in a appropriate bag",
+      "C": "Put the dressing material directly in anappropriate bag and send for incineration",
+      "D": "Pour2% Lysol on the dressing material and sendit for incineration in a appropriate bag"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "Put the dressing material directly in anappropriate bag and send for incineration",
+    "llm_output": "Option: A",
+    "prediction": "A",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_127034",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Which of the following statements is true about the round ligament",
+    "options": {
+      "A": "Round ligament lies posterior to uterus",
+      "B": "Round ligament is a vestigial structure",
+      "C": "Round Ligament ends distally in inguinal canal",
+      "D": "Round Ligament supports fundus of uterus"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "Round Ligament ends distally in inguinal canal",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_164298",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "All of the following structures press over the oesophagus, except:",
+    "options": {
+      "A": "Aoic arch",
+      "B": "Left atrium",
+      "C": "Left bronchus",
+      "D": "Right bronchus"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "Right bronchus",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_20311",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Function of thyroid hormones:",
+    "options": {
+      "A": "Inhibits beta myosin heavy chain",
+      "B": "Increases cholesterol",
+      "C": "Inhibits ovulation",
+      "D": "Increases diastolic blood pressure"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Inhibits beta myosin heavy chain",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_141597",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Resting membrane potential is maintained due to",
+    "options": {
+      "A": "K+",
+      "B": "Na+",
+      "C": "Mg++",
+      "D": "Cl-"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "K+",
+    "llm_output": "Option: D",
+    "prediction": "D",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_validation_2361",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "What is the angle subtended by the largest letter in the Snellen cha on a person's eye who is reading it from a distance of 6 meters?",
+    "options": {
+      "A": "1 minute",
+      "B": "10 minutes",
+      "C": "50 minutes",
+      "D": "60 minutes"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "50 minutes",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_56086",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Which of the following instrument is not required to calculate the power of IOL?",
+    "options": {
+      "A": "Amplitude scan",
+      "B": "Keratometer",
+      "C": "Pachymetry",
+      "D": "Biometer"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "Pachymetry",
+    "llm_output": "Option: D",
+    "prediction": "D",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_16837",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Best therapy suited to teach daily life skill to a mentally challenged child-",
+    "options": {
+      "A": "CBT (Cognitive Behaviour Therapy)",
+      "B": "Contigency",
+      "C": "Cognitive reconstruction",
+      "D": "Self instruction"
+    },
+    "ground_truth": "B",
+    "ground_truth_text": "Contigency",
+    "llm_output": "Option: D",
+    "prediction": "D",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_106849",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "second generation antipsychotic which functions as first generation antipsychotic in large doses",
+    "options": {
+      "A": "clozapine",
+      "B": "questiapine",
+      "C": "risperidone",
+      "D": "lurasidone"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "risperidone",
+    "llm_output": "Option: A",
+    "prediction": "A",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_122139",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Adenoidectomy is contraindicated in which of the following?",
+    "options": {
+      "A": "Bleeding disorder",
+      "B": "Infection",
+      "C": "Submucous palate",
+      "D": "All of the above"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "All of the above",
+    "llm_output": "Option: A",
+    "prediction": "A",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_108992",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "A patient with anaphylactic shock, after receiving penicillin injection comes to you, Which of the following life-saving treatment you would take into consideration",
+    "options": {
+      "A": "Intravenous hydrocortisone hemisuccinate",
+      "B": "Intravenous adrenaline hydrochloride",
+      "C": "Intramuscular adrenaline hydrochloride",
+      "D": "Intravenous glucose saline"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "Intramuscular adrenaline hydrochloride",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_16322",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Which among the following is the most common site of ectopic phaeochromocytoma?",
+    "options": {
+      "A": "Organ of Zuckerkandl",
+      "B": "Bladder",
+      "C": "Filum terminale",
+      "D": "Celiac plexus"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Organ of Zuckerkandl",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_153112",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Imipenem, a newer antibiotic with a broad antibacterial spectrum, is coadministered with cilastin because -",
+    "options": {
+      "A": "The combination of these antibiotics is Synergistic against Pseudomonas species",
+      "B": "Cilastin aids the gastrointestinal absorption of the active moiety, imipenem",
+      "C": "Cilastin inhibits a Beta-lactamase that destroys imipenem",
+      "D": "Cilastin inhibits an enzyme in the kidney that destroys imipenem"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "Cilastin inhibits an enzyme in the kidney that destroys imipenem",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_182327",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "A drug X is secreted through renal tubules, tubular secretion of this drug can be confirmed if renal clearance of drug X is:",
+    "options": {
+      "A": "More than the GFR",
+      "B": "Equal to the GFR",
+      "C": "Less than the GFR",
+      "D": "More than volume of distribution"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "More than the GFR",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_99714",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Intrabony pockets are given a score of ___________ in\nRussell's periodontal index:",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "6",
+      "D": "8"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "8",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_1545",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "In Pediatric advanced life support, intraosseous access for drug/fluid administration is recommended for pediatric age of –",
+    "options": {
+      "A": "< 1 year age",
+      "B": "< 5 years age",
+      "C": "< 6 years age",
+      "D": "Any age"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "< 6 years age",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_92211",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "A 50 year old male known case of ulcerative colitis presents with distention of the abdomen of acute onset with vomiting. The next investigation would be -",
+    "options": {
+      "A": "Abdominal X ray",
+      "B": "USG",
+      "C": "CT scan",
+      "D": "MRI abdomen"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Abdominal X ray",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_78279",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Pulpal infection in primary mandibular posterior teeth is\nfirst manifested on a radiograph in the area?",
+    "options": {
+      "A": "Of bifurcation",
+      "B": "At the apex of the root",
+      "C": "Around the permanent tooth bud",
+      "D": "Near the crest of alveolar bone"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Of bifurcation",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_102232",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "A patient with Ewing's sarcoma. Histology shows small round cells. These cells are filled with which of the following -",
+    "options": {
+      "A": "Glycogen",
+      "B": "Iron",
+      "C": "Fat",
+      "D": "Mucin"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Glycogen",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_141091",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Which of the following is not seen in the post op period:",
+    "options": {
+      "A": "Hyponatraemia",
+      "B": "Hypothermia",
+      "C": "Hyperkalaemia",
+      "D": "Negative N, balance"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Hyponatraemia",
+    "llm_output": "Option: D",
+    "prediction": "D",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_143165",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Crocodile tears are due to -",
+    "options": {
+      "A": "Cross innervation of facial nerve fibers",
+      "B": "Cross innervation of trigeminal nerve fibers",
+      "C": "Improper regeneration of trigeminal nerve",
+      "D": "Improper regeneration of facial nerve"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "Improper regeneration of facial nerve",
+    "llm_output": "Option: A",
+    "prediction": "A",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_127986",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "The test involving an intradermal injection of sterilised fluid from an infectious cyst is called?",
+    "options": {
+      "A": "Casoni's test",
+      "B": "Schick test",
+      "C": "Patch test",
+      "D": "Dick's test"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Casoni's test",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_57520",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Most common cause of UTI in young female is ?",
+    "options": {
+      "A": "Staph saprophyticus",
+      "B": "E.coli Klebsiella",
+      "C": "Klebsiella",
+      "D": "Proteus"
+    },
+    "ground_truth": "B",
+    "ground_truth_text": "E.coli Klebsiella",
+    "llm_output": "Option: A",
+    "prediction": "A",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_114251",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "In acoustic neuroma cranial nerve which is involved, earliest is",
+    "options": {
+      "A": "5",
+      "B": "7",
+      "C": "9",
+      "D": "10"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "5",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_127308",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "The main corneal mechanism holding the LASIK flap in place after surgery is",
+    "options": {
+      "A": "Endothelial pump",
+      "B": "Stromal collagen adhesions",
+      "C": "Bowman's layer-stromal adhesions",
+      "D": "Endothelial-Descemet's membrane forces"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Endothelial pump",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_7608",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "One of the following features can be used to define contracted pelvis",
+    "options": {
+      "A": "Transverse diameter of inlet is 10 cm",
+      "B": "AP diameter of inlet is 12 cm",
+      "C": "Platypelloid pelvis",
+      "D": "Gynaecoid pelvis"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Transverse diameter of inlet is 10 cm",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_101936",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "True about cadaveric spasm :",
+    "options": {
+      "A": "Develops immediately after death",
+      "B": "May develop hours after death",
+      "C": "Develops only in facial muscles",
+      "D": "All"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Develops immediately after death",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_88114",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Risk factors for malignant change in an asymptomatic patient with a gall bladder polyp on ultrasound include all of the following, Except",
+    "options": {
+      "A": "Age > 60 years",
+      "B": "Rapid increase in size of polyp",
+      "C": "Size of polyp > 5 mm",
+      "D": "Associated Gall stones"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "Size of polyp > 5 mm",
+    "llm_output": "Option: D",
+    "prediction": "D",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_175341",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Which of the following is a cognizable offence",
+    "options": {
+      "A": "Ragging",
+      "B": "Robbery",
+      "C": "Dowry death",
+      "D": "All of the above"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "All of the above",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_122523",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Modiolus is directed",
+    "options": {
+      "A": "Anterolateral-inferior",
+      "B": "Anterolateral-superior",
+      "C": "Posteromedial-inferior",
+      "D": "Posteromedial-superior"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Anterolateral-inferior",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_33456",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Following aeries anastomose in the little's area except ?",
+    "options": {
+      "A": "Anterior ethmoidal aery",
+      "B": "Superior labial aery",
+      "C": "Sphenopalatine aery",
+      "D": "Lesser palatine aery"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "Lesser palatine aery",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_7069",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "A 30 yrs old gentleman after sustaining road traffic accident present in emergency with BP 100/60 mmHg, Pulse 120 min and C.T. shows splenic laceration at inferior border. after 2 units of blood transfusion, patients conditions are - BP 120/70 mmHg and pulse 84/min; the next line of management is -",
+    "options": {
+      "A": "Laparotomy",
+      "B": "Splenorrhaphy",
+      "C": "Continue the conservative treatment and take subsequent measures on monitoring the pt.",
+      "D": "Splenectomy"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "Continue the conservative treatment and take subsequent measures on monitoring the pt.",
+    "llm_output": "Option: A",
+    "prediction": "A",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_103290",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Principle of pole dilatation is primarily utilized by:",
+    "options": {
+      "A": "Forceps.",
+      "B": "Elevator.",
+      "C": "Both of the above.",
+      "D": "None."
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Forceps.",
+    "llm_output": "Option: C.",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_155161",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Most common cause of hypercalcemic crisis is -",
+    "options": {
+      "A": "Carcinoma breast",
+      "B": "Parathyroid hyperplasia",
+      "C": "Parathyroid adenoma",
+      "D": "Paget's disease"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Carcinoma breast",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_85813",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Degloving injury occurs at:-",
+    "options": {
+      "A": "Skin",
+      "B": "Skin + Subcutaneous tissue",
+      "C": "Skin + Fascia + Subcutaneous tissue",
+      "D": "Everything above from bone"
+    },
+    "ground_truth": "B",
+    "ground_truth_text": "Skin + Subcutaneous tissue",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_119196",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Size of graffian follicle is:",
+    "options": {
+      "A": "2mm",
+      "B": "3mm",
+      "C": "4mm",
+      "D": "6mm"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "6mm",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_99385",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "All of the following are branches of uterine artery except",
+    "options": {
+      "A": "Spiral artery",
+      "B": "Radial artery",
+      "C": "Sampson artery",
+      "D": "Obturator artery"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "Obturator artery",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_72943",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "What will be next investigation to be done in case of a 2 year old female child with episode of UTI ?",
+    "options": {
+      "A": "Abdominal Ultrasound",
+      "B": "DMSA Scan",
+      "C": "6 monthly urine culture",
+      "D": "Nothing actively needed"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Abdominal Ultrasound",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_110510",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Facial nerve exits the skull through-",
+    "options": {
+      "A": "Stylomastoid foramen",
+      "B": "Internal acoustic meatus",
+      "C": "Foramen Lacerum",
+      "D": "Foramen Rotundum"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Stylomastoid foramen",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_66131",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "What is Atkin's diet:",
+    "options": {
+      "A": "Low calorie diet",
+      "B": "Low carbohydrate diet",
+      "C": "Low fat diet",
+      "D": "Low calorie, low carbohydrate diet"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "Low calorie, low carbohydrate diet",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_170853",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Features of lewy body dementia are all except:",
+    "options": {
+      "A": "Recurrent visual hallucination",
+      "B": "Spontaneous motor feature",
+      "C": "Autonomic dysfunction",
+      "D": "Fluctuating cognition"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "Autonomic dysfunction",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_10553",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "The modified class III preparation uses a dovetail on the lingual side in:",
+    "options": {
+      "A": "Maxillary canine",
+      "B": "Mandibular canine",
+      "C": "Mandibular central incisor",
+      "D": "Mandibular lateral incisor"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Maxillary canine",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_8134",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Root value of intercostobrachial nerve is",
+    "options": {
+      "A": "T1",
+      "B": "T2",
+      "C": "T3",
+      "D": "T4"
+    },
+    "ground_truth": "B",
+    "ground_truth_text": "T2",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_52261",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Under extended sickness benefit of ESI act, Tuberculosis benefit is given for duration of:",
+    "options": {
+      "A": "6 months",
+      "B": "1 year",
+      "C": "2 years",
+      "D": "4 years"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "2 years",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_62533",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Which of the following aoic arches is known as pulmonary arch:",
+    "options": {
+      "A": "II",
+      "B": "IV",
+      "C": "V",
+      "D": "VI"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "VI",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_33088",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Which one of the following impression materials is elastic, sets by a chemical reaction and is catalyzed by chloroplatinic acid",
+    "options": {
+      "A": "Condensation silicone",
+      "B": "Polyether",
+      "C": "Polysulfide",
+      "D": "Poly vinyl siloxane"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "Poly vinyl siloxane",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_124141",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "True about clostridium difficile is:",
+    "options": {
+      "A": "Gram negative",
+      "B": "Obligatory aerobic",
+      "C": "Spore forming cocci",
+      "D": "None of the above is true"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "None of the above is true",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_147841",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Paial thromboplastin time correlates with",
+    "options": {
+      "A": "Intrinsic and common pathway",
+      "B": "Extrinsic and common pathway",
+      "C": "Fibrinogen level",
+      "D": "Function of platelets"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "Function of platelets",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_57138",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Refractive condition of the eye at birth is –",
+    "options": {
+      "A": "Hypermetropia of 2D",
+      "B": "Myopia of 2 D",
+      "C": "Hypermetropia of 5D",
+      "D": "Myopia of 5D"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Hypermetropia of 2D",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_validation_538",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "All of the following are features of systemic Juvenile Rheumatoid Arthritis except –",
+    "options": {
+      "A": "Uveitis",
+      "B": "Rash",
+      "C": "Fever",
+      "D": "Hepatosplenomegaly"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Uveitis",
+    "llm_output": "Option: D",
+    "prediction": "D",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_158831",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "0.9% sodium chloride contains ----- mmol/L of sodium",
+    "options": {
+      "A": "154",
+      "B": "145",
+      "C": "131",
+      "D": "130"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "154",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_81536",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "What is the position of lower limb in anterior dislocation of hip?",
+    "options": {
+      "A": "Flexion adduction and internal rotation",
+      "B": "Flexion adduction and external rotation",
+      "C": "Flexion abduction and internal rotation",
+      "D": "Flexion abduction and external rotation"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "Flexion abduction and external rotation",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_150941",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "In second trimester of pregnancy, the diagnosis of IUGR can be best made by assessing which of the following parameter?",
+    "options": {
+      "A": "HC",
+      "B": "AC",
+      "C": "BPD",
+      "D": "FL"
+    },
+    "ground_truth": "B",
+    "ground_truth_text": "AC",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_103980",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "A 57-year-old patient, living at home, has severe pain due to a metastatic Carcinoma that is being managed with Fentanyl, delivered transdermally from a patch. He should also be taking, or at least have on hand",
+    "options": {
+      "A": "Apomorphine",
+      "B": "Docusate",
+      "C": "Morphine",
+      "D": "Naloxone"
+    },
+    "ground_truth": "B",
+    "ground_truth_text": "Docusate",
+    "llm_output": "Option: D",
+    "prediction": "D",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_51990",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "All the following occur in hemostasis except -",
+    "options": {
+      "A": "Vasospams of blood vessel",
+      "B": "Platelet plug formation",
+      "C": "Dissolution of clot by plasmin",
+      "D": "None"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "None",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_19922",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Third pa of veebral aery is related to which marked area in the following diagram",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "A",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_63661",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Which of the following anomalies occur during the initiation and proliferation of tooth development?",
+    "options": {
+      "A": "Amelogenisis imperfecta",
+      "B": "Dentinogenesis imperfecta",
+      "C": "Enamel hypoplasia",
+      "D": "Oligodontia"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "Oligodontia",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_26712",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "This is used in diagnosis of:",
+    "options": {
+      "A": "Steropsis",
+      "B": "Colour vision",
+      "C": "Refractive error",
+      "D": "Strabismus"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Steropsis",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_79058",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Shoe in onlay serves as:",
+    "options": {
+      "A": "Retention form",
+      "B": "Resistance form",
+      "C": "Both",
+      "D": "Support"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "Both",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_112296",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "The stomach motility is inhibited by",
+    "options": {
+      "A": "Histamine",
+      "B": "Angiotensin",
+      "C": "Acetylcholine",
+      "D": "Dopamine"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "Dopamine",
+    "llm_output": "Option: A",
+    "prediction": "A",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_89451",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "A 22-year-old female who wanted to lose weight presents to hospital complaining of diarrhea, palpitation, anxiety and abdominal pain. She mentioned taking an unknown medication which was prescribed to someone else. Which of the following drug is most likely responsible for patient presentation?",
+    "options": {
+      "A": "Propylthiouracil (PTU)",
+      "B": "Iodide",
+      "C": "Methimazole",
+      "D": "Levothyroxine"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "Levothyroxine",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_94945",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Which auto antibodies are seen in type 1 autoimmune hepatitis",
+    "options": {
+      "A": "Anti mitochondrial antibodies",
+      "B": "Anti nuclear antibodies",
+      "C": "Anti LKM -1 antibodies",
+      "D": "Anti - LKM - 2 antibodies."
+    },
+    "ground_truth": "B",
+    "ground_truth_text": "Anti nuclear antibodies",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_46173",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "The mechanism of action of local anesthetics is that they act on Na+ channels in their",
+    "options": {
+      "A": "Activated state",
+      "B": "Inactivated state",
+      "C": "Resting state",
+      "D": "Any state"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Activated state",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_126745",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Which of the following is not a method of controlled tipping?",
+    "options": {
+      "A": "Trench method",
+      "B": "Ramp method",
+      "C": "Area method",
+      "D": "Slope method"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "Slope method",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_155313",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "The lowest cou that can give life imprisonment verdict is:",
+    "options": {
+      "A": "Chief metropolitan magistrate",
+      "B": "Metropolitan magistrate",
+      "C": "High cou",
+      "D": "First class judicial magistrate"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "High cou",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_84490",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "The total volume of CSF is",
+    "options": {
+      "A": "50 ml",
+      "B": "100 ml",
+      "C": "150 ml",
+      "D": "275 ml"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "150 ml",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_159994",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "The largest synovial joint in the body is",
+    "options": {
+      "A": "Shoulder joint",
+      "B": "Hip joint",
+      "C": "Knee joint",
+      "D": "Ankle joint"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "Knee joint",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_7523",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Gall blader stone formation in influenced by A/E ?",
+    "options": {
+      "A": "Clofibrate therapy",
+      "B": "Hyperalimentation",
+      "C": "Primary biliary cirrhosis",
+      "D": "Hypercholesterolemia"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "Hypercholesterolemia",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_55605",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Which model analysis among the following give the best results?",
+    "options": {
+      "A": "Stanley and Kerber",
+      "B": "Tanaka and Johnston",
+      "C": "Moyer's",
+      "D": "Wits"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Stanley and Kerber",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_73310",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Frequency range in normal human hearing is?",
+    "options": {
+      "A": "20-4000 Hz",
+      "B": "20-8000 Hz",
+      "C": "20-10000 Hz",
+      "D": "20-20000 Hz"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "20-20000 Hz",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_22442",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Load bearing fixation device is:",
+    "options": {
+      "A": "Reconstruction plate.",
+      "B": "Lag screw.",
+      "C": "Champy's plate.",
+      "D": "All of the above."
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Reconstruction plate.",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_181039",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "CD-10 is seen in-",
+    "options": {
+      "A": "ALL",
+      "B": "CLL",
+      "C": "HCL",
+      "D": "CML"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "ALL",
+    "llm_output": "Option: D",
+    "prediction": "D",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_validation_3783",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Which of the following zone is characterized by macrophages and osteoclasts?",
+    "options": {
+      "A": "Zone of infection",
+      "B": "Zone of contamination",
+      "C": "Zone of irritation",
+      "D": "Zone of stimulation"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "Zone of irritation",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_128665",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "A patient with leprosy presents with clumsiness of hand. His ulnar nerve is affected. Clumsiness is due to palsy of which muscle -",
+    "options": {
+      "A": "Extensor carpi ulnaris",
+      "B": "Abductor pollicis brevis",
+      "C": "Oppenens pollicis",
+      "D": "Interosseous muscle"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "Interosseous muscle",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_77132",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Allen's test is useful on evaluating:-",
+    "options": {
+      "A": "Thoracic outlet compression",
+      "B": "Presence of cervical rib",
+      "C": "Integrity of palmar arch",
+      "D": "Digital blood flow"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "Integrity of palmar arch",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_174053",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Second most common neoplasm seen in children is",
+    "options": {
+      "A": "Lyphoma",
+      "B": "Brain tumor",
+      "C": "Wilm's tumor",
+      "D": "Neuroblastoma"
+    },
+    "ground_truth": "B",
+    "ground_truth_text": "Brain tumor",
+    "llm_output": "Option: D",
+    "prediction": "D",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_152451",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Which of the following is false about clinical remounting procedure?",
+    "options": {
+      "A": "It is the gold standard to diagnose a case for rebasing",
+      "B": "It improves stability of the denture",
+      "C": "It is more accurate than intraoral occlusal adjustments",
+      "D": "Use of semi adjustable articulators mandatory for the procedures"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "It is the gold standard to diagnose a case for rebasing",
+    "llm_output": "Option: D",
+    "prediction": "D",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_145089",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Sunflower cataract is associated with: September 2011",
+    "options": {
+      "A": "Chalcosis",
+      "B": "Juvenile diabetes mellitus",
+      "C": "Down syndrome",
+      "D": "Trauma"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Chalcosis",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_139177",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Gabapentin has which mechanism of action for its antiepileptic effect ?",
+    "options": {
+      "A": "Inhibits monoamine oxidase",
+      "B": "Blocks the re-uptake of neurotransmitters",
+      "C": "Increase the release of neurotransmitters",
+      "D": "Block Na+channels"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "Increase the release of neurotransmitters",
+    "llm_output": "Option: D",
+    "prediction": "D",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_92225",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "PNH is associated with a deficiency of -",
+    "options": {
+      "A": "DAF",
+      "B": "MIRL",
+      "C": "GPI anchored protein",
+      "D": "All of the above"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "All of the above",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_60434",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "The Le-Been shunt is used In",
+    "options": {
+      "A": "Ascites",
+      "B": "Dialysis",
+      "C": "Raised ICT",
+      "D": "Raised IOP"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Ascites",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_31629",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Which of the following is not a cause for primary amenorrhea ?",
+    "options": {
+      "A": "Sheehan's syndrome",
+      "B": "Kallmann's syndrome",
+      "C": "Mayer Rokitansky Koster Hauser syndrome",
+      "D": "Turner syndrome"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Sheehan's syndrome",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_50484",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Girl aged 7 yrs, weignt 25 kg. I.V. fluid dose for maintainance?",
+    "options": {
+      "A": "14 litres",
+      "B": "15 litres",
+      "C": "16 litres",
+      "D": "17 litres"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "16 litres",
+    "llm_output": "I cannot provide medical advice. If you have any concerns about a child's weight or hydration, I",
+    "prediction": "A",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_82719",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Most common complication of chronic gastric ulcer is -",
+    "options": {
+      "A": "Tea pot stomach",
+      "B": "Scirrhous carcinoma (adenocarcinoma)",
+      "C": "Perforation",
+      "D": "Massive haematemesis"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "Massive haematemesis",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_31340",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Orally administered drug in a single dose, for scabies is: September 2011",
+    "options": {
+      "A": "Crotamiton",
+      "B": "Ivermectin",
+      "C": "Lindane",
+      "D": "Permethrin"
+    },
+    "ground_truth": "B",
+    "ground_truth_text": "Ivermectin",
+    "llm_output": "Option: D",
+    "prediction": "D",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_140473",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Which of the following aminoglycosides is not available for parenteral use?",
+    "options": {
+      "A": "Sisomycin",
+      "B": "Amikacin",
+      "C": "Framycetin",
+      "D": "Gentamycin"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "Framycetin",
+    "llm_output": "Option: A",
+    "prediction": "A",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_126929",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Associated with obstructive sleep apnea are all of the following except: March 2011",
+    "options": {
+      "A": "Acromegaly",
+      "B": "Obese",
+      "C": "Males",
+      "D": "Protruding jaw"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "Protruding jaw",
+    "llm_output": "Option: A",
+    "prediction": "A",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_72482",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Second hea sound (S2) occurs during:",
+    "options": {
+      "A": "Protodiastole",
+      "B": "Isovolumic relaxation",
+      "C": "First rapid filling",
+      "D": "Diastasis"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Protodiastole",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_156445",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Which of the following represents the surface marking of aoic valve?",
+    "options": {
+      "A": "Sternal end of left 3rd costal cailage",
+      "B": "Sternal end of right 3rd costal cailage",
+      "C": "Beside sternum in right 2nd intercostals space",
+      "D": "Besides the sternum in the right 3 rdintercostals space"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Sternal end of left 3rd costal cailage",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_59633",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Which one of the following is the fastest acting inhalational agent?",
+    "options": {
+      "A": "Halothane",
+      "B": "Isoflurane",
+      "C": "Ether",
+      "D": "Sevofluron"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "Sevofluron",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_79237",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Tachycardia is caused by hypoxia due to",
+    "options": {
+      "A": "Reflexly through peripheral chemoreceptors",
+      "B": "Diffuse vasodilation",
+      "C": "Through central chemoreceptor",
+      "D": "Secondarily after by hyperventilation"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "Secondarily after by hyperventilation",
+    "llm_output": "Option: A",
+    "prediction": "A",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_validation_2780",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "The fourth root canal if present in a maxillary 1st molar\nis usually present in:",
+    "options": {
+      "A": "Mesiolingual root",
+      "B": "Mesiobuccal",
+      "C": "Palatal root",
+      "D": "Distal root"
+    },
+    "ground_truth": "B",
+    "ground_truth_text": "Mesiobuccal",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_140020",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "All of the following produce Osteoblastic secondaries except -",
+    "options": {
+      "A": "Ca Prostate",
+      "B": "Carcinoid tumors",
+      "C": "Ca Breast",
+      "D": "Multiple myeloma"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "Multiple myeloma",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_145059",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "28-year-old alcoholic patient walks to hospital with the complaints of binge vomiting, chest pain, fever and X ray shows hydropneumothorax. The most probable condition;",
+    "options": {
+      "A": "Boerhaave syndrome",
+      "B": "Tension pneumo thorax",
+      "C": "PUD perforation",
+      "D": "Mallory Weiss tear"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Boerhaave syndrome",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_76581",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Which part of oesophagus is mainly affected in scleroderma?",
+    "options": {
+      "A": "Upper third",
+      "B": "Middle third",
+      "C": "Lower third",
+      "D": "All the above"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "Lower third",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_validation_1",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Which of the following is not true about glomerular capillaries')",
+    "options": {
+      "A": "The oncotic pressure of the fluid leaving the capillaries is less than that of fluid entering it",
+      "B": "Glucose concentration in the capillaries is the same as that in glomerular filtrate",
+      "C": "Constriction of afferent aeriole decreases the blood flow to the glomerulas",
+      "D": "Hematocrit of the fluid leaving the capillaries is less than that of the fluid entering it"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "The oncotic pressure of the fluid leaving the capillaries is less than that of fluid entering it",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_128680",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "A patient presented with the complains of abdominal pain, vomitingand fatty stools. On fuher questioning, the patient told that he was taking a drug since past few days. A diagnosis of Biliary sludge syndrome was made. Which of the following is the most likely drug involved?",
+    "options": {
+      "A": "Ceftazidime",
+      "B": "Ampicillin",
+      "C": "Rifampicin",
+      "D": "Ceftriaxone"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "Ceftriaxone",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_26892",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Sarcolemma is the cell wall surrounding:",
+    "options": {
+      "A": "Neurons",
+      "B": "Muscle cells",
+      "C": "Red blood cells",
+      "D": "None of the above"
+    },
+    "ground_truth": "B",
+    "ground_truth_text": "Muscle cells",
+    "llm_output": "Option: A",
+    "prediction": "A",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_123049",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Serum amyloid associated protein is increased in?",
+    "options": {
+      "A": "Alzheimer’s disease",
+      "B": "Ankylosing spondylitis",
+      "C": "Chronic renal failure",
+      "D": "Malignant hypertension"
+    },
+    "ground_truth": "B",
+    "ground_truth_text": "Ankylosing spondylitis",
+    "llm_output": "Option: A",
+    "prediction": "A",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_89314",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Drug of choice for Tourette syndrome is?",
+    "options": {
+      "A": "Haloperidol",
+      "B": "Amantidine",
+      "C": "Propanolol",
+      "D": "Diazepam"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Haloperidol",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_125233",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Treponema pallidum was discovered by:",
+    "options": {
+      "A": "Hillary and Mehoni",
+      "B": "Hoffman and Shauddin",
+      "C": "Warren and Marshall",
+      "D": "Yersin and Kitasato"
+    },
+    "ground_truth": "B",
+    "ground_truth_text": "Hoffman and Shauddin",
+    "llm_output": "Option: C.",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_151262",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "NOT true about HPV is",
+    "options": {
+      "A": "HHV activating oncogenes",
+      "B": "Activate cyclins",
+      "C": "Suppressor tumor suppressor",
+      "D": "HIV infection accelerates HPV infection"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "HHV activating oncogenes",
+    "llm_output": "Option: D",
+    "prediction": "D",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_165005",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Predominantly sensory neuropathy is caused by",
+    "options": {
+      "A": "Cisplatin",
+      "B": "Pyridoxine excess",
+      "C": "Suramin",
+      "D": "Diptheria"
+    },
+    "ground_truth": "B",
+    "ground_truth_text": "Pyridoxine excess",
+    "llm_output": "Option: C",
+    "prediction": "C",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_147545",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "A 4-year-old boy fell on outstretched hand. X- ray is shown below. Which blood vessel is most commonly affected?",
+    "options": {
+      "A": "Ulnar artery",
+      "B": "Radial artery",
+      "C": "Brachial artery",
+      "D": "Cubital vein"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "Brachial artery",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_65061",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Macula lies from disc at a distance of:",
+    "options": {
+      "A": "1 mm",
+      "B": "2 mm",
+      "C": "3 mm",
+      "D": "4 mm"
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "3 mm",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_31051",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Classical complement activated by:",
+    "options": {
+      "A": "C1",
+      "B": "C3 Convease",
+      "C": "lgA",
+      "D": "Ag - Ab complex"
+    },
+    "ground_truth": "D",
+    "ground_truth_text": "Ag - Ab complex",
+    "llm_output": "Option: A",
+    "prediction": "A",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_146295",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Drug that does not follow nonlinear dose dependent saturation kinetics",
+    "options": {
+      "A": "Paracetamol",
+      "B": "Salicylates",
+      "C": "Phenytoin",
+      "D": "Ethanol"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Paracetamol",
+    "llm_output": "Option: D",
+    "prediction": "D",
+    "evaluation_correct": false
+  },
+  {
+    "id": "medmcqa_train_158942",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "A child presents with hypovolemic shock, anuria and respiratory acidosis, treatment is:",
+    "options": {
+      "A": "RL",
+      "B": "Dopamine",
+      "C": "Dobutamine",
+      "D": "Inj. Sodium Bicarbonate"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "RL",
+    "llm_output": "Option: B",
+    "prediction": "B",
+    "evaluation_correct": false
+  }
+]

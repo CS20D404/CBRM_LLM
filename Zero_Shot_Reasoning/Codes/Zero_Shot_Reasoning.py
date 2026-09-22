@@ -13,12 +13,10 @@ from pathlib import Path
 import yaml
 from tqdm import tqdm
 
-
-
 # ==================================================
 
 SEED = 42
-TOP_N = 5                           # -1 => run on all instances, else first N per dataset
+TOP_N = -1                          # -1 => run on all instances, else first N per dataset
 SCRIPT_DIR = Path(__file__).resolve().parent
 MODELS_YAML = SCRIPT_DIR / "../../Models/Codes/Models.yaml"
 PROMPT_FILE = SCRIPT_DIR / "Zero_Shot_Prompt.txt"
@@ -33,7 +31,6 @@ MAX_TOKENS_THINKING = 1024
 MAX_TOKENS_ANSWER = 20
 
 # ==================================================
-
 
 def format_prompt(template, ex):
     options = "\n".join(f"{k}. {v}" for k, v in ex["options"].items())
