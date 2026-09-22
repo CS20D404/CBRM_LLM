@@ -1,5 +1,18 @@
 # Ignore the nested Models folder
 Models/Models/
 
+# Ignore the Datasets folder
+Datasets/
+
+# Ignore any folder named Inputs
+**/Inputs/
+
+# Ignore any folder named Outputs
+**/Outputs/
+
 # Ignore venv
 myenv/
+
+# Unignore
+*
+!Zero_Shot_Reasoning/Outputs/Zero_Shot_Evaluation_Results.jsonl
