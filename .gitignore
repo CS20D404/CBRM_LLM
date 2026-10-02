@@ -14,7 +14,6 @@ Datasets/
 myenv/
 
 # Unignore
-*
 !Zero_Shot_Reasoning/Outputs/Zero_Shot_Evaluation_Results.jsonl
 !CBR_CB_All/Outputs/failure/RAG_Evaluation_Results.jsonl
 !CBR_CB_Success/Outputs/failure/RAG_Evaluation_Results.jsonl

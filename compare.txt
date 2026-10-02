@@ -1,0 +1,113 @@
+
+Cell (row i, col j): #(dataset, LLM) pairs where row config had higher mean accuracy than column config (in brackets: # significant at p < 0.05, paired t-test)
+
+                    Zero_Shot_Reasoning CBR_CB_All CBR_CB_Success CBR_CB_Failure
+Zero_Shot_Reasoning                   -     20 (4)         22 (6)         21 (7)
+CBR_CB_All                       12 (3)          -         22 (1)         13 (3)
+CBR_CB_Success                   10 (1)      9 (2)              -         12 (0)
+CBR_CB_Failure                   10 (2)     18 (1)         20 (0)              -
+
+Max (dataset, LLM) pairs per cell: 32
+Actually compared per cell:
+                     Zero_Shot_Reasoning  CBR_CB_All  CBR_CB_Success  CBR_CB_Failure
+Zero_Shot_Reasoning                    0          32              32              32
+CBR_CB_All                            32           0              32              32
+CBR_CB_Success                        32          32               0              32
+CBR_CB_Failure                        32          32              32               0
+
+======================================================================
+INSTANCES PER CONFIGURATION (unique ids)
+======================================================================
+config                                 Zero_Shot_Reasoning  CBR_CB_All  CBR_CB_Success  CBR_CB_Failure
+dataset         llm                                                                                   
+CaseHOLD        Gemma-3-4B-it                          500         500             500             500
+                Gemma-4-E4B-it                         500         500             500             500
+                Llama-3.1-8B-Instruct                  500         500             500             500
+                Llama-3.2-3B-Instruct                  500         500             500             500
+                Phi-3.5-mini-instruct                  500         500             500             500
+                Phi-4-mini-instruct                    500         500             500             500
+                Qwen3-8B-MLX-4bit                      500         500             500             500
+                Qwen3.5-4B-Instruct                    500         500             500             500
+MedMCQA         Gemma-3-4B-it                          500         500             500             500
+                Gemma-4-E4B-it                         500         500             500             500
+                Llama-3.1-8B-Instruct                  500         500             500             500
+                Llama-3.2-3B-Instruct                  500         500             500             500
+                Phi-3.5-mini-instruct                  500         500             500             500
+                Phi-4-mini-instruct                    500         500             500             500
+                Qwen3-8B-MLX-4bit                      500         500             500             500
+                Qwen3.5-4B-Instruct                    500         500             500             500
+MedQA           Gemma-3-4B-it                          500         500             500             500
+                Gemma-4-E4B-it                         500         500             500             500
+                Llama-3.1-8B-Instruct                  500         500             500             500
+                Llama-3.2-3B-Instruct                  500         500             500             500
+                Phi-3.5-mini-instruct                  500         500             500             500
+                Phi-4-mini-instruct                    500         500             500             500
+                Qwen3-8B-MLX-4bit                      500         500             500             500
+                Qwen3.5-4B-Instruct                    500         500             500             500
+ProfessionalLaw Gemma-3-4B-it                          500         500             500             500
+                Gemma-4-E4B-it                         500         500             500             500
+                Llama-3.1-8B-Instruct                  500         500             500             500
+                Llama-3.2-3B-Instruct                  500         500             500             500
+                Phi-3.5-mini-instruct                  500         500             500             500
+                Phi-4-mini-instruct                    500         500             500             500
+                Qwen3-8B-MLX-4bit                      500         500             500             500
+                Qwen3.5-4B-Instruct                    500         500             500             500
+
+======================================================================
+INSTANCES USED IN COMPARISONS (shared ids), min / max across (dataset, LLM) pairs
+======================================================================
+                    Zero_Shot_Reasoning CBR_CB_All CBR_CB_Success CBR_CB_Failure
+Zero_Shot_Reasoning                   -        500            500            500
+CBR_CB_All                          500          -            500            500
+CBR_CB_Success                      500        500              -            500
+CBR_CB_Failure                      500        500            500              -
+
+======================================================================
+INSTANCES DROPPED DUE TO ID MISMATCH
+======================================================================
+None: every compared pair of configurations had identical id sets.
+
+======================================================================
+MEAN ACCURACY (%)
+======================================================================
+config                                 Zero_Shot_Reasoning  CBR_CB_All  CBR_CB_Success  CBR_CB_Failure
+dataset         llm                                                                                   
+CaseHOLD        Gemma-3-4B-it                         59.6        52.4            55.4            53.2
+                Gemma-4-E4B-it                        55.6        60.6            59.8            59.2
+                Llama-3.1-8B-Instruct                 60.6        61.8            61.4            61.8
+                Llama-3.2-3B-Instruct                 54.2        47.8            49.0            46.6
+                Phi-3.5-mini-instruct                 56.4        48.0            49.0            49.2
+                Phi-4-mini-instruct                   48.0        49.0            47.4            46.2
+                Qwen3-8B-MLX-4bit                     63.6        62.6            61.6            62.8
+                Qwen3.5-4B-Instruct                   65.2        69.2            67.6            69.4
+MedMCQA         Gemma-3-4B-it                         47.2        48.0            46.8            49.4
+                Gemma-4-E4B-it                        59.0        62.4            60.4            61.4
+                Llama-3.1-8B-Instruct                 72.8        70.2            70.0            72.8
+                Llama-3.2-3B-Instruct                 64.8        63.2            60.8            58.8
+                Phi-3.5-mini-instruct                 55.2        52.8            49.8            51.2
+                Phi-4-mini-instruct                   51.2        49.0            47.2            47.6
+                Qwen3-8B-MLX-4bit                     65.2        65.8            65.8            66.0
+                Qwen3.5-4B-Instruct                   66.8        68.4            69.0            67.4
+MedQA           Gemma-3-4B-it                         44.2        45.4            44.8            46.8
+                Gemma-4-E4B-it                        55.8        57.0            56.4            57.4
+                Llama-3.1-8B-Instruct                 69.0        67.0            66.2            67.2
+                Llama-3.2-3B-Instruct                 63.0        57.0            56.8            56.6
+                Phi-3.5-mini-instruct                 52.6        51.2            48.8            50.4
+                Phi-4-mini-instruct                   47.8        45.0            45.2            45.4
+                Qwen3-8B-MLX-4bit                     62.2        61.0            61.6            62.0
+                Qwen3.5-4B-Instruct                   69.4        67.2            67.6            67.0
+ProfessionalLaw Gemma-3-4B-it                         40.6        39.2            38.0            39.4
+                Gemma-4-E4B-it                        46.8        44.8            46.4            45.2
+                Llama-3.1-8B-Instruct                 48.6        47.4            46.6            48.0
+                Llama-3.2-3B-Instruct                 42.0        39.4            43.0            41.4
+                Phi-3.5-mini-instruct                 46.0        43.6            42.8            45.4
+                Phi-4-mini-instruct                   44.0        45.2            44.4            43.8
+                Qwen3-8B-MLX-4bit                     49.2        50.2            48.6            50.8
+                Qwen3.5-4B-Instruct                   53.8        53.0            50.8            50.2
+
+======================================================================
+ACCURACY VERIFICATION (plotted vs raw #true / #records)
+======================================================================
+128/128 bars match the raw fraction exactly.
+
+Saved accuracy plot to accuracy_by_dataset.png

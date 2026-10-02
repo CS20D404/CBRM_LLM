@@ -1,0 +1,3 @@
+Case {i}: 
+Problem Statement: {problem_statement}
+Answer: {ground_truth_text}

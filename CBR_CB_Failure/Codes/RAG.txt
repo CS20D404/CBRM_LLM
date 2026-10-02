@@ -1,0 +1,129 @@
+[Qwen3.5-4B-Instruct | CaseHOLD | thinking=false | RAG=failure] RAM=3.17 GB | total_time=1957.3s | queries=500 | per_query=3.91s | accuracy=69.40% | failures=0 | corpus_size=174 | k=3 | avg_top1_sim=0.6001
+[Qwen3.5-4B-Instruct | CaseHOLD | thinking=false | RAG=failure] Zero-shot SUCCESS group (n=326): ZS_acc=100.00% RAG_acc=92.02% | paired t-test t=-5.3072 p=2.065e-07
+[Qwen3.5-4B-Instruct | CaseHOLD | thinking=false | RAG=failure] Zero-shot FAILURE group (n=174): ZS_acc=0.00% RAG_acc=27.01% | paired t-test t=8.0015 p=1.704e-13
+[Qwen3.5-4B-Instruct | CaseHOLD | thinking=false | RAG=failure] OVERALL (n=500): ZS_acc=65.20% RAG_acc=69.40% | paired t-test t=2.4704 p=0.01383
+[Qwen3.5-4B-Instruct | MedMCQA | thinking=false | RAG=failure] RAM=3.17 GB | total_time=456.0s | queries=500 | per_query=0.91s | accuracy=67.40% | failures=0 | corpus_size=166 | k=3 | avg_top1_sim=0.4769
+[Qwen3.5-4B-Instruct | MedMCQA | thinking=false | RAG=failure] Zero-shot SUCCESS group (n=334): ZS_acc=100.00% RAG_acc=91.32% | paired t-test t=-5.6269 p=3.895e-08
+[Qwen3.5-4B-Instruct | MedMCQA | thinking=false | RAG=failure] Zero-shot FAILURE group (n=166): ZS_acc=0.00% RAG_acc=19.28% | paired t-test t=6.2772 p=2.931e-09
+[Qwen3.5-4B-Instruct | MedMCQA | thinking=false | RAG=failure] OVERALL (n=500): ZS_acc=66.80% RAG_acc=67.40% | paired t-test t=0.3838 p=0.7013
+[Qwen3.5-4B-Instruct | MedQA | thinking=false | RAG=failure] RAM=3.17 GB | total_time=1341.4s | queries=500 | per_query=2.68s | accuracy=67.00% | failures=0 | corpus_size=153 | k=3 | avg_top1_sim=0.6837
+[Qwen3.5-4B-Instruct | MedQA | thinking=false | RAG=failure] Zero-shot SUCCESS group (n=347): ZS_acc=100.00% RAG_acc=89.05% | paired t-test t=-6.5230 p=2.447e-10
+[Qwen3.5-4B-Instruct | MedQA | thinking=false | RAG=failure] Zero-shot FAILURE group (n=153): ZS_acc=0.00% RAG_acc=16.99% | paired t-test t=5.5784 p=1.084e-07
+[Qwen3.5-4B-Instruct | MedQA | thinking=false | RAG=failure] OVERALL (n=500): ZS_acc=69.40% RAG_acc=67.00% | paired t-test t=-1.5019 p=0.1338
+[Qwen3.5-4B-Instruct | ProfessionalLaw | thinking=false | RAG=failure] RAM=3.17 GB | total_time=1361.3s | queries=500 | per_query=2.72s | accuracy=50.20% | failures=0 | corpus_size=231 | k=3 | avg_top1_sim=0.6450
+[Qwen3.5-4B-Instruct | ProfessionalLaw | thinking=false | RAG=failure] Zero-shot SUCCESS group (n=269): ZS_acc=100.00% RAG_acc=83.64% | paired t-test t=-7.2394 p=4.769e-12
+[Qwen3.5-4B-Instruct | ProfessionalLaw | thinking=false | RAG=failure] Zero-shot FAILURE group (n=231): ZS_acc=0.00% RAG_acc=11.26% | paired t-test t=5.4010 p=1.65e-07
+[Qwen3.5-4B-Instruct | ProfessionalLaw | thinking=false | RAG=failure] OVERALL (n=500): ZS_acc=53.80% RAG_acc=50.20% | paired t-test t=-2.1593 p=0.0313
+[Qwen3-8B-MLX-4bit | CaseHOLD | thinking=false | RAG=failure] RAM=3.17 GB | total_time=3506.7s | queries=500 | per_query=7.01s | accuracy=62.80% | failures=0 | corpus_size=182 | k=3 | avg_top1_sim=0.6011
+[Qwen3-8B-MLX-4bit | CaseHOLD | thinking=false | RAG=failure] Zero-shot SUCCESS group (n=318): ZS_acc=100.00% RAG_acc=91.51% | paired t-test t=-5.4233 p=1.162e-07
+[Qwen3-8B-MLX-4bit | CaseHOLD | thinking=false | RAG=failure] Zero-shot FAILURE group (n=182): ZS_acc=0.00% RAG_acc=12.64% | paired t-test t=5.1169 p=7.88e-07
+[Qwen3-8B-MLX-4bit | CaseHOLD | thinking=false | RAG=failure] OVERALL (n=500): ZS_acc=63.60% RAG_acc=62.80% | paired t-test t=-0.5653 p=0.5721
+[Qwen3-8B-MLX-4bit | MedMCQA | thinking=false | RAG=failure] RAM=3.17 GB | total_time=695.0s | queries=500 | per_query=1.39s | accuracy=66.00% | failures=0 | corpus_size=174 | k=3 | avg_top1_sim=0.4827
+[Qwen3-8B-MLX-4bit | MedMCQA | thinking=false | RAG=failure] Zero-shot SUCCESS group (n=326): ZS_acc=100.00% RAG_acc=86.81% | paired t-test t=-7.0272 p=1.243e-11
+[Qwen3-8B-MLX-4bit | MedMCQA | thinking=false | RAG=failure] Zero-shot FAILURE group (n=174): ZS_acc=0.00% RAG_acc=27.01% | paired t-test t=8.0015 p=1.704e-13
+[Qwen3-8B-MLX-4bit | MedMCQA | thinking=false | RAG=failure] OVERALL (n=500): ZS_acc=65.20% RAG_acc=66.00% | paired t-test t=0.4213 p=0.6737
+[Qwen3-8B-MLX-4bit | MedQA | thinking=false | RAG=failure] RAM=3.17 GB | total_time=2303.1s | queries=500 | per_query=4.61s | accuracy=62.00% | failures=0 | corpus_size=189 | k=3 | avg_top1_sim=0.6908
+[Qwen3-8B-MLX-4bit | MedQA | thinking=false | RAG=failure] Zero-shot SUCCESS group (n=311): ZS_acc=100.00% RAG_acc=89.71% | paired t-test t=-5.9628 p=6.747e-09
+[Qwen3-8B-MLX-4bit | MedQA | thinking=false | RAG=failure] Zero-shot FAILURE group (n=189): ZS_acc=0.00% RAG_acc=16.40% | paired t-test t=6.0734 p=6.796e-09
+[Qwen3-8B-MLX-4bit | MedQA | thinking=false | RAG=failure] OVERALL (n=500): ZS_acc=62.20% RAG_acc=62.00% | paired t-test t=-0.1259 p=0.8999
+[Qwen3-8B-MLX-4bit | ProfessionalLaw | thinking=false | RAG=failure] RAM=3.17 GB | total_time=2418.3s | queries=500 | per_query=4.84s | accuracy=50.80% | failures=0 | corpus_size=254 | k=3 | avg_top1_sim=0.6469
+[Qwen3-8B-MLX-4bit | ProfessionalLaw | thinking=false | RAG=failure] Zero-shot SUCCESS group (n=246): ZS_acc=100.00% RAG_acc=86.99% | paired t-test t=-6.0527 p=5.307e-09
+[Qwen3-8B-MLX-4bit | ProfessionalLaw | thinking=false | RAG=failure] Zero-shot FAILURE group (n=254): ZS_acc=0.00% RAG_acc=15.75% | paired t-test t=6.8768 p=4.77e-11
+[Qwen3-8B-MLX-4bit | ProfessionalLaw | thinking=false | RAG=failure] OVERALL (n=500): ZS_acc=49.20% RAG_acc=50.80% | paired t-test t=0.9427 p=0.3463
+[Gemma-4-E4B-it | CaseHOLD | thinking=false | RAG=failure] RAM=3.17 GB | total_time=1233.7s | queries=500 | per_query=2.47s | accuracy=59.20% | failures=0 | corpus_size=222 | k=3 | avg_top1_sim=0.6074
+[Gemma-4-E4B-it | CaseHOLD | thinking=false | RAG=failure] Zero-shot SUCCESS group (n=278): ZS_acc=100.00% RAG_acc=91.37% | paired t-test t=-5.1160 p=5.839e-07
+[Gemma-4-E4B-it | CaseHOLD | thinking=false | RAG=failure] Zero-shot FAILURE group (n=222): ZS_acc=0.00% RAG_acc=18.92% | paired t-test t=7.1810 p=1.043e-11
+[Gemma-4-E4B-it | CaseHOLD | thinking=false | RAG=failure] OVERALL (n=500): ZS_acc=55.60% RAG_acc=59.20% | paired t-test t=2.2244 p=0.02657
+[Gemma-4-E4B-it | MedMCQA | thinking=false | RAG=failure] RAM=3.17 GB | total_time=282.0s | queries=500 | per_query=0.56s | accuracy=61.40% | failures=0 | corpus_size=205 | k=3 | avg_top1_sim=0.4894
+[Gemma-4-E4B-it | MedMCQA | thinking=false | RAG=failure] Zero-shot SUCCESS group (n=295): ZS_acc=100.00% RAG_acc=89.49% | paired t-test t=-5.8756 p=1.14e-08
+[Gemma-4-E4B-it | MedMCQA | thinking=false | RAG=failure] Zero-shot FAILURE group (n=205): ZS_acc=0.00% RAG_acc=20.98% | paired t-test t=7.3585 p=4.464e-12
+[Gemma-4-E4B-it | MedMCQA | thinking=false | RAG=failure] OVERALL (n=500): ZS_acc=59.00% RAG_acc=61.40% | paired t-test t=1.3963 p=0.1632
+[Gemma-4-E4B-it | MedQA | thinking=false | RAG=failure] RAM=3.17 GB | total_time=813.2s | queries=500 | per_query=1.63s | accuracy=57.40% | failures=0 | corpus_size=221 | k=3 | avg_top1_sim=0.6946
+[Gemma-4-E4B-it | MedQA | thinking=false | RAG=failure] Zero-shot SUCCESS group (n=279): ZS_acc=100.00% RAG_acc=87.81% | paired t-test t=-6.2112 p=1.911e-09
+[Gemma-4-E4B-it | MedQA | thinking=false | RAG=failure] Zero-shot FAILURE group (n=221): ZS_acc=0.00% RAG_acc=19.00% | paired t-test t=7.1847 p=1.032e-11
+[Gemma-4-E4B-it | MedQA | thinking=false | RAG=failure] OVERALL (n=500): ZS_acc=55.80% RAG_acc=57.40% | paired t-test t=0.9175 p=0.3593
+[Gemma-4-E4B-it | ProfessionalLaw | thinking=false | RAG=failure] RAM=3.17 GB | total_time=864.0s | queries=500 | per_query=1.73s | accuracy=45.20% | failures=0 | corpus_size=266 | k=3 | avg_top1_sim=0.6476
+[Gemma-4-E4B-it | ProfessionalLaw | thinking=false | RAG=failure] Zero-shot SUCCESS group (n=234): ZS_acc=100.00% RAG_acc=82.05% | paired t-test t=-7.1392 p=1.185e-11
+[Gemma-4-E4B-it | ProfessionalLaw | thinking=false | RAG=failure] Zero-shot FAILURE group (n=266): ZS_acc=0.00% RAG_acc=12.78% | paired t-test t=6.2319 p=1.805e-09
+[Gemma-4-E4B-it | ProfessionalLaw | thinking=false | RAG=failure] OVERALL (n=500): ZS_acc=46.80% RAG_acc=45.20% | paired t-test t=-0.9175 p=0.3593
+[Gemma-3-4B-it | CaseHOLD | thinking=na | RAG=failure] RAM=3.17 GB | total_time=1704.6s | queries=500 | per_query=3.41s | accuracy=53.20% | failures=0 | corpus_size=202 | k=3 | avg_top1_sim=0.6068
+[Gemma-3-4B-it | CaseHOLD | thinking=na | RAG=failure] Zero-shot SUCCESS group (n=298): ZS_acc=100.00% RAG_acc=79.53% | paired t-test t=-8.7432 p=1.711e-16
+[Gemma-3-4B-it | CaseHOLD | thinking=na | RAG=failure] Zero-shot FAILURE group (n=202): ZS_acc=0.00% RAG_acc=14.36% | paired t-test t=5.8046 p=2.484e-08
+[Gemma-3-4B-it | CaseHOLD | thinking=na | RAG=failure] OVERALL (n=500): ZS_acc=59.60% RAG_acc=53.20% | paired t-test t=-3.4087 p=0.0007055
+[Gemma-3-4B-it | MedMCQA | thinking=na | RAG=failure] RAM=3.17 GB | total_time=335.6s | queries=500 | per_query=0.67s | accuracy=49.40% | failures=0 | corpus_size=264 | k=3 | avg_top1_sim=0.5002
+[Gemma-3-4B-it | MedMCQA | thinking=na | RAG=failure] Zero-shot SUCCESS group (n=236): ZS_acc=100.00% RAG_acc=76.69% | paired t-test t=-8.4504 p=3.065e-15
+[Gemma-3-4B-it | MedMCQA | thinking=na | RAG=failure] Zero-shot FAILURE group (n=264): ZS_acc=0.00% RAG_acc=25.00% | paired t-test t=9.3630 p=3.617e-18
+[Gemma-3-4B-it | MedMCQA | thinking=na | RAG=failure] OVERALL (n=500): ZS_acc=47.20% RAG_acc=49.40% | paired t-test t=1.0000 p=0.3178
+[Gemma-3-4B-it | MedQA | thinking=na | RAG=failure] RAM=3.17 GB | total_time=1075.4s | queries=500 | per_query=2.15s | accuracy=46.80% | failures=0 | corpus_size=279 | k=3 | avg_top1_sim=0.7043
+[Gemma-3-4B-it | MedQA | thinking=na | RAG=failure] Zero-shot SUCCESS group (n=221): ZS_acc=100.00% RAG_acc=84.16% | paired t-test t=-6.4341 p=7.653e-10
+[Gemma-3-4B-it | MedQA | thinking=na | RAG=failure] Zero-shot FAILURE group (n=279): ZS_acc=0.00% RAG_acc=17.20% | paired t-test t=7.6004 p=4.546e-13
+[Gemma-3-4B-it | MedQA | thinking=na | RAG=failure] OVERALL (n=500): ZS_acc=44.20% RAG_acc=46.80% | paired t-test t=1.4284 p=0.1538
+[Gemma-3-4B-it | ProfessionalLaw | thinking=na | RAG=failure] RAM=3.17 GB | total_time=1167.9s | queries=500 | per_query=2.34s | accuracy=39.40% | failures=0 | corpus_size=297 | k=3 | avg_top1_sim=0.6543
+[Gemma-3-4B-it | ProfessionalLaw | thinking=na | RAG=failure] Zero-shot SUCCESS group (n=203): ZS_acc=100.00% RAG_acc=77.34% | paired t-test t=-7.6932 p=6.207e-13
+[Gemma-3-4B-it | ProfessionalLaw | thinking=na | RAG=failure] Zero-shot FAILURE group (n=297): ZS_acc=0.00% RAG_acc=13.47% | paired t-test t=6.7875 p=6.23e-11
+[Gemma-3-4B-it | ProfessionalLaw | thinking=na | RAG=failure] OVERALL (n=500): ZS_acc=40.60% RAG_acc=39.40% | paired t-test t=-0.6466 p=0.5182
+[Llama-3.2-3B-Instruct | CaseHOLD | thinking=na | RAG=failure] RAM=3.17 GB | total_time=1024.5s | queries=500 | per_query=2.05s | accuracy=46.60% | failures=0 | corpus_size=229 | k=3 | avg_top1_sim=0.6064
+[Llama-3.2-3B-Instruct | CaseHOLD | thinking=na | RAG=failure] Zero-shot SUCCESS group (n=271): ZS_acc=100.00% RAG_acc=76.01% | paired t-test t=-9.2301 p=8.169e-18
+[Llama-3.2-3B-Instruct | CaseHOLD | thinking=na | RAG=failure] Zero-shot FAILURE group (n=229): ZS_acc=0.00% RAG_acc=11.79% | paired t-test t=5.5204 p=9.171e-08
+[Llama-3.2-3B-Instruct | CaseHOLD | thinking=na | RAG=failure] OVERALL (n=500): ZS_acc=54.20% RAG_acc=46.60% | paired t-test t=-4.0214 p=6.68e-05
+[Llama-3.2-3B-Instruct | MedMCQA | thinking=na | RAG=failure] RAM=3.17 GB | total_time=263.5s | queries=500 | per_query=0.53s | accuracy=58.80% | failures=0 | corpus_size=176 | k=3 | avg_top1_sim=0.4801
+[Llama-3.2-3B-Instruct | MedMCQA | thinking=na | RAG=failure] Zero-shot SUCCESS group (n=324): ZS_acc=100.00% RAG_acc=78.09% | paired t-test t=-9.5207 p=4.197e-19
+[Llama-3.2-3B-Instruct | MedMCQA | thinking=na | RAG=failure] Zero-shot FAILURE group (n=176): ZS_acc=0.00% RAG_acc=23.30% | paired t-test t=7.2903 p=1.024e-11
+[Llama-3.2-3B-Instruct | MedMCQA | thinking=na | RAG=failure] OVERALL (n=500): ZS_acc=64.80% RAG_acc=58.80% | paired t-test t=-2.8549 p=0.004484
+[Llama-3.2-3B-Instruct | MedQA | thinking=na | RAG=failure] RAM=3.17 GB | total_time=755.0s | queries=500 | per_query=1.51s | accuracy=56.60% | failures=0 | corpus_size=185 | k=3 | avg_top1_sim=0.6926
+[Llama-3.2-3B-Instruct | MedQA | thinking=na | RAG=failure] Zero-shot SUCCESS group (n=315): ZS_acc=100.00% RAG_acc=75.24% | paired t-test t=-10.1657 p=3.572e-21
+[Llama-3.2-3B-Instruct | MedQA | thinking=na | RAG=failure] Zero-shot FAILURE group (n=185): ZS_acc=0.00% RAG_acc=24.86% | paired t-test t=7.8033 p=4.384e-13
+[Llama-3.2-3B-Instruct | MedQA | thinking=na | RAG=failure] OVERALL (n=500): ZS_acc=63.00% RAG_acc=56.60% | paired t-test t=-2.8948 p=0.00396
+[Llama-3.2-3B-Instruct | ProfessionalLaw | thinking=na | RAG=failure] RAM=3.17 GB | total_time=795.7s | queries=500 | per_query=1.59s | accuracy=41.40% | failures=0 | corpus_size=290 | k=3 | avg_top1_sim=0.6524
+[Llama-3.2-3B-Instruct | ProfessionalLaw | thinking=na | RAG=failure] Zero-shot SUCCESS group (n=210): ZS_acc=100.00% RAG_acc=73.33% | paired t-test t=-8.7178 p=8.849e-16
+[Llama-3.2-3B-Instruct | ProfessionalLaw | thinking=na | RAG=failure] Zero-shot FAILURE group (n=290): ZS_acc=0.00% RAG_acc=18.28% | paired t-test t=8.0392 p=2.335e-14
+[Llama-3.2-3B-Instruct | ProfessionalLaw | thinking=na | RAG=failure] OVERALL (n=500): ZS_acc=42.00% RAG_acc=41.40% | paired t-test t=-0.2871 p=0.7742
+[Llama-3.1-8B-Instruct | CaseHOLD | thinking=na | RAG=failure] RAM=3.17 GB | total_time=2512.0s | queries=500 | per_query=5.02s | accuracy=61.80% | failures=0 | corpus_size=197 | k=3 | avg_top1_sim=0.6048
+[Llama-3.1-8B-Instruct | CaseHOLD | thinking=na | RAG=failure] Zero-shot SUCCESS group (n=303): ZS_acc=100.00% RAG_acc=89.77% | paired t-test t=-5.8668 p=1.167e-08
+[Llama-3.1-8B-Instruct | CaseHOLD | thinking=na | RAG=failure] Zero-shot FAILURE group (n=197): ZS_acc=0.00% RAG_acc=18.78% | paired t-test t=6.7324 p=1.801e-10
+[Llama-3.1-8B-Instruct | CaseHOLD | thinking=na | RAG=failure] OVERALL (n=500): ZS_acc=60.60% RAG_acc=61.80% | paired t-test t=0.7273 p=0.4674
+[Llama-3.1-8B-Instruct | MedMCQA | thinking=na | RAG=failure] RAM=3.17 GB | total_time=573.5s | queries=500 | per_query=1.15s | accuracy=72.80% | failures=0 | corpus_size=136 | k=3 | avg_top1_sim=0.4679
+[Llama-3.1-8B-Instruct | MedMCQA | thinking=na | RAG=failure] Zero-shot SUCCESS group (n=364): ZS_acc=100.00% RAG_acc=91.21% | paired t-test t=-5.9151 p=7.669e-09
+[Llama-3.1-8B-Instruct | MedMCQA | thinking=na | RAG=failure] Zero-shot FAILURE group (n=136): ZS_acc=0.00% RAG_acc=23.53% | paired t-test t=6.4450 p=1.889e-09
+[Llama-3.1-8B-Instruct | MedMCQA | thinking=na | RAG=failure] OVERALL (n=500): ZS_acc=72.80% RAG_acc=72.80% | paired t-test t=0.0000 p=1
+[Llama-3.1-8B-Instruct | MedQA | thinking=na | RAG=failure] RAM=3.17 GB | total_time=1742.0s | queries=500 | per_query=3.48s | accuracy=67.20% | failures=0 | corpus_size=155 | k=3 | avg_top1_sim=0.6836
+[Llama-3.1-8B-Instruct | MedQA | thinking=na | RAG=failure] Zero-shot SUCCESS group (n=345): ZS_acc=100.00% RAG_acc=91.59% | paired t-test t=-5.6187 p=3.977e-08
+[Llama-3.1-8B-Instruct | MedQA | thinking=na | RAG=failure] Zero-shot FAILURE group (n=155): ZS_acc=0.00% RAG_acc=12.90% | paired t-test t=4.7765 p=4.123e-06
+[Llama-3.1-8B-Instruct | MedQA | thinking=na | RAG=failure] OVERALL (n=500): ZS_acc=69.00% RAG_acc=67.20% | paired t-test t=-1.2866 p=0.1988
+[Llama-3.1-8B-Instruct | ProfessionalLaw | thinking=na | RAG=failure] RAM=3.17 GB | total_time=1846.8s | queries=500 | per_query=3.69s | accuracy=48.00% | failures=0 | corpus_size=257 | k=3 | avg_top1_sim=0.6484
+[Llama-3.1-8B-Instruct | ProfessionalLaw | thinking=na | RAG=failure] Zero-shot SUCCESS group (n=243): ZS_acc=100.00% RAG_acc=82.72% | paired t-test t=-7.1111 p=1.291e-11
+[Llama-3.1-8B-Instruct | ProfessionalLaw | thinking=na | RAG=failure] Zero-shot FAILURE group (n=257): ZS_acc=0.00% RAG_acc=15.18% | paired t-test t=6.7674 p=8.889e-11
+[Llama-3.1-8B-Instruct | ProfessionalLaw | thinking=na | RAG=failure] OVERALL (n=500): ZS_acc=48.60% RAG_acc=48.00% | paired t-test t=-0.3330 p=0.7392
+[Phi-4-mini-instruct | CaseHOLD | thinking=na | RAG=failure] RAM=3.17 GB | total_time=1220.7s | queries=500 | per_query=2.44s | accuracy=46.20% | failures=0 | corpus_size=260 | k=3 | avg_top1_sim=0.6132
+[Phi-4-mini-instruct | CaseHOLD | thinking=na | RAG=failure] Zero-shot SUCCESS group (n=240): ZS_acc=100.00% RAG_acc=84.58% | paired t-test t=-6.6001 p=2.627e-10
+[Phi-4-mini-instruct | CaseHOLD | thinking=na | RAG=failure] Zero-shot FAILURE group (n=260): ZS_acc=0.00% RAG_acc=10.77% | paired t-test t=5.5909 p=5.722e-08
+[Phi-4-mini-instruct | CaseHOLD | thinking=na | RAG=failure] OVERALL (n=500): ZS_acc=48.00% RAG_acc=46.20% | paired t-test t=-1.1166 p=0.2647
+[Phi-4-mini-instruct | MedMCQA | thinking=na | RAG=failure] RAM=3.17 GB | total_time=281.4s | queries=500 | per_query=0.56s | accuracy=47.60% | failures=1 | corpus_size=244 | k=3 | avg_top1_sim=0.4952
+[Phi-4-mini-instruct | MedMCQA | thinking=na | RAG=failure] Zero-shot SUCCESS group (n=256): ZS_acc=100.00% RAG_acc=76.95% | paired t-test t=-8.7390 p=3.201e-16
+[Phi-4-mini-instruct | MedMCQA | thinking=na | RAG=failure] Zero-shot FAILURE group (n=244): ZS_acc=0.00% RAG_acc=16.80% | paired t-test t=7.0056 p=2.402e-11
+[Phi-4-mini-instruct | MedMCQA | thinking=na | RAG=failure] OVERALL (n=500): ZS_acc=51.20% RAG_acc=47.60% | paired t-test t=-1.8041 p=0.07183
+[Phi-4-mini-instruct | MedQA | thinking=na | RAG=failure] RAM=3.17 GB | total_time=790.3s | queries=500 | per_query=1.58s | accuracy=45.40% | failures=0 | corpus_size=261 | k=3 | avg_top1_sim=0.7016
+[Phi-4-mini-instruct | MedQA | thinking=na | RAG=failure] Zero-shot SUCCESS group (n=239): ZS_acc=100.00% RAG_acc=80.75% | paired t-test t=-7.5316 p=1.037e-12
+[Phi-4-mini-instruct | MedQA | thinking=na | RAG=failure] Zero-shot FAILURE group (n=261): ZS_acc=0.00% RAG_acc=13.03% | paired t-test t=6.2404 p=1.763e-09
+[Phi-4-mini-instruct | MedQA | thinking=na | RAG=failure] OVERALL (n=500): ZS_acc=47.80% RAG_acc=45.40% | paired t-test t=-1.3427 p=0.18
+[Phi-4-mini-instruct | ProfessionalLaw | thinking=na | RAG=failure] RAM=3.17 GB | total_time=874.8s | queries=500 | per_query=1.75s | accuracy=43.80% | failures=0 | corpus_size=280 | k=3 | avg_top1_sim=0.6507
+[Phi-4-mini-instruct | ProfessionalLaw | thinking=na | RAG=failure] Zero-shot SUCCESS group (n=220): ZS_acc=100.00% RAG_acc=80.91% | paired t-test t=-7.1885 p=1.02e-11
+[Phi-4-mini-instruct | ProfessionalLaw | thinking=na | RAG=failure] Zero-shot FAILURE group (n=280): ZS_acc=0.00% RAG_acc=14.64% | paired t-test t=6.9182 p=3.128e-11
+[Phi-4-mini-instruct | ProfessionalLaw | thinking=na | RAG=failure] OVERALL (n=500): ZS_acc=44.00% RAG_acc=43.80% | paired t-test t=-0.1097 p=0.9127
+[Phi-3.5-mini-instruct | CaseHOLD | thinking=na | RAG=failure] RAM=3.17 GB | total_time=1816.1s | queries=500 | per_query=3.63s | accuracy=49.20% | failures=3 | corpus_size=218 | k=3 | avg_top1_sim=0.6064
+[Phi-3.5-mini-instruct | CaseHOLD | thinking=na | RAG=failure] Zero-shot SUCCESS group (n=282): ZS_acc=100.00% RAG_acc=79.08% | paired t-test t=-8.6224 p=4.877e-16
+[Phi-3.5-mini-instruct | CaseHOLD | thinking=na | RAG=failure] Zero-shot FAILURE group (n=218): ZS_acc=0.00% RAG_acc=10.55% | paired t-test t=5.0591 p=8.961e-07
+[Phi-3.5-mini-instruct | CaseHOLD | thinking=na | RAG=failure] OVERALL (n=500): ZS_acc=56.40% RAG_acc=49.20% | paired t-test t=-4.0359 p=6.294e-05
+[Phi-3.5-mini-instruct | MedMCQA | thinking=na | RAG=failure] RAM=3.17 GB | total_time=368.5s | queries=500 | per_query=0.74s | accuracy=51.20% | failures=2 | corpus_size=224 | k=3 | avg_top1_sim=0.4954
+[Phi-3.5-mini-instruct | MedMCQA | thinking=na | RAG=failure] Zero-shot SUCCESS group (n=276): ZS_acc=100.00% RAG_acc=79.35% | paired t-test t=-8.4602 p=1.602e-15
+[Phi-3.5-mini-instruct | MedMCQA | thinking=na | RAG=failure] Zero-shot FAILURE group (n=224): ZS_acc=0.00% RAG_acc=16.52% | paired t-test t=6.6425 p=2.327e-10
+[Phi-3.5-mini-instruct | MedMCQA | thinking=na | RAG=failure] OVERALL (n=500): ZS_acc=55.20% RAG_acc=51.20% | paired t-test t=-2.0696 p=0.039
+[Phi-3.5-mini-instruct | MedQA | thinking=na | RAG=failure] RAM=3.17 GB | total_time=1137.8s | queries=500 | per_query=2.28s | accuracy=50.40% | failures=1 | corpus_size=237 | k=3 | avg_top1_sim=0.6992
+[Phi-3.5-mini-instruct | MedQA | thinking=na | RAG=failure] Zero-shot SUCCESS group (n=263): ZS_acc=100.00% RAG_acc=80.61% | paired t-test t=-7.9390 p=5.995e-14
+[Phi-3.5-mini-instruct | MedQA | thinking=na | RAG=failure] Zero-shot FAILURE group (n=237): ZS_acc=0.00% RAG_acc=16.88% | paired t-test t=6.9223 p=4.164e-11
+[Phi-3.5-mini-instruct | MedQA | thinking=na | RAG=failure] OVERALL (n=500): ZS_acc=52.60% RAG_acc=50.40% | paired t-test t=-1.1535 p=0.2493
+[Phi-3.5-mini-instruct | ProfessionalLaw | thinking=na | RAG=failure] RAM=3.17 GB | total_time=1171.2s | queries=500 | per_query=2.34s | accuracy=45.40% | failures=0 | corpus_size=270 | k=3 | avg_top1_sim=0.6521
+[Phi-3.5-mini-instruct | ProfessionalLaw | thinking=na | RAG=failure] Zero-shot SUCCESS group (n=230): ZS_acc=100.00% RAG_acc=77.83% | paired t-test t=-8.0775 p=3.768e-14
+[Phi-3.5-mini-instruct | ProfessionalLaw | thinking=na | RAG=failure] Zero-shot FAILURE group (n=270): ZS_acc=0.00% RAG_acc=17.78% | paired t-test t=7.6264 p=4.175e-13
+[Phi-3.5-mini-instruct | ProfessionalLaw | thinking=na | RAG=failure] OVERALL (n=500): ZS_acc=46.00% RAG_acc=45.40% | paired t-test t=-0.3012 p=0.7634
+Done.
