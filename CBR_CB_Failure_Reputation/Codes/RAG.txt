@@ -1,0 +1,47 @@
+CORPUS_CONFIG=failure (+LOO consolidation) | N_FOLDS=5 | SEED=42 | k=3
+[Qwen3.5-4B-Instruct | CaseHOLD | fold 0] pool=139 retained=107 train_error(LOO)=0.7266
+[Qwen3.5-4B-Instruct | CaseHOLD | fold 1] pool=139 retained=105 train_error(LOO)=0.7338
+[Qwen3.5-4B-Instruct | CaseHOLD | fold 2] pool=131 retained=94 train_error(LOO)=0.6870
+[Qwen3.5-4B-Instruct | CaseHOLD | fold 3] pool=146 retained=111 train_error(LOO)=0.7192
+[Qwen3.5-4B-Instruct | CaseHOLD | fold 4] pool=141 retained=106 train_error(LOO)=0.6950
+[Qwen3.5-4B-Instruct | CaseHOLD | thinking=false | RAG=failure+consolidation] RAM=1.19 GB | test_time=1926.4s | loo_time=2524.2s | queries=500 | per_query=3.85s | accuracy=68.20% | failures=0 | loo_failures=0 | folds=5 | k=3 | avg_top1_sim=0.5860
+[Qwen3.5-4B-Instruct | CaseHOLD | thinking=false | RAG=failure+consolidation] pool_before=[139, 139, 131, 146, 141] | retained=[107, 105, 94, 111, 106]
+[Qwen3.5-4B-Instruct | CaseHOLD | thinking=false | RAG=failure+consolidation] train_error(LOO, pre-consolidation) per fold: 72.66%, 73.38%, 68.70%, 71.92%, 69.50% | mean=71.23%
+[Qwen3.5-4B-Instruct | CaseHOLD | thinking=false | RAG=failure+consolidation] test_error per fold: 32.00%, 34.00%, 34.00%, 30.00%, 29.00% | mean=31.80%
+[Qwen3.5-4B-Instruct | CaseHOLD | thinking=false | RAG=failure+consolidation] per-fold accuracy: 68.00%, 66.00%, 66.00%, 70.00%, 71.00% | mean=68.20% std=0.0228
+[Qwen3.5-4B-Instruct | CaseHOLD | thinking=false | RAG=failure+consolidation] OVERALL (n=500): ZS_acc=65.20% RAG_acc=68.20% | paired t-test t=1.8099 p=0.07091
+[Qwen3.5-4B-Instruct | MedMCQA | fold 0] pool=131 retained=101 train_error(LOO)=0.7405
+[Qwen3.5-4B-Instruct | MedMCQA | fold 1] pool=131 retained=110 train_error(LOO)=0.8092
+[Qwen3.5-4B-Instruct | MedMCQA | fold 2] pool=138 retained=116 train_error(LOO)=0.8043
+[Qwen3.5-4B-Instruct | MedMCQA | fold 3] pool=132 retained=113 train_error(LOO)=0.8485
+[Qwen3.5-4B-Instruct | MedMCQA | fold 4] pool=132 retained=109 train_error(LOO)=0.7803
+[Qwen3.5-4B-Instruct | MedMCQA | thinking=false | RAG=failure+consolidation] RAM=1.19 GB | test_time=455.9s | loo_time=607.7s | queries=500 | per_query=0.91s | accuracy=67.40% | failures=0 | loo_failures=0 | folds=5 | k=3 | avg_top1_sim=0.4568
+[Qwen3.5-4B-Instruct | MedMCQA | thinking=false | RAG=failure+consolidation] pool_before=[131, 131, 138, 132, 132] | retained=[101, 110, 116, 113, 109]
+[Qwen3.5-4B-Instruct | MedMCQA | thinking=false | RAG=failure+consolidation] train_error(LOO, pre-consolidation) per fold: 74.05%, 80.92%, 80.43%, 84.85%, 78.03% | mean=79.66%
+[Qwen3.5-4B-Instruct | MedMCQA | thinking=false | RAG=failure+consolidation] test_error per fold: 37.00%, 33.00%, 25.00%, 30.00%, 38.00% | mean=32.60%
+[Qwen3.5-4B-Instruct | MedMCQA | thinking=false | RAG=failure+consolidation] per-fold accuracy: 63.00%, 67.00%, 75.00%, 70.00%, 62.00% | mean=67.40% std=0.0532
+[Qwen3.5-4B-Instruct | MedMCQA | thinking=false | RAG=failure+consolidation] OVERALL (n=500): ZS_acc=66.80% RAG_acc=67.40% | paired t-test t=0.3608 p=0.7184
+[Qwen3.5-4B-Instruct | MedQA | fold 0] pool=118 retained=97 train_error(LOO)=0.8220
+[Qwen3.5-4B-Instruct | MedQA | fold 1] pool=125 retained=108 train_error(LOO)=0.8640
+[Qwen3.5-4B-Instruct | MedQA | fold 2] pool=123 retained=101 train_error(LOO)=0.8049
+[Qwen3.5-4B-Instruct | MedQA | fold 3] pool=121 retained=100 train_error(LOO)=0.8099
+[Qwen3.5-4B-Instruct | MedQA | fold 4] pool=125 retained=106 train_error(LOO)=0.8480
+[Qwen3.5-4B-Instruct | MedQA | thinking=false | RAG=failure+consolidation] RAM=1.19 GB | test_time=1369.2s | loo_time=1648.0s | queries=500 | per_query=2.74s | accuracy=66.40% | failures=0 | loo_failures=0 | folds=5 | k=3 | avg_top1_sim=0.6721
+[Qwen3.5-4B-Instruct | MedQA | thinking=false | RAG=failure+consolidation] pool_before=[118, 125, 123, 121, 125] | retained=[97, 108, 101, 100, 106]
+[Qwen3.5-4B-Instruct | MedQA | thinking=false | RAG=failure+consolidation] train_error(LOO, pre-consolidation) per fold: 82.20%, 86.40%, 80.49%, 80.99%, 84.80% | mean=82.98%
+[Qwen3.5-4B-Instruct | MedQA | thinking=false | RAG=failure+consolidation] test_error per fold: 34.00%, 35.00%, 33.00%, 34.00%, 32.00% | mean=33.60%
+[Qwen3.5-4B-Instruct | MedQA | thinking=false | RAG=failure+consolidation] per-fold accuracy: 66.00%, 65.00%, 67.00%, 66.00%, 68.00% | mean=66.40% std=0.0114
+[Qwen3.5-4B-Instruct | MedQA | thinking=false | RAG=failure+consolidation] OVERALL (n=500): ZS_acc=69.40% RAG_acc=66.40% | paired t-test t=-1.8369 p=0.06682
+[Qwen3.5-4B-Instruct | ProfessionalLaw | fold 0] pool=189 retained=163 train_error(LOO)=0.8624
+[Qwen3.5-4B-Instruct | ProfessionalLaw | fold 1] pool=188 retained=163 train_error(LOO)=0.8617
+[Qwen3.5-4B-Instruct | ProfessionalLaw | fold 2] pool=188 retained=167 train_error(LOO)=0.8883
+[Qwen3.5-4B-Instruct | ProfessionalLaw | fold 3] pool=176 retained=158 train_error(LOO)=0.8977
+[Qwen3.5-4B-Instruct | ProfessionalLaw | fold 4] pool=183 retained=165 train_error(LOO)=0.9016
+[Qwen3.5-4B-Instruct | ProfessionalLaw | thinking=false | RAG=failure+consolidation] RAM=1.19 GB | test_time=1377.1s | loo_time=2561.7s | queries=500 | per_query=2.75s | accuracy=50.20% | failures=0 | loo_failures=0 | folds=5 | k=3 | avg_top1_sim=0.6326
+[Qwen3.5-4B-Instruct | ProfessionalLaw | thinking=false | RAG=failure+consolidation] pool_before=[189, 188, 188, 176, 183] | retained=[163, 163, 167, 158, 165]
+[Qwen3.5-4B-Instruct | ProfessionalLaw | thinking=false | RAG=failure+consolidation] train_error(LOO, pre-consolidation) per fold: 86.24%, 86.17%, 88.83%, 89.77%, 90.16% | mean=88.24%
+[Qwen3.5-4B-Instruct | ProfessionalLaw | thinking=false | RAG=failure+consolidation] test_error per fold: 49.00%, 46.00%, 47.00%, 58.00%, 49.00% | mean=49.80%
+[Qwen3.5-4B-Instruct | ProfessionalLaw | thinking=false | RAG=failure+consolidation] per-fold accuracy: 51.00%, 54.00%, 53.00%, 42.00%, 51.00% | mean=50.20% std=0.0476
+[Qwen3.5-4B-Instruct | ProfessionalLaw | thinking=false | RAG=failure+consolidation] OVERALL (n=500): ZS_acc=53.80% RAG_acc=50.20% | paired t-test t=-2.0996 p=0.03627
+[Qwen3-8B-MLX-4bit | CaseHOLD | fold 0] pool=142 retained=124 train_error(LOO)=0.8732
+[Qwen3-8B-MLX-4bit | CaseHOLD | fold 1] pool=141 retained=124 train_error(LOO)=0.8723

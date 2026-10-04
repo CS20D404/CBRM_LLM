@@ -1,0 +1,98 @@
+CORPUS_CONFIG=success | N_FOLDS=5 | SEED=42 | k=3
+[Qwen3.5-4B-Instruct | CaseHOLD | thinking=false | RAG=success] RAM=1.83 GB | total_time=2090.2s | queries=500 | per_query=4.18s | accuracy=67.00% | failures=0 | folds=5 | corpus_sizes=[261, 261, 269, 254, 259] | k=3 | avg_top1_sim=0.6095
+[Qwen3.5-4B-Instruct | CaseHOLD | thinking=false | RAG=success] per-fold accuracy: 69.00%, 64.00%, 62.00%, 73.00%, 67.00% | mean=67.00% std=0.0430
+[Qwen3.5-4B-Instruct | CaseHOLD | thinking=false | RAG=success] OVERALL (n=500): ZS_acc=65.20% RAG_acc=67.00% | paired t-test t=1.0837 p=0.279
+[Qwen3.5-4B-Instruct | MedMCQA | thinking=false | RAG=success] RAM=1.83 GB | total_time=462.1s | queries=500 | per_query=0.92s | accuracy=68.20% | failures=0 | folds=5 | corpus_sizes=[269, 269, 262, 268, 268] | k=3 | avg_top1_sim=0.4998
+[Qwen3.5-4B-Instruct | MedMCQA | thinking=false | RAG=success] per-fold accuracy: 63.00%, 67.00%, 76.00%, 67.00%, 68.00% | mean=68.20% std=0.0476
+[Qwen3.5-4B-Instruct | MedMCQA | thinking=false | RAG=success] OVERALL (n=500): ZS_acc=66.80% RAG_acc=68.20% | paired t-test t=0.8961 p=0.3706
+[Qwen3.5-4B-Instruct | MedQA | thinking=false | RAG=success] RAM=1.83 GB | total_time=1311.7s | queries=500 | per_query=2.62s | accuracy=66.80% | failures=0 | folds=5 | corpus_sizes=[282, 275, 277, 279, 275] | k=3 | avg_top1_sim=0.7015
+[Qwen3.5-4B-Instruct | MedQA | thinking=false | RAG=success] per-fold accuracy: 65.00%, 67.00%, 65.00%, 65.00%, 72.00% | mean=66.80% std=0.0303
+[Qwen3.5-4B-Instruct | MedQA | thinking=false | RAG=success] OVERALL (n=500): ZS_acc=69.40% RAG_acc=66.80% | paired t-test t=-1.6150 p=0.1069
+[Qwen3.5-4B-Instruct | ProfessionalLaw | thinking=false | RAG=success] RAM=1.83 GB | total_time=1395.2s | queries=500 | per_query=2.79s | accuracy=50.40% | failures=0 | folds=5 | corpus_sizes=[211, 212, 212, 224, 217] | k=3 | avg_top1_sim=0.6397
+[Qwen3.5-4B-Instruct | ProfessionalLaw | thinking=false | RAG=success] per-fold accuracy: 56.00%, 53.00%, 50.00%, 41.00%, 52.00% | mean=50.40% std=0.0568
+[Qwen3.5-4B-Instruct | ProfessionalLaw | thinking=false | RAG=success] OVERALL (n=500): ZS_acc=53.80% RAG_acc=50.40% | paired t-test t=-2.1848 p=0.02937
+[Qwen3-8B-MLX-4bit | CaseHOLD | thinking=false | RAG=success] RAM=1.83 GB | total_time=3587.2s | queries=500 | per_query=7.17s | accuracy=61.20% | failures=1 | folds=5 | corpus_sizes=[258, 259, 255, 250, 250] | k=3 | avg_top1_sim=0.6088
+[Qwen3-8B-MLX-4bit | CaseHOLD | thinking=false | RAG=success] per-fold accuracy: 55.00%, 58.00%, 59.00%, 70.00%, 64.00% | mean=61.20% std=0.0589
+[Qwen3-8B-MLX-4bit | CaseHOLD | thinking=false | RAG=success] OVERALL (n=500): ZS_acc=63.60% RAG_acc=61.20% | paired t-test t=-1.5019 p=0.1338
+[Qwen3-8B-MLX-4bit | MedMCQA | thinking=false | RAG=success] RAM=1.83 GB | total_time=719.5s | queries=500 | per_query=1.44s | accuracy=64.60% | failures=0 | folds=5 | corpus_sizes=[261, 265, 253, 259, 266] | k=3 | avg_top1_sim=0.4974
+[Qwen3-8B-MLX-4bit | MedMCQA | thinking=false | RAG=success] per-fold accuracy: 65.00%, 64.00%, 67.00%, 65.00%, 62.00% | mean=64.60% std=0.0182
+[Qwen3-8B-MLX-4bit | MedMCQA | thinking=false | RAG=success] OVERALL (n=500): ZS_acc=65.20% RAG_acc=64.60% | paired t-test t=-0.3557 p=0.7222
+[Qwen3-8B-MLX-4bit | MedQA | thinking=false | RAG=success] RAM=1.83 GB | total_time=2292.8s | queries=500 | per_query=4.59s | accuracy=61.80% | failures=0 | folds=5 | corpus_sizes=[253, 248, 253, 246, 244] | k=3 | avg_top1_sim=0.6953
+[Qwen3-8B-MLX-4bit | MedQA | thinking=false | RAG=success] per-fold accuracy: 61.00%, 64.00%, 57.00%, 63.00%, 64.00% | mean=61.80% std=0.0295
+[Qwen3-8B-MLX-4bit | MedQA | thinking=false | RAG=success] OVERALL (n=500): ZS_acc=62.20% RAG_acc=61.80% | paired t-test t=-0.2388 p=0.8113
+[Qwen3-8B-MLX-4bit | ProfessionalLaw | thinking=false | RAG=success] RAM=1.83 GB | total_time=2427.8s | queries=500 | per_query=4.86s | accuracy=50.60% | failures=0 | folds=5 | corpus_sizes=[192, 194, 199, 199, 200] | k=3 | avg_top1_sim=0.6385
+[Qwen3-8B-MLX-4bit | ProfessionalLaw | thinking=false | RAG=success] per-fold accuracy: 57.00%, 52.00%, 48.00%, 45.00%, 51.00% | mean=50.60% std=0.0451
+[Qwen3-8B-MLX-4bit | ProfessionalLaw | thinking=false | RAG=success] OVERALL (n=500): ZS_acc=49.20% RAG_acc=50.60% | paired t-test t=0.8305 p=0.4067
+[Gemma-4-E4B-it | CaseHOLD | thinking=false | RAG=success] RAM=1.83 GB | total_time=1226.8s | queries=500 | per_query=2.45s | accuracy=60.60% | failures=0 | folds=5 | corpus_sizes=[231, 221, 222, 218, 220] | k=3 | avg_top1_sim=0.6049
+[Gemma-4-E4B-it | CaseHOLD | thinking=false | RAG=success] per-fold accuracy: 57.00%, 64.00%, 56.00%, 62.00%, 64.00% | mean=60.60% std=0.0385
+[Gemma-4-E4B-it | CaseHOLD | thinking=false | RAG=success] OVERALL (n=500): ZS_acc=55.60% RAG_acc=60.60% | paired t-test t=3.4718 p=0.000562
+[Gemma-4-E4B-it | MedMCQA | thinking=false | RAG=success] RAM=1.83 GB | total_time=261.5s | queries=500 | per_query=0.52s | accuracy=60.80% | failures=0 | folds=5 | corpus_sizes=[241, 238, 230, 231, 240] | k=3 | avg_top1_sim=0.4911
+[Gemma-4-E4B-it | MedMCQA | thinking=false | RAG=success] per-fold accuracy: 55.00%, 65.00%, 56.00%, 65.00%, 63.00% | mean=60.80% std=0.0492
+[Gemma-4-E4B-it | MedMCQA | thinking=false | RAG=success] OVERALL (n=500): ZS_acc=59.00% RAG_acc=60.80% | paired t-test t=1.0837 p=0.279
+[Gemma-4-E4B-it | MedQA | thinking=false | RAG=success] RAM=1.83 GB | total_time=793.9s | queries=500 | per_query=1.59s | accuracy=57.00% | failures=0 | folds=5 | corpus_sizes=[224, 227, 227, 217, 221] | k=3 | avg_top1_sim=0.6934
+[Gemma-4-E4B-it | MedQA | thinking=false | RAG=success] per-fold accuracy: 60.00%, 60.00%, 50.00%, 59.00%, 56.00% | mean=57.00% std=0.0424
+[Gemma-4-E4B-it | MedQA | thinking=false | RAG=success] OVERALL (n=500): ZS_acc=55.80% RAG_acc=57.00% | paired t-test t=0.6879 p=0.4918
+[Gemma-4-E4B-it | ProfessionalLaw | thinking=false | RAG=success] RAM=1.83 GB | total_time=855.8s | queries=500 | per_query=1.71s | accuracy=48.20% | failures=0 | folds=5 | corpus_sizes=[185, 190, 178, 197, 186] | k=3 | avg_top1_sim=0.6373
+[Gemma-4-E4B-it | ProfessionalLaw | thinking=false | RAG=success] per-fold accuracy: 51.00%, 50.00%, 55.00%, 40.00%, 45.00% | mean=48.20% std=0.0581
+[Gemma-4-E4B-it | ProfessionalLaw | thinking=false | RAG=success] OVERALL (n=500): ZS_acc=46.80% RAG_acc=48.20% | paired t-test t=0.7589 p=0.4483
+[Gemma-3-4B-it | CaseHOLD | thinking=na | RAG=success] RAM=2.25 GB | total_time=1639.5s | queries=500 | per_query=3.28s | accuracy=55.40% | failures=0 | folds=5 | corpus_sizes=[244, 238, 238, 234, 238] | k=3 | avg_top1_sim=0.6022
+[Gemma-3-4B-it | CaseHOLD | thinking=na | RAG=success] per-fold accuracy: 46.00%, 59.00%, 57.00%, 58.00%, 57.00% | mean=55.40% std=0.0532
+[Gemma-3-4B-it | CaseHOLD | thinking=na | RAG=success] OVERALL (n=500): ZS_acc=59.60% RAG_acc=55.40% | paired t-test t=-2.3151 p=0.02101
+[Gemma-3-4B-it | MedMCQA | thinking=na | RAG=success] RAM=2.25 GB | total_time=334.4s | queries=500 | per_query=0.67s | accuracy=46.80% | failures=0 | folds=5 | corpus_sizes=[190, 183, 190, 194, 187] | k=3 | avg_top1_sim=0.4792
+[Gemma-3-4B-it | MedMCQA | thinking=na | RAG=success] per-fold accuracy: 48.00%, 49.00%, 45.00%, 47.00%, 45.00% | mean=46.80% std=0.0179
+[Gemma-3-4B-it | MedMCQA | thinking=na | RAG=success] OVERALL (n=500): ZS_acc=47.20% RAG_acc=46.80% | paired t-test t=-0.1888 p=0.8503
+[Gemma-3-4B-it | MedQA | thinking=na | RAG=success] RAM=2.25 GB | total_time=1085.1s | queries=500 | per_query=2.17s | accuracy=44.20% | failures=0 | folds=5 | corpus_sizes=[176, 171, 187, 173, 177] | k=3 | avg_top1_sim=0.6819
+[Gemma-3-4B-it | MedQA | thinking=na | RAG=success] per-fold accuracy: 49.00%, 52.00%, 35.00%, 46.00%, 39.00% | mean=44.20% std=0.0705
+[Gemma-3-4B-it | MedQA | thinking=na | RAG=success] OVERALL (n=500): ZS_acc=44.20% RAG_acc=44.20% | paired t-test t=0.0000 p=1
+[Gemma-3-4B-it | ProfessionalLaw | thinking=na | RAG=success] RAM=2.25 GB | total_time=1187.8s | queries=500 | per_query=2.38s | accuracy=38.60% | failures=0 | folds=5 | corpus_sizes=[159, 164, 160, 166, 163] | k=3 | avg_top1_sim=0.6320
+[Gemma-3-4B-it | ProfessionalLaw | thinking=na | RAG=success] per-fold accuracy: 36.00%, 33.00%, 48.00%, 36.00%, 40.00% | mean=38.60% std=0.0581
+[Gemma-3-4B-it | ProfessionalLaw | thinking=na | RAG=success] OVERALL (n=500): ZS_acc=40.60% RAG_acc=38.60% | paired t-test t=-1.1046 p=0.2699
+[Llama-3.2-3B-Instruct | CaseHOLD | thinking=na | RAG=success] RAM=2.96 GB | total_time=1000.0s | queries=500 | per_query=2.00s | accuracy=49.20% | failures=0 | folds=5 | corpus_sizes=[217, 215, 217, 216, 219] | k=3 | avg_top1_sim=0.6053
+[Llama-3.2-3B-Instruct | CaseHOLD | thinking=na | RAG=success] per-fold accuracy: 49.00%, 51.00%, 48.00%, 49.00%, 49.00% | mean=49.20% std=0.0110
+[Llama-3.2-3B-Instruct | CaseHOLD | thinking=na | RAG=success] OVERALL (n=500): ZS_acc=54.20% RAG_acc=49.20% | paired t-test t=-2.6661 p=0.007922
+[Llama-3.2-3B-Instruct | MedMCQA | thinking=na | RAG=success] RAM=2.96 GB | total_time=263.2s | queries=500 | per_query=0.53s | accuracy=61.00% | failures=1 | folds=5 | corpus_sizes=[258, 263, 259, 256, 260] | k=3 | avg_top1_sim=0.4967
+[Llama-3.2-3B-Instruct | MedMCQA | thinking=na | RAG=success] per-fold accuracy: 61.00%, 57.00%, 67.00%, 68.00%, 52.00% | mean=61.00% std=0.0675
+[Llama-3.2-3B-Instruct | MedMCQA | thinking=na | RAG=success] OVERALL (n=500): ZS_acc=64.80% RAG_acc=61.00% | paired t-test t=-1.8412 p=0.06619
+[Llama-3.2-3B-Instruct | MedQA | thinking=na | RAG=success] RAM=2.96 GB | total_time=694.5s | queries=500 | per_query=1.39s | accuracy=57.20% | failures=0 | folds=5 | corpus_sizes=[253, 247, 253, 254, 253] | k=3 | avg_top1_sim=0.6959
+[Llama-3.2-3B-Instruct | MedQA | thinking=na | RAG=success] per-fold accuracy: 64.00%, 57.00%, 60.00%, 52.00%, 53.00% | mean=57.20% std=0.0497
+[Llama-3.2-3B-Instruct | MedQA | thinking=na | RAG=success] OVERALL (n=500): ZS_acc=63.00% RAG_acc=57.20% | paired t-test t=-2.7966 p=0.005364
+[Llama-3.2-3B-Instruct | ProfessionalLaw | thinking=na | RAG=success] RAM=2.96 GB | total_time=774.6s | queries=500 | per_query=1.55s | accuracy=44.60% | failures=0 | folds=5 | corpus_sizes=[166, 172, 161, 174, 167] | k=3 | avg_top1_sim=0.6339
+[Llama-3.2-3B-Instruct | ProfessionalLaw | thinking=na | RAG=success] per-fold accuracy: 53.00%, 41.00%, 53.00%, 37.00%, 39.00% | mean=44.60% std=0.0780
+[Llama-3.2-3B-Instruct | ProfessionalLaw | thinking=na | RAG=success] OVERALL (n=500): ZS_acc=42.00% RAG_acc=44.60% | paired t-test t=1.2818 p=0.2005
+[Llama-3.1-8B-Instruct | CaseHOLD | thinking=na | RAG=success] RAM=2.96 GB | total_time=2334.0s | queries=500 | per_query=4.67s | accuracy=60.40% | failures=0 | folds=5 | corpus_sizes=[244, 246, 246, 238, 238] | k=3 | avg_top1_sim=0.6069
+[Llama-3.1-8B-Instruct | CaseHOLD | thinking=na | RAG=success] per-fold accuracy: 59.00%, 59.00%, 58.00%, 62.00%, 64.00% | mean=60.40% std=0.0251
+[Llama-3.1-8B-Instruct | CaseHOLD | thinking=na | RAG=success] OVERALL (n=500): ZS_acc=60.60% RAG_acc=60.40% | paired t-test t=-0.1457 p=0.8842
+[Llama-3.1-8B-Instruct | MedMCQA | thinking=na | RAG=success] RAM=2.96 GB | total_time=564.1s | queries=500 | per_query=1.13s | accuracy=71.20% | failures=0 | folds=5 | corpus_sizes=[293, 297, 286, 287, 293] | k=3 | avg_top1_sim=0.5043
+[Llama-3.1-8B-Instruct | MedMCQA | thinking=na | RAG=success] per-fold accuracy: 71.00%, 68.00%, 73.00%, 77.00%, 67.00% | mean=71.20% std=0.0402
+[Llama-3.1-8B-Instruct | MedMCQA | thinking=na | RAG=success] OVERALL (n=500): ZS_acc=72.80% RAG_acc=71.20% | paired t-test t=-0.9847 p=0.3252
+[Llama-3.1-8B-Instruct | MedQA | thinking=na | RAG=success] RAM=2.96 GB | total_time=1607.2s | queries=500 | per_query=3.21s | accuracy=65.40% | failures=0 | folds=5 | corpus_sizes=[275, 275, 277, 279, 274] | k=3 | avg_top1_sim=0.6993
+[Llama-3.1-8B-Instruct | MedQA | thinking=na | RAG=success] per-fold accuracy: 64.00%, 72.00%, 62.00%, 67.00%, 62.00% | mean=65.40% std=0.0422
+[Llama-3.1-8B-Instruct | MedQA | thinking=na | RAG=success] OVERALL (n=500): ZS_acc=69.00% RAG_acc=65.40% | paired t-test t=-2.1911 p=0.02891
+[Llama-3.1-8B-Instruct | ProfessionalLaw | thinking=na | RAG=success] RAM=2.96 GB | total_time=1723.0s | queries=500 | per_query=3.45s | accuracy=47.80% | failures=0 | folds=5 | corpus_sizes=[193, 194, 191, 201, 193] | k=3 | avg_top1_sim=0.6364
+[Llama-3.1-8B-Instruct | ProfessionalLaw | thinking=na | RAG=success] per-fold accuracy: 48.00%, 51.00%, 50.00%, 42.00%, 48.00% | mean=47.80% std=0.0349
+[Llama-3.1-8B-Instruct | ProfessionalLaw | thinking=na | RAG=success] OVERALL (n=500): ZS_acc=48.60% RAG_acc=47.80% | paired t-test t=-0.4847 p=0.6281
+[Phi-4-mini-instruct | CaseHOLD | thinking=na | RAG=success] RAM=2.96 GB | total_time=1142.4s | queries=500 | per_query=2.28s | accuracy=47.80% | failures=0 | folds=5 | corpus_sizes=[191, 192, 197, 192, 188] | k=3 | avg_top1_sim=0.5960
+[Phi-4-mini-instruct | CaseHOLD | thinking=na | RAG=success] per-fold accuracy: 46.00%, 45.00%, 49.00%, 48.00%, 51.00% | mean=47.80% std=0.0239
+[Phi-4-mini-instruct | CaseHOLD | thinking=na | RAG=success] OVERALL (n=500): ZS_acc=48.00% RAG_acc=47.80% | paired t-test t=-0.1186 p=0.9057
+[Phi-4-mini-instruct | MedMCQA | thinking=na | RAG=success] RAM=2.96 GB | total_time=282.2s | queries=500 | per_query=0.56s | accuracy=47.00% | failures=2 | folds=5 | corpus_sizes=[206, 212, 208, 202, 196] | k=3 | avg_top1_sim=0.4871
+[Phi-4-mini-instruct | MedMCQA | thinking=na | RAG=success] per-fold accuracy: 54.00%, 42.00%, 46.00%, 43.00%, 50.00% | mean=47.00% std=0.0500
+[Phi-4-mini-instruct | MedMCQA | thinking=na | RAG=success] OVERALL (n=500): ZS_acc=51.20% RAG_acc=47.00% | paired t-test t=-2.0365 p=0.04222
+[Phi-4-mini-instruct | MedQA | thinking=na | RAG=success] RAM=2.96 GB | total_time=783.3s | queries=500 | per_query=1.57s | accuracy=45.20% | failures=0 | folds=5 | corpus_sizes=[195, 193, 188, 191, 189] | k=3 | avg_top1_sim=0.6874
+[Phi-4-mini-instruct | MedQA | thinking=na | RAG=success] per-fold accuracy: 41.00%, 47.00%, 49.00%, 43.00%, 46.00% | mean=45.20% std=0.0319
+[Phi-4-mini-instruct | MedQA | thinking=na | RAG=success] OVERALL (n=500): ZS_acc=47.80% RAG_acc=45.20% | paired t-test t=-1.3792 p=0.1684
+[Phi-4-mini-instruct | ProfessionalLaw | thinking=na | RAG=success] RAM=2.96 GB | total_time=850.3s | queries=500 | per_query=1.70s | accuracy=44.00% | failures=0 | folds=5 | corpus_sizes=[167, 179, 175, 183, 176] | k=3 | avg_top1_sim=0.6346
+[Phi-4-mini-instruct | ProfessionalLaw | thinking=na | RAG=success] per-fold accuracy: 47.00%, 44.00%, 48.00%, 37.00%, 44.00% | mean=44.00% std=0.0430
+[Phi-4-mini-instruct | ProfessionalLaw | thinking=na | RAG=success] OVERALL (n=500): ZS_acc=44.00% RAG_acc=44.00% | paired t-test t=0.0000 p=1
+[Phi-3.5-mini-instruct | CaseHOLD | thinking=na | RAG=success] RAM=2.96 GB | total_time=1575.0s | queries=500 | per_query=3.15s | accuracy=48.60% | failures=2 | folds=5 | corpus_sizes=[230, 220, 235, 223, 220] | k=3 | avg_top1_sim=0.6054
+[Phi-3.5-mini-instruct | CaseHOLD | thinking=na | RAG=success] per-fold accuracy: 50.00%, 52.00%, 38.00%, 52.00%, 51.00% | mean=48.60% std=0.0598
+[Phi-3.5-mini-instruct | CaseHOLD | thinking=na | RAG=success] OVERALL (n=500): ZS_acc=56.40% RAG_acc=48.60% | paired t-test t=-4.0629 p=5.629e-05
+[Phi-3.5-mini-instruct | MedMCQA | thinking=na | RAG=success] RAM=2.96 GB | total_time=338.1s | queries=500 | per_query=0.68s | accuracy=51.40% | failures=1 | folds=5 | corpus_sizes=[218, 226, 217, 219, 224] | k=3 | avg_top1_sim=0.4844
+[Phi-3.5-mini-instruct | MedMCQA | thinking=na | RAG=success] per-fold accuracy: 51.00%, 50.00%, 57.00%, 53.00%, 46.00% | mean=51.40% std=0.0404
+[Phi-3.5-mini-instruct | MedMCQA | thinking=na | RAG=success] OVERALL (n=500): ZS_acc=55.20% RAG_acc=51.40% | paired t-test t=-1.9147 p=0.05611
+[Phi-3.5-mini-instruct | MedQA | thinking=na | RAG=success] RAM=2.96 GB | total_time=1042.8s | queries=500 | per_query=2.09s | accuracy=47.80% | failures=0 | folds=5 | corpus_sizes=[207, 207, 219, 209, 210] | k=3 | avg_top1_sim=0.6885
+[Phi-3.5-mini-instruct | MedQA | thinking=na | RAG=success] per-fold accuracy: 43.00%, 50.00%, 39.00%, 51.00%, 56.00% | mean=47.80% std=0.0676
+[Phi-3.5-mini-instruct | MedQA | thinking=na | RAG=success] OVERALL (n=500): ZS_acc=52.60% RAG_acc=47.80% | paired t-test t=-2.5436 p=0.01127
+[Phi-3.5-mini-instruct | ProfessionalLaw | thinking=na | RAG=success] RAM=2.96 GB | total_time=1096.7s | queries=500 | per_query=2.19s | accuracy=44.80% | failures=0 | folds=5 | corpus_sizes=[175, 181, 183, 188, 193] | k=3 | avg_top1_sim=0.6329
+[Phi-3.5-mini-instruct | ProfessionalLaw | thinking=na | RAG=success] per-fold accuracy: 53.00%, 46.00%, 50.00%, 35.00%, 40.00% | mean=44.80% std=0.0733
+[Phi-3.5-mini-instruct | ProfessionalLaw | thinking=na | RAG=success] OVERALL (n=500): ZS_acc=46.00% RAG_acc=44.80% | paired t-test t=-0.5937 p=0.553
+Done.
