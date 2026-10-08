@@ -1,7 +1,9 @@
 """
 source myenv/bin/activate
 pip install mlx-lm mlx-vlm pyyaml tqdm psutil sentence-transformers numpy scipy
-python3 CBR_CB_Success_Reputation/Codes/RAG.py success > CBR_CB_Success_Reputation/Codes/RAG.txt
+python3 CBR_CB_Success_Reputation/Codes/RAG.py all > CBR_CB_Success_Reputation/Codes/RAG_all.txt
+python3 CBR_CB_Success_Reputation/Codes/RAG.py failure > CBR_CB_Success_Reputation/Codes/RAG_failure.txt
+python3 CBR_CB_Success_Reputation/Codes/RAG.py success > CBR_CB_Success_Reputation/Codes/RAG_success.txt
 """
 
 import os
@@ -240,7 +242,10 @@ def retrieve_neighbors_loo(query_embs, query_stmts, corpus_embs, corpus_ids, cor
 def build_rag_prompt(prompt_template, case_template, ex, neighbors, corpus_entries):
     options = "\n".join(f"{k}. {v}" for k, v in ex["options"].items())
     cases = []
-    for i, (neighbor_id, _sim) in enumerate(neighbors, start=1):
+    # Present cases in ASCENDING similarity: least similar first, most similar last (closest to the question).
+    # `neighbors` itself stays in descending order, so stored metadata and top-1 stats are unaffected.
+    ordered = sorted(neighbors, key=lambda n: n[1])
+    for i, (neighbor_id, _sim) in enumerate(ordered, start=1):
         neighbor = corpus_entries[neighbor_id]
         cases.append(case_template.format(i=i, summary=neighbor["summary"],
                                           justification=neighbor["justification"]))
@@ -333,8 +338,13 @@ def prepare_datasets(dataset_dirs, embedder):
     """Loads samples, builds the (model- and config-independent) folds and embeds every question ONCE per
     dataset (query-side embeddings). Reused across all models and folds."""
     prepared = []
+    seen_names = set()
     for dataset_dir in dataset_dirs:
         dataset_name = dataset_dir.name.replace("_CLEANED", "")
+        if dataset_name in seen_names:
+            raise ValueError(f"Two dataset folders map to the same name {dataset_name!r}; their outputs and "
+                             f"splits would overwrite each other. Rename or remove one.")
+        seen_names.add(dataset_name)
         samples = json.loads((dataset_dir / "sampled.json").read_text())
         if TOP_N != -1:
             samples = samples[:TOP_N]
@@ -437,9 +447,10 @@ def run_loo_consolidation(model_name, cfg, model, tok_or_proc, config, prompt_te
                 text = f"[GENERATION ERROR] {e}"
             loo_time += time.time() - t0
 
-            if not sample_state["captured_loo"]:
-                save_sample_query(f"{model_name}__thinking_{tag}__cross_val__loo", prompt, text)
-                sample_state["captured_loo"] = True
+            sample_key = f"{model_name}__{ds['name']}__thinking_{tag}__cross_val__loo"
+            if sample_key not in sample_state["captured"]:
+                save_sample_query(sample_key, prompt, text)
+                sample_state["captured"].add(sample_key)
 
             pred_letter = extract_letter(text)
             if pred_letter is None:
@@ -499,6 +510,8 @@ def run_fold(model_name, cfg, model, tok_or_proc, config, prompt_template, case_
 
     # 1) retrieval pool (summarized corpus entries belonging to the TRAIN fold), before forgetting
     pool_ids = pool_ids_for_train(corp, train_ids)
+    if not pool_ids:
+        raise RuntimeError(f"Retrieval pool is empty for {model_name}/{ds['name']}/fold {fold}.")
 
     # 2) leave-one-out consolidation within the pool -> retained corpus
     loo = run_loo_consolidation(model_name, cfg, model, tok_or_proc, config, prompt_template, case_template,
@@ -544,9 +557,10 @@ def run_fold(model_name, cfg, model, tok_or_proc, config, prompt_template, case_
                 text = f"[GENERATION ERROR] {e}"
             fold_time += time.time() - t0
 
-            if not sample_state["captured"]:
-                save_sample_query(f"{model_name}__thinking_{tag}__cross_val", prompt, text)
-                sample_state["captured"] = True
+            sample_key = f"{model_name}__{ds['name']}__thinking_{tag}__cross_val"
+            if sample_key not in sample_state["captured"]:
+                save_sample_query(sample_key, prompt, text)
+                sample_state["captured"].add(sample_key)
 
             pred_letter = extract_letter(text)
             if pred_letter is None:
@@ -606,7 +620,7 @@ def run_single_model(model_name, cfg, prompt_template, case_template, prepared, 
         config = None
 
     tag = "na" if thinking is None else str(thinking).lower()
-    sample_state = {"captured": False, "captured_loo": False}
+    sample_state = {"captured": set()}   # one test + one LOO sample prompt saved per (model, dataset)
 
     for ds in prepared:
         dataset_name = ds["name"]
