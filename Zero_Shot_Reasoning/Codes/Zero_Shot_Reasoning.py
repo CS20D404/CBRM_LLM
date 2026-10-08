@@ -1,7 +1,7 @@
 """
 source myenv/bin/activate
 pip install mlx-lm mlx-vlm pyyaml tqdm psutil
-python -u Zero_Shot_Reasoning/Codes/Zero_Shot_Reasoning.py > Zero_Shot_Reasoning/Codes/Zero_Shot_Reasoning.txt
+python -u Zero_Shot_Reasoning_Rephrase_Failure/Codes/Zero_Shot_Reasoning.py > Zero_Shot_Reasoning_Rephrase_Failure/Codes/Zero_Shot_Reasoning.txt
 """
 
 import json
@@ -26,7 +26,7 @@ OUTPUT_DIR = SCRIPT_DIR / "../Outputs"
 SAMPLE_QUERIES_FILE = SCRIPT_DIR / "../Outputs/Sample_LLM_Queries.json"
 EVAL_RESULTS_FILE = SCRIPT_DIR / "../Outputs/Zero_Shot_Evaluation_Results.jsonl"
 
-THINKING_ORDER = [False, True]      # thinking=false for all models first, then thinking=true for all models
+THINKING_ORDER = [False]      # thinking=false for all models first, then thinking=true for all models
 MAX_TOKENS_THINKING = 1024
 MAX_TOKENS_ANSWER = 20
 

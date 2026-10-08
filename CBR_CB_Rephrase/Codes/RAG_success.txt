@@ -1,0 +1,286 @@
+CORPUS_CONFIG=success (summarized, no consolidation) | N_FOLDS=5 | SEED=42 | k=3
+[Qwen3.5-4B-Instruct | CaseHOLD | fold 0] pool=261
+[Qwen3.5-4B-Instruct | CaseHOLD | fold 1] pool=261
+[Qwen3.5-4B-Instruct | CaseHOLD | fold 2] pool=269
+[Qwen3.5-4B-Instruct | CaseHOLD | fold 3] pool=254
+[Qwen3.5-4B-Instruct | CaseHOLD | fold 4] pool=259
+[Qwen3.5-4B-Instruct | CaseHOLD | thinking=false | RAG=success+summary] RAM=1.92 GB | test_time=1186.8s | queries=500 | per_query=2.37s | accuracy=66.80% | failures=0 | folds=5 | k=3 | avg_top1_sim=0.5724
+[Qwen3.5-4B-Instruct | CaseHOLD | thinking=false | RAG=success+summary] pool sizes per fold=[261, 261, 269, 254, 259]
+[Qwen3.5-4B-Instruct | CaseHOLD | thinking=false | RAG=success+summary] test_error per fold: 33.00%, 40.00%, 39.00%, 26.00%, 28.00% | mean=33.20%
+[Qwen3.5-4B-Instruct | CaseHOLD | thinking=false | RAG=success+summary] per-fold accuracy: 67.00%, 60.00%, 61.00%, 74.00%, 72.00% | mean=66.80% std=0.0630
+[Qwen3.5-4B-Instruct | CaseHOLD | thinking=false | RAG=success+summary] OVERALL (n=500): ZS_acc=65.20% RAG_acc=66.80% | paired t-test t=0.9847 p=0.3252
+[Qwen3.5-4B-Instruct | MedMCQA | fold 0] pool=268
+[Qwen3.5-4B-Instruct | MedMCQA | fold 1] pool=268
+[Qwen3.5-4B-Instruct | MedMCQA | fold 2] pool=261
+[Qwen3.5-4B-Instruct | MedMCQA | fold 3] pool=268
+[Qwen3.5-4B-Instruct | MedMCQA | fold 4] pool=267
+[Qwen3.5-4B-Instruct | MedMCQA | thinking=false | RAG=success+summary] RAM=1.92 GB | test_time=586.0s | queries=500 | per_query=1.17s | accuracy=68.00% | failures=0 | folds=5 | k=3 | avg_top1_sim=0.4287
+[Qwen3.5-4B-Instruct | MedMCQA | thinking=false | RAG=success+summary] pool sizes per fold=[268, 268, 261, 268, 267]
+[Qwen3.5-4B-Instruct | MedMCQA | thinking=false | RAG=success+summary] test_error per fold: 34.00%, 33.00%, 28.00%, 31.00%, 34.00% | mean=32.00%
+[Qwen3.5-4B-Instruct | MedMCQA | thinking=false | RAG=success+summary] per-fold accuracy: 66.00%, 67.00%, 72.00%, 69.00%, 66.00% | mean=68.00% std=0.0255
+[Qwen3.5-4B-Instruct | MedMCQA | thinking=false | RAG=success+summary] OVERALL (n=500): ZS_acc=66.80% RAG_acc=68.00% | paired t-test t=0.7382 p=0.4607
+[Qwen3.5-4B-Instruct | MedQA | fold 0] pool=279
+[Qwen3.5-4B-Instruct | MedQA | fold 1] pool=272
+[Qwen3.5-4B-Instruct | MedQA | fold 2] pool=277
+[Qwen3.5-4B-Instruct | MedQA | fold 3] pool=276
+[Qwen3.5-4B-Instruct | MedQA | fold 4] pool=272
+[Qwen3.5-4B-Instruct | MedQA | thinking=false | RAG=success+summary] RAM=1.92 GB | test_time=874.1s | queries=500 | per_query=1.75s | accuracy=67.00% | failures=0 | folds=5 | k=3 | avg_top1_sim=0.5524
+[Qwen3.5-4B-Instruct | MedQA | thinking=false | RAG=success+summary] pool sizes per fold=[279, 272, 277, 276, 272]
+[Qwen3.5-4B-Instruct | MedQA | thinking=false | RAG=success+summary] test_error per fold: 36.00%, 32.00%, 35.00%, 32.00%, 30.00% | mean=33.00%
+[Qwen3.5-4B-Instruct | MedQA | thinking=false | RAG=success+summary] per-fold accuracy: 64.00%, 68.00%, 65.00%, 68.00%, 70.00% | mean=67.00% std=0.0245
+[Qwen3.5-4B-Instruct | MedQA | thinking=false | RAG=success+summary] OVERALL (n=500): ZS_acc=69.40% RAG_acc=67.00% | paired t-test t=-1.5019 p=0.1338
+[Qwen3.5-4B-Instruct | ProfessionalLaw | fold 0] pool=211
+[Qwen3.5-4B-Instruct | ProfessionalLaw | fold 1] pool=212
+[Qwen3.5-4B-Instruct | ProfessionalLaw | fold 2] pool=212
+[Qwen3.5-4B-Instruct | ProfessionalLaw | fold 3] pool=224
+[Qwen3.5-4B-Instruct | ProfessionalLaw | fold 4] pool=217
+[Qwen3.5-4B-Instruct | ProfessionalLaw | thinking=false | RAG=success+summary] RAM=1.92 GB | test_time=929.9s | queries=500 | per_query=1.86s | accuracy=52.20% | failures=0 | folds=5 | k=3 | avg_top1_sim=0.5941
+[Qwen3.5-4B-Instruct | ProfessionalLaw | thinking=false | RAG=success+summary] pool sizes per fold=[211, 212, 212, 224, 217]
+[Qwen3.5-4B-Instruct | ProfessionalLaw | thinking=false | RAG=success+summary] test_error per fold: 42.00%, 50.00%, 44.00%, 57.00%, 46.00% | mean=47.80%
+[Qwen3.5-4B-Instruct | ProfessionalLaw | thinking=false | RAG=success+summary] per-fold accuracy: 58.00%, 50.00%, 56.00%, 43.00%, 54.00% | mean=52.20% std=0.0593
+[Qwen3.5-4B-Instruct | ProfessionalLaw | thinking=false | RAG=success+summary] OVERALL (n=500): ZS_acc=53.80% RAG_acc=52.20% | paired t-test t=-0.9299 p=0.3529
+[Qwen3-8B-MLX-4bit | CaseHOLD | fold 0] pool=258
+[Qwen3-8B-MLX-4bit | CaseHOLD | fold 1] pool=259
+[Qwen3-8B-MLX-4bit | CaseHOLD | fold 2] pool=255
+[Qwen3-8B-MLX-4bit | CaseHOLD | fold 3] pool=250
+[Qwen3-8B-MLX-4bit | CaseHOLD | fold 4] pool=250
+[Qwen3-8B-MLX-4bit | CaseHOLD | thinking=false | RAG=success+summary] RAM=1.92 GB | test_time=2101.4s | queries=500 | per_query=4.20s | accuracy=65.00% | failures=0 | folds=5 | k=3 | avg_top1_sim=0.5680
+[Qwen3-8B-MLX-4bit | CaseHOLD | thinking=false | RAG=success+summary] pool sizes per fold=[258, 259, 255, 250, 250]
+[Qwen3-8B-MLX-4bit | CaseHOLD | thinking=false | RAG=success+summary] test_error per fold: 40.00%, 41.00%, 32.00%, 30.00%, 32.00% | mean=35.00%
+[Qwen3-8B-MLX-4bit | CaseHOLD | thinking=false | RAG=success+summary] per-fold accuracy: 60.00%, 59.00%, 68.00%, 70.00%, 68.00% | mean=65.00% std=0.0510
+[Qwen3-8B-MLX-4bit | CaseHOLD | thinking=false | RAG=success+summary] OVERALL (n=500): ZS_acc=63.60% RAG_acc=65.00% | paired t-test t=1.0676 p=0.2862
+[Qwen3-8B-MLX-4bit | MedMCQA | fold 0] pool=261
+[Qwen3-8B-MLX-4bit | MedMCQA | fold 1] pool=265
+[Qwen3-8B-MLX-4bit | MedMCQA | fold 2] pool=253
+[Qwen3-8B-MLX-4bit | MedMCQA | fold 3] pool=259
+[Qwen3-8B-MLX-4bit | MedMCQA | fold 4] pool=266
+[Qwen3-8B-MLX-4bit | MedMCQA | thinking=false | RAG=success+summary] RAM=1.92 GB | test_time=980.6s | queries=500 | per_query=1.96s | accuracy=66.60% | failures=1 | folds=5 | k=3 | avg_top1_sim=0.4275
+[Qwen3-8B-MLX-4bit | MedMCQA | thinking=false | RAG=success+summary] pool sizes per fold=[261, 265, 253, 259, 266]
+[Qwen3-8B-MLX-4bit | MedMCQA | thinking=false | RAG=success+summary] test_error per fold: 33.00%, 31.00%, 32.00%, 35.00%, 36.00% | mean=33.40%
+[Qwen3-8B-MLX-4bit | MedMCQA | thinking=false | RAG=success+summary] per-fold accuracy: 67.00%, 69.00%, 68.00%, 65.00%, 64.00% | mean=66.60% std=0.0207
+[Qwen3-8B-MLX-4bit | MedMCQA | thinking=false | RAG=success+summary] OVERALL (n=500): ZS_acc=65.20% RAG_acc=66.60% | paired t-test t=0.8080 p=0.4195
+[Qwen3-8B-MLX-4bit | MedQA | fold 0] pool=253
+[Qwen3-8B-MLX-4bit | MedQA | fold 1] pool=248
+[Qwen3-8B-MLX-4bit | MedQA | fold 2] pool=253
+[Qwen3-8B-MLX-4bit | MedQA | fold 3] pool=246
+[Qwen3-8B-MLX-4bit | MedQA | fold 4] pool=244
+[Qwen3-8B-MLX-4bit | MedQA | thinking=false | RAG=success+summary] RAM=1.92 GB | test_time=1474.0s | queries=500 | per_query=2.95s | accuracy=60.40% | failures=0 | folds=5 | k=3 | avg_top1_sim=0.5719
+[Qwen3-8B-MLX-4bit | MedQA | thinking=false | RAG=success+summary] pool sizes per fold=[253, 248, 253, 246, 244]
+[Qwen3-8B-MLX-4bit | MedQA | thinking=false | RAG=success+summary] test_error per fold: 43.00%, 30.00%, 47.00%, 41.00%, 37.00% | mean=39.60%
+[Qwen3-8B-MLX-4bit | MedQA | thinking=false | RAG=success+summary] per-fold accuracy: 57.00%, 70.00%, 53.00%, 59.00%, 63.00% | mean=60.40% std=0.0647
+[Qwen3-8B-MLX-4bit | MedQA | thinking=false | RAG=success+summary] OVERALL (n=500): ZS_acc=62.20% RAG_acc=60.40% | paired t-test t=-1.0683 p=0.2859
+[Qwen3-8B-MLX-4bit | ProfessionalLaw | fold 0] pool=192
+[Qwen3-8B-MLX-4bit | ProfessionalLaw | fold 1] pool=194
+[Qwen3-8B-MLX-4bit | ProfessionalLaw | fold 2] pool=199
+[Qwen3-8B-MLX-4bit | ProfessionalLaw | fold 3] pool=199
+[Qwen3-8B-MLX-4bit | ProfessionalLaw | fold 4] pool=200
+[Qwen3-8B-MLX-4bit | ProfessionalLaw | thinking=false | RAG=success+summary] RAM=1.92 GB | test_time=1541.6s | queries=500 | per_query=3.08s | accuracy=51.60% | failures=0 | folds=5 | k=3 | avg_top1_sim=0.6015
+[Qwen3-8B-MLX-4bit | ProfessionalLaw | thinking=false | RAG=success+summary] pool sizes per fold=[192, 194, 199, 199, 200]
+[Qwen3-8B-MLX-4bit | ProfessionalLaw | thinking=false | RAG=success+summary] test_error per fold: 47.00%, 44.00%, 49.00%, 52.00%, 50.00% | mean=48.40%
+[Qwen3-8B-MLX-4bit | ProfessionalLaw | thinking=false | RAG=success+summary] per-fold accuracy: 53.00%, 56.00%, 51.00%, 48.00%, 50.00% | mean=51.60% std=0.0305
+[Qwen3-8B-MLX-4bit | ProfessionalLaw | thinking=false | RAG=success+summary] OVERALL (n=500): ZS_acc=49.20% RAG_acc=51.60% | paired t-test t=1.4568 p=0.1458
+[Gemma-4-E4B-it | CaseHOLD | fold 0] pool=231
+[Gemma-4-E4B-it | CaseHOLD | fold 1] pool=221
+[Gemma-4-E4B-it | CaseHOLD | fold 2] pool=222
+[Gemma-4-E4B-it | CaseHOLD | fold 3] pool=218
+[Gemma-4-E4B-it | CaseHOLD | fold 4] pool=220
+[Gemma-4-E4B-it | CaseHOLD | thinking=false | RAG=success+summary] RAM=1.92 GB | test_time=766.0s | queries=500 | per_query=1.53s | accuracy=58.60% | failures=0 | folds=5 | k=3 | avg_top1_sim=0.5833
+[Gemma-4-E4B-it | CaseHOLD | thinking=false | RAG=success+summary] pool sizes per fold=[231, 221, 222, 218, 220]
+[Gemma-4-E4B-it | CaseHOLD | thinking=false | RAG=success+summary] test_error per fold: 47.00%, 38.00%, 40.00%, 41.00%, 41.00% | mean=41.40%
+[Gemma-4-E4B-it | CaseHOLD | thinking=false | RAG=success+summary] per-fold accuracy: 53.00%, 62.00%, 60.00%, 59.00%, 59.00% | mean=58.60% std=0.0336
+[Gemma-4-E4B-it | CaseHOLD | thinking=false | RAG=success+summary] OVERALL (n=500): ZS_acc=55.60% RAG_acc=58.60% | paired t-test t=2.0671 p=0.03924
+[Gemma-4-E4B-it | MedMCQA | fold 0] pool=241
+[Gemma-4-E4B-it | MedMCQA | fold 1] pool=238
+[Gemma-4-E4B-it | MedMCQA | fold 2] pool=230
+[Gemma-4-E4B-it | MedMCQA | fold 3] pool=231
+[Gemma-4-E4B-it | MedMCQA | fold 4] pool=240
+[Gemma-4-E4B-it | MedMCQA | thinking=false | RAG=success+summary] RAM=1.92 GB | test_time=372.5s | queries=500 | per_query=0.75s | accuracy=61.20% | failures=0 | folds=5 | k=3 | avg_top1_sim=0.4158
+[Gemma-4-E4B-it | MedMCQA | thinking=false | RAG=success+summary] pool sizes per fold=[241, 238, 230, 231, 240]
+[Gemma-4-E4B-it | MedMCQA | thinking=false | RAG=success+summary] test_error per fold: 40.00%, 43.00%, 42.00%, 30.00%, 39.00% | mean=38.80%
+[Gemma-4-E4B-it | MedMCQA | thinking=false | RAG=success+summary] per-fold accuracy: 60.00%, 57.00%, 58.00%, 70.00%, 61.00% | mean=61.20% std=0.0517
+[Gemma-4-E4B-it | MedMCQA | thinking=false | RAG=success+summary] OVERALL (n=500): ZS_acc=59.00% RAG_acc=61.20% | paired t-test t=1.3252 p=0.1857
+[Gemma-4-E4B-it | MedQA | fold 0] pool=223
+[Gemma-4-E4B-it | MedQA | fold 1] pool=226
+[Gemma-4-E4B-it | MedQA | fold 2] pool=226
+[Gemma-4-E4B-it | MedQA | fold 3] pool=217
+[Gemma-4-E4B-it | MedQA | fold 4] pool=220
+[Gemma-4-E4B-it | MedQA | thinking=false | RAG=success+summary] RAM=1.92 GB | test_time=634.0s | queries=500 | per_query=1.27s | accuracy=54.60% | failures=0 | folds=5 | k=3 | avg_top1_sim=0.5754
+[Gemma-4-E4B-it | MedQA | thinking=false | RAG=success+summary] pool sizes per fold=[223, 226, 226, 217, 220]
+[Gemma-4-E4B-it | MedQA | thinking=false | RAG=success+summary] test_error per fold: 44.00%, 46.00%, 49.00%, 43.00%, 45.00% | mean=45.40%
+[Gemma-4-E4B-it | MedQA | thinking=false | RAG=success+summary] per-fold accuracy: 56.00%, 54.00%, 51.00%, 57.00%, 55.00% | mean=54.60% std=0.0230
+[Gemma-4-E4B-it | MedQA | thinking=false | RAG=success+summary] OVERALL (n=500): ZS_acc=55.80% RAG_acc=54.60% | paired t-test t=-0.6466 p=0.5182
+[Gemma-4-E4B-it | ProfessionalLaw | fold 0] pool=185
+[Gemma-4-E4B-it | ProfessionalLaw | fold 1] pool=190
+[Gemma-4-E4B-it | ProfessionalLaw | fold 2] pool=178
+[Gemma-4-E4B-it | ProfessionalLaw | fold 3] pool=197
+[Gemma-4-E4B-it | ProfessionalLaw | fold 4] pool=186
+[Gemma-4-E4B-it | ProfessionalLaw | thinking=false | RAG=success+summary] RAM=1.92 GB | test_time=606.0s | queries=500 | per_query=1.21s | accuracy=48.00% | failures=0 | folds=5 | k=3 | avg_top1_sim=0.5872
+[Gemma-4-E4B-it | ProfessionalLaw | thinking=false | RAG=success+summary] pool sizes per fold=[185, 190, 178, 197, 186]
+[Gemma-4-E4B-it | ProfessionalLaw | thinking=false | RAG=success+summary] test_error per fold: 51.00%, 54.00%, 46.00%, 60.00%, 49.00% | mean=52.00%
+[Gemma-4-E4B-it | ProfessionalLaw | thinking=false | RAG=success+summary] per-fold accuracy: 49.00%, 46.00%, 54.00%, 40.00%, 51.00% | mean=48.00% std=0.0534
+[Gemma-4-E4B-it | ProfessionalLaw | thinking=false | RAG=success+summary] OVERALL (n=500): ZS_acc=46.80% RAG_acc=48.00% | paired t-test t=0.6466 p=0.5182
+[Gemma-3-4B-it | CaseHOLD | fold 0] pool=244
+[Gemma-3-4B-it | CaseHOLD | fold 1] pool=238
+[Gemma-3-4B-it | CaseHOLD | fold 2] pool=238
+[Gemma-3-4B-it | CaseHOLD | fold 3] pool=234
+[Gemma-3-4B-it | CaseHOLD | fold 4] pool=238
+[Gemma-3-4B-it | CaseHOLD | thinking=na | RAG=success+summary] RAM=1.98 GB | test_time=1108.4s | queries=500 | per_query=2.22s | accuracy=54.80% | failures=0 | folds=5 | k=3 | avg_top1_sim=0.5903
+[Gemma-3-4B-it | CaseHOLD | thinking=na | RAG=success+summary] pool sizes per fold=[244, 238, 238, 234, 238]
+[Gemma-3-4B-it | CaseHOLD | thinking=na | RAG=success+summary] test_error per fold: 49.00%, 46.00%, 43.00%, 42.00%, 46.00% | mean=45.20%
+[Gemma-3-4B-it | CaseHOLD | thinking=na | RAG=success+summary] per-fold accuracy: 51.00%, 54.00%, 57.00%, 58.00%, 54.00% | mean=54.80% std=0.0277
+[Gemma-3-4B-it | CaseHOLD | thinking=na | RAG=success+summary] OVERALL (n=500): ZS_acc=59.60% RAG_acc=54.80% | paired t-test t=-2.6665 p=0.007913
+[Gemma-3-4B-it | MedMCQA | fold 0] pool=190
+[Gemma-3-4B-it | MedMCQA | fold 1] pool=183
+[Gemma-3-4B-it | MedMCQA | fold 2] pool=190
+[Gemma-3-4B-it | MedMCQA | fold 3] pool=194
+[Gemma-3-4B-it | MedMCQA | fold 4] pool=187
+[Gemma-3-4B-it | MedMCQA | thinking=na | RAG=success+summary] RAM=1.98 GB | test_time=501.2s | queries=500 | per_query=1.00s | accuracy=47.20% | failures=0 | folds=5 | k=3 | avg_top1_sim=0.4112
+[Gemma-3-4B-it | MedMCQA | thinking=na | RAG=success+summary] pool sizes per fold=[190, 183, 190, 194, 187]
+[Gemma-3-4B-it | MedMCQA | thinking=na | RAG=success+summary] test_error per fold: 53.00%, 52.00%, 50.00%, 57.00%, 52.00% | mean=52.80%
+[Gemma-3-4B-it | MedMCQA | thinking=na | RAG=success+summary] per-fold accuracy: 47.00%, 48.00%, 50.00%, 43.00%, 48.00% | mean=47.20% std=0.0259
+[Gemma-3-4B-it | MedMCQA | thinking=na | RAG=success+summary] OVERALL (n=500): ZS_acc=47.20% RAG_acc=47.20% | paired t-test t=0.0000 p=1
+[Gemma-3-4B-it | MedQA | fold 0] pool=176
+[Gemma-3-4B-it | MedQA | fold 1] pool=171
+[Gemma-3-4B-it | MedQA | fold 2] pool=187
+[Gemma-3-4B-it | MedQA | fold 3] pool=173
+[Gemma-3-4B-it | MedQA | fold 4] pool=177
+[Gemma-3-4B-it | MedQA | thinking=na | RAG=success+summary] RAM=1.98 GB | test_time=763.9s | queries=500 | per_query=1.53s | accuracy=46.00% | failures=0 | folds=5 | k=3 | avg_top1_sim=0.5491
+[Gemma-3-4B-it | MedQA | thinking=na | RAG=success+summary] pool sizes per fold=[176, 171, 187, 173, 177]
+[Gemma-3-4B-it | MedQA | thinking=na | RAG=success+summary] test_error per fold: 50.00%, 53.00%, 64.00%, 51.00%, 52.00% | mean=54.00%
+[Gemma-3-4B-it | MedQA | thinking=na | RAG=success+summary] per-fold accuracy: 50.00%, 47.00%, 36.00%, 49.00%, 48.00% | mean=46.00% std=0.0570
+[Gemma-3-4B-it | MedQA | thinking=na | RAG=success+summary] OVERALL (n=500): ZS_acc=44.20% RAG_acc=46.00% | paired t-test t=0.9137 p=0.3613
+[Gemma-3-4B-it | ProfessionalLaw | fold 0] pool=159
+[Gemma-3-4B-it | ProfessionalLaw | fold 1] pool=164
+[Gemma-3-4B-it | ProfessionalLaw | fold 2] pool=160
+[Gemma-3-4B-it | ProfessionalLaw | fold 3] pool=166
+[Gemma-3-4B-it | ProfessionalLaw | fold 4] pool=163
+[Gemma-3-4B-it | ProfessionalLaw | thinking=na | RAG=success+summary] RAM=1.98 GB | test_time=811.3s | queries=500 | per_query=1.62s | accuracy=41.40% | failures=0 | folds=5 | k=3 | avg_top1_sim=0.5935
+[Gemma-3-4B-it | ProfessionalLaw | thinking=na | RAG=success+summary] pool sizes per fold=[159, 164, 160, 166, 163]
+[Gemma-3-4B-it | ProfessionalLaw | thinking=na | RAG=success+summary] test_error per fold: 61.00%, 62.00%, 54.00%, 59.00%, 57.00% | mean=58.60%
+[Gemma-3-4B-it | ProfessionalLaw | thinking=na | RAG=success+summary] per-fold accuracy: 39.00%, 38.00%, 46.00%, 41.00%, 43.00% | mean=41.40% std=0.0321
+[Gemma-3-4B-it | ProfessionalLaw | thinking=na | RAG=success+summary] OVERALL (n=500): ZS_acc=40.60% RAG_acc=41.40% | paired t-test t=0.4847 p=0.6281
+[Llama-3.2-3B-Instruct | CaseHOLD | fold 0] pool=171
+[Llama-3.2-3B-Instruct | CaseHOLD | fold 1] pool=166
+[Llama-3.2-3B-Instruct | CaseHOLD | fold 2] pool=163
+[Llama-3.2-3B-Instruct | CaseHOLD | fold 3] pool=170
+[Llama-3.2-3B-Instruct | CaseHOLD | fold 4] pool=170
+[Llama-3.2-3B-Instruct | CaseHOLD | thinking=na | RAG=success+summary] RAM=1.98 GB | test_time=686.8s | queries=500 | per_query=1.37s | accuracy=45.00% | failures=0 | folds=5 | k=3 | avg_top1_sim=0.5611
+[Llama-3.2-3B-Instruct | CaseHOLD | thinking=na | RAG=success+summary] pool sizes per fold=[171, 166, 163, 170, 170]
+[Llama-3.2-3B-Instruct | CaseHOLD | thinking=na | RAG=success+summary] test_error per fold: 53.00%, 55.00%, 59.00%, 56.00%, 52.00% | mean=55.00%
+[Llama-3.2-3B-Instruct | CaseHOLD | thinking=na | RAG=success+summary] per-fold accuracy: 47.00%, 45.00%, 41.00%, 44.00%, 48.00% | mean=45.00% std=0.0274
+[Llama-3.2-3B-Instruct | CaseHOLD | thinking=na | RAG=success+summary] OVERALL (n=500): ZS_acc=54.20% RAG_acc=45.00% | paired t-test t=-4.5112 p=8.046e-06
+[Llama-3.2-3B-Instruct | MedMCQA | fold 0] pool=191
+[Llama-3.2-3B-Instruct | MedMCQA | fold 1] pool=194
+[Llama-3.2-3B-Instruct | MedMCQA | fold 2] pool=190
+[Llama-3.2-3B-Instruct | MedMCQA | fold 3] pool=192
+[Llama-3.2-3B-Instruct | MedMCQA | fold 4] pool=189
+[Llama-3.2-3B-Instruct | MedMCQA | thinking=na | RAG=success+summary] RAM=1.98 GB | test_time=363.6s | queries=500 | per_query=0.73s | accuracy=61.20% | failures=0 | folds=5 | k=3 | avg_top1_sim=0.4188
+[Llama-3.2-3B-Instruct | MedMCQA | thinking=na | RAG=success+summary] pool sizes per fold=[191, 194, 190, 192, 189]
+[Llama-3.2-3B-Instruct | MedMCQA | thinking=na | RAG=success+summary] test_error per fold: 40.00%, 43.00%, 32.00%, 35.00%, 44.00% | mean=38.80%
+[Llama-3.2-3B-Instruct | MedMCQA | thinking=na | RAG=success+summary] per-fold accuracy: 60.00%, 57.00%, 68.00%, 65.00%, 56.00% | mean=61.20% std=0.0517
+[Llama-3.2-3B-Instruct | MedMCQA | thinking=na | RAG=success+summary] OVERALL (n=500): ZS_acc=64.80% RAG_acc=61.20% | paired t-test t=-1.9023 p=0.0577
+[Llama-3.2-3B-Instruct | MedQA | fold 0] pool=235
+[Llama-3.2-3B-Instruct | MedQA | fold 1] pool=228
+[Llama-3.2-3B-Instruct | MedQA | fold 2] pool=239
+[Llama-3.2-3B-Instruct | MedQA | fold 3] pool=239
+[Llama-3.2-3B-Instruct | MedQA | fold 4] pool=235
+[Llama-3.2-3B-Instruct | MedQA | thinking=na | RAG=success+summary] RAM=1.98 GB | test_time=528.9s | queries=500 | per_query=1.06s | accuracy=59.20% | failures=0 | folds=5 | k=3 | avg_top1_sim=0.5710
+[Llama-3.2-3B-Instruct | MedQA | thinking=na | RAG=success+summary] pool sizes per fold=[235, 228, 239, 239, 235]
+[Llama-3.2-3B-Instruct | MedQA | thinking=na | RAG=success+summary] test_error per fold: 44.00%, 38.00%, 38.00%, 43.00%, 41.00% | mean=40.80%
+[Llama-3.2-3B-Instruct | MedQA | thinking=na | RAG=success+summary] per-fold accuracy: 56.00%, 62.00%, 62.00%, 57.00%, 59.00% | mean=59.20% std=0.0277
+[Llama-3.2-3B-Instruct | MedQA | thinking=na | RAG=success+summary] OVERALL (n=500): ZS_acc=63.00% RAG_acc=59.20% | paired t-test t=-2.0926 p=0.03689
+[Llama-3.2-3B-Instruct | ProfessionalLaw | fold 0] pool=111
+[Llama-3.2-3B-Instruct | ProfessionalLaw | fold 1] pool=115
+[Llama-3.2-3B-Instruct | ProfessionalLaw | fold 2] pool=108
+[Llama-3.2-3B-Instruct | ProfessionalLaw | fold 3] pool=122
+[Llama-3.2-3B-Instruct | ProfessionalLaw | fold 4] pool=104
+[Llama-3.2-3B-Instruct | ProfessionalLaw | thinking=na | RAG=success+summary] RAM=1.98 GB | test_time=527.2s | queries=500 | per_query=1.05s | accuracy=42.00% | failures=0 | folds=5 | k=3 | avg_top1_sim=0.5768
+[Llama-3.2-3B-Instruct | ProfessionalLaw | thinking=na | RAG=success+summary] pool sizes per fold=[111, 115, 108, 122, 104]
+[Llama-3.2-3B-Instruct | ProfessionalLaw | thinking=na | RAG=success+summary] test_error per fold: 57.00%, 66.00%, 44.00%, 60.00%, 63.00% | mean=58.00%
+[Llama-3.2-3B-Instruct | ProfessionalLaw | thinking=na | RAG=success+summary] per-fold accuracy: 43.00%, 34.00%, 56.00%, 40.00%, 37.00% | mean=42.00% std=0.0851
+[Llama-3.2-3B-Instruct | ProfessionalLaw | thinking=na | RAG=success+summary] OVERALL (n=500): ZS_acc=42.00% RAG_acc=42.00% | paired t-test t=0.0000 p=1
+[Llama-3.1-8B-Instruct | CaseHOLD | fold 0] pool=244
+[Llama-3.1-8B-Instruct | CaseHOLD | fold 1] pool=246
+[Llama-3.1-8B-Instruct | CaseHOLD | fold 2] pool=246
+[Llama-3.1-8B-Instruct | CaseHOLD | fold 3] pool=238
+[Llama-3.1-8B-Instruct | CaseHOLD | fold 4] pool=238
+[Llama-3.1-8B-Instruct | CaseHOLD | thinking=na | RAG=success+summary] RAM=1.98 GB | test_time=1610.4s | queries=500 | per_query=3.22s | accuracy=59.80% | failures=0 | folds=5 | k=3 | avg_top1_sim=0.5572
+[Llama-3.1-8B-Instruct | CaseHOLD | thinking=na | RAG=success+summary] pool sizes per fold=[244, 246, 246, 238, 238]
+[Llama-3.1-8B-Instruct | CaseHOLD | thinking=na | RAG=success+summary] test_error per fold: 41.00%, 40.00%, 44.00%, 40.00%, 36.00% | mean=40.20%
+[Llama-3.1-8B-Instruct | CaseHOLD | thinking=na | RAG=success+summary] per-fold accuracy: 59.00%, 60.00%, 56.00%, 60.00%, 64.00% | mean=59.80% std=0.0286
+[Llama-3.1-8B-Instruct | CaseHOLD | thinking=na | RAG=success+summary] OVERALL (n=500): ZS_acc=60.60% RAG_acc=59.80% | paired t-test t=-0.6026 p=0.547
+[Llama-3.1-8B-Instruct | MedMCQA | fold 0] pool=293
+[Llama-3.1-8B-Instruct | MedMCQA | fold 1] pool=297
+[Llama-3.1-8B-Instruct | MedMCQA | fold 2] pool=286
+[Llama-3.1-8B-Instruct | MedMCQA | fold 3] pool=287
+[Llama-3.1-8B-Instruct | MedMCQA | fold 4] pool=293
+[Llama-3.1-8B-Instruct | MedMCQA | thinking=na | RAG=success+summary] RAM=1.98 GB | test_time=814.7s | queries=500 | per_query=1.63s | accuracy=72.00% | failures=0 | folds=5 | k=3 | avg_top1_sim=0.4394
+[Llama-3.1-8B-Instruct | MedMCQA | thinking=na | RAG=success+summary] pool sizes per fold=[293, 297, 286, 287, 293]
+[Llama-3.1-8B-Instruct | MedMCQA | thinking=na | RAG=success+summary] test_error per fold: 30.00%, 31.00%, 25.00%, 23.00%, 31.00% | mean=28.00%
+[Llama-3.1-8B-Instruct | MedMCQA | thinking=na | RAG=success+summary] per-fold accuracy: 70.00%, 69.00%, 75.00%, 77.00%, 69.00% | mean=72.00% std=0.0374
+[Llama-3.1-8B-Instruct | MedMCQA | thinking=na | RAG=success+summary] OVERALL (n=500): ZS_acc=72.80% RAG_acc=72.00% | paired t-test t=-0.5439 p=0.5867
+[Llama-3.1-8B-Instruct | MedQA | fold 0] pool=275
+[Llama-3.1-8B-Instruct | MedQA | fold 1] pool=275
+[Llama-3.1-8B-Instruct | MedQA | fold 2] pool=277
+[Llama-3.1-8B-Instruct | MedQA | fold 3] pool=279
+[Llama-3.1-8B-Instruct | MedQA | fold 4] pool=274
+[Llama-3.1-8B-Instruct | MedQA | thinking=na | RAG=success+summary] RAM=1.98 GB | test_time=1229.9s | queries=500 | per_query=2.46s | accuracy=66.00% | failures=0 | folds=5 | k=3 | avg_top1_sim=0.5771
+[Llama-3.1-8B-Instruct | MedQA | thinking=na | RAG=success+summary] pool sizes per fold=[275, 275, 277, 279, 274]
+[Llama-3.1-8B-Instruct | MedQA | thinking=na | RAG=success+summary] test_error per fold: 33.00%, 30.00%, 36.00%, 38.00%, 33.00% | mean=34.00%
+[Llama-3.1-8B-Instruct | MedQA | thinking=na | RAG=success+summary] per-fold accuracy: 67.00%, 70.00%, 64.00%, 62.00%, 67.00% | mean=66.00% std=0.0308
+[Llama-3.1-8B-Instruct | MedQA | thinking=na | RAG=success+summary] OVERALL (n=500): ZS_acc=69.00% RAG_acc=66.00% | paired t-test t=-2.1963 p=0.02853
+[Llama-3.1-8B-Instruct | ProfessionalLaw | fold 0] pool=193
+[Llama-3.1-8B-Instruct | ProfessionalLaw | fold 1] pool=194
+[Llama-3.1-8B-Instruct | ProfessionalLaw | fold 2] pool=191
+[Llama-3.1-8B-Instruct | ProfessionalLaw | fold 3] pool=201
+[Llama-3.1-8B-Instruct | ProfessionalLaw | fold 4] pool=193
+[Llama-3.1-8B-Instruct | ProfessionalLaw | thinking=na | RAG=success+summary] RAM=1.98 GB | test_time=1243.0s | queries=500 | per_query=2.49s | accuracy=48.40% | failures=0 | folds=5 | k=3 | avg_top1_sim=0.6042
+[Llama-3.1-8B-Instruct | ProfessionalLaw | thinking=na | RAG=success+summary] pool sizes per fold=[193, 194, 191, 201, 193]
+[Llama-3.1-8B-Instruct | ProfessionalLaw | thinking=na | RAG=success+summary] test_error per fold: 47.00%, 51.00%, 49.00%, 57.00%, 54.00% | mean=51.60%
+[Llama-3.1-8B-Instruct | ProfessionalLaw | thinking=na | RAG=success+summary] per-fold accuracy: 53.00%, 49.00%, 51.00%, 43.00%, 46.00% | mean=48.40% std=0.0397
+[Llama-3.1-8B-Instruct | ProfessionalLaw | thinking=na | RAG=success+summary] OVERALL (n=500): ZS_acc=48.60% RAG_acc=48.40% | paired t-test t=-0.1169 p=0.907
+[Phi-4-mini-instruct | CaseHOLD | fold 0] pool=190
+[Phi-4-mini-instruct | CaseHOLD | fold 1] pool=190
+[Phi-4-mini-instruct | CaseHOLD | fold 2] pool=194
+[Phi-4-mini-instruct | CaseHOLD | fold 3] pool=189
+[Phi-4-mini-instruct | CaseHOLD | fold 4] pool=185
+[Phi-4-mini-instruct | CaseHOLD | thinking=na | RAG=success+summary] RAM=1.98 GB | test_time=749.5s | queries=500 | per_query=1.50s | accuracy=51.00% | failures=0 | folds=5 | k=3 | avg_top1_sim=0.5630
+[Phi-4-mini-instruct | CaseHOLD | thinking=na | RAG=success+summary] pool sizes per fold=[190, 190, 194, 189, 185]
+[Phi-4-mini-instruct | CaseHOLD | thinking=na | RAG=success+summary] test_error per fold: 54.00%, 48.00%, 50.00%, 45.00%, 48.00% | mean=49.00%
+[Phi-4-mini-instruct | CaseHOLD | thinking=na | RAG=success+summary] per-fold accuracy: 46.00%, 52.00%, 50.00%, 55.00%, 52.00% | mean=51.00% std=0.0332
+[Phi-4-mini-instruct | CaseHOLD | thinking=na | RAG=success+summary] OVERALL (n=500): ZS_acc=48.00% RAG_acc=51.00% | paired t-test t=2.1506 p=0.03199
+[Phi-4-mini-instruct | MedMCQA | fold 0] pool=203
+[Phi-4-mini-instruct | MedMCQA | fold 1] pool=210
+[Phi-4-mini-instruct | MedMCQA | fold 2] pool=206
+[Phi-4-mini-instruct | MedMCQA | fold 3] pool=200
+[Phi-4-mini-instruct | MedMCQA | fold 4] pool=193
+[Phi-4-mini-instruct | MedMCQA | thinking=na | RAG=success+summary] RAM=1.98 GB | test_time=376.9s | queries=500 | per_query=0.75s | accuracy=48.60% | failures=1 | folds=5 | k=3 | avg_top1_sim=0.4215
+[Phi-4-mini-instruct | MedMCQA | thinking=na | RAG=success+summary] pool sizes per fold=[203, 210, 206, 200, 193]
+[Phi-4-mini-instruct | MedMCQA | thinking=na | RAG=success+summary] test_error per fold: 46.00%, 62.00%, 56.00%, 49.00%, 44.00% | mean=51.40%
+[Phi-4-mini-instruct | MedMCQA | thinking=na | RAG=success+summary] per-fold accuracy: 54.00%, 38.00%, 44.00%, 51.00%, 56.00% | mean=48.60% std=0.0747
+[Phi-4-mini-instruct | MedMCQA | thinking=na | RAG=success+summary] OVERALL (n=500): ZS_acc=51.20% RAG_acc=48.60% | paired t-test t=-1.2944 p=0.1961
+[Phi-4-mini-instruct | MedQA | fold 0] pool=192
+[Phi-4-mini-instruct | MedQA | fold 1] pool=189
+[Phi-4-mini-instruct | MedQA | fold 2] pool=182
+[Phi-4-mini-instruct | MedQA | fold 3] pool=185
+[Phi-4-mini-instruct | MedQA | fold 4] pool=184
+[Phi-4-mini-instruct | MedQA | thinking=na | RAG=success+summary] RAM=1.98 GB | test_time=526.1s | queries=500 | per_query=1.05s | accuracy=47.80% | failures=0 | folds=5 | k=3 | avg_top1_sim=0.5575
+[Phi-4-mini-instruct | MedQA | thinking=na | RAG=success+summary] pool sizes per fold=[192, 189, 182, 185, 184]
+[Phi-4-mini-instruct | MedQA | thinking=na | RAG=success+summary] test_error per fold: 54.00%, 52.00%, 50.00%, 54.00%, 51.00% | mean=52.20%
+[Phi-4-mini-instruct | MedQA | thinking=na | RAG=success+summary] per-fold accuracy: 46.00%, 48.00%, 50.00%, 46.00%, 49.00% | mean=47.80% std=0.0179
+[Phi-4-mini-instruct | MedQA | thinking=na | RAG=success+summary] OVERALL (n=500): ZS_acc=47.80% RAG_acc=47.80% | paired t-test t=0.0000 p=1
+[Phi-4-mini-instruct | ProfessionalLaw | fold 0] pool=167
+[Phi-4-mini-instruct | ProfessionalLaw | fold 1] pool=178
+[Phi-4-mini-instruct | ProfessionalLaw | fold 2] pool=174
+[Phi-4-mini-instruct | ProfessionalLaw | fold 3] pool=182
+[Phi-4-mini-instruct | ProfessionalLaw | fold 4] pool=175
+[Phi-4-mini-instruct | ProfessionalLaw | thinking=na | RAG=success+summary] RAM=1.98 GB | test_time=532.2s | queries=500 | per_query=1.06s | accuracy=43.40% | failures=1 | folds=5 | k=3 | avg_top1_sim=0.5710
+[Phi-4-mini-instruct | ProfessionalLaw | thinking=na | RAG=success+summary] pool sizes per fold=[167, 178, 174, 182, 175]
+[Phi-4-mini-instruct | ProfessionalLaw | thinking=na | RAG=success+summary] test_error per fold: 55.00%, 55.00%, 54.00%, 62.00%, 57.00% | mean=56.60%
+[Phi-4-mini-instruct | ProfessionalLaw | thinking=na | RAG=success+summary] per-fold accuracy: 45.00%, 45.00%, 46.00%, 38.00%, 43.00% | mean=43.40% std=0.0321
+[Phi-4-mini-instruct | ProfessionalLaw | thinking=na | RAG=success+summary] OVERALL (n=500): ZS_acc=44.00% RAG_acc=43.40% | paired t-test t=-0.3662 p=0.7144
+[Phi-3.5-mini-instruct | CaseHOLD | thinking=na | RAG=success+summary] WARNING: summarized corpus not found at /Users/adwait/Documents/Experiments_Septemebr_2026/CBR_CB_Rephrase/Codes/../../Zero_Shot_Reasoning_Rephrase_Failure/Outputs/CaseHOLD/Phi-3.5-mini-instruct/Summarized_Success/corpus.json; skipping.
+[Phi-3.5-mini-instruct | MedMCQA | thinking=na | RAG=success+summary] WARNING: summarized corpus not found at /Users/adwait/Documents/Experiments_Septemebr_2026/CBR_CB_Rephrase/Codes/../../Zero_Shot_Reasoning_Rephrase_Failure/Outputs/MedMCQA/Phi-3.5-mini-instruct/Summarized_Success/corpus.json; skipping.
+[Phi-3.5-mini-instruct | MedQA | thinking=na | RAG=success+summary] WARNING: summarized corpus not found at /Users/adwait/Documents/Experiments_Septemebr_2026/CBR_CB_Rephrase/Codes/../../Zero_Shot_Reasoning_Rephrase_Failure/Outputs/MedQA/Phi-3.5-mini-instruct/Summarized_Success/corpus.json; skipping.
+[Phi-3.5-mini-instruct | ProfessionalLaw | thinking=na | RAG=success+summary] WARNING: empty 'success' retrieval pool in at least one fold (pool sizes per fold: [1, 1, 1, 0, 1]); skipping.
+Done.

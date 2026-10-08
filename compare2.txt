@@ -1,0 +1,92 @@
+All accuracies are <= 1.0 -> interpreted as fractions and multiplied by 100.
+
+Cell (row i, col j): #(dataset, LLM) pairs where row config had strictly higher accuracy than column config / #pairs where both were available
+
+                          CBR_CB_All_Cross_Val CBR_CB_Success_Cross_Val CBR_CB_Failure_Cross_Val CBR_CB_Success_Reputation CBR_CB_Failure_Reputation
+CBR_CB_All_Cross_Val                         -                    20/32                    19/32                       5/6                     21/32
+CBR_CB_Success_Cross_Val                 11/32                        -                    14/32                       3/6                     15/32
+CBR_CB_Failure_Cross_Val                 10/32                    17/32                        -                       4/6                     14/32
+CBR_CB_Success_Reputation                  1/6                      2/6                      2/6                         -                       3/6
+CBR_CB_Failure_Reputation                11/32                    16/32                    13/32                       3/6                         -
+
+Max (dataset, LLM) pairs per cell: 32
+
+======================================================================
+COVERAGE: populated (dataset, LLM) values per configuration
+======================================================================
+                                       CBR_CB_All_Cross_Val  CBR_CB_Success_Cross_Val  CBR_CB_Failure_Cross_Val  CBR_CB_Success_Reputation  CBR_CB_Failure_Reputation
+dataset         llm                                                                                                                                                  
+CaseHOLD        Qwen3.5-4B-Instruct                       1                         1                         1                          1                          1
+                Qwen3-8B-MLX-4bit                         1                         1                         1                          1                          1
+                Gemma-4-E4B-it                            1                         1                         1                          0                          1
+                Gemma-3-4B-it                             1                         1                         1                          0                          1
+                Llama-3.2-3B-Instruct                     1                         1                         1                          0                          1
+                Llama-3.1-8B-Instruct                     1                         1                         1                          0                          1
+                Phi-4-mini-instruct                       1                         1                         1                          0                          1
+                Phi-3.5-mini-instruct                     1                         1                         1                          0                          1
+MedQA           Qwen3.5-4B-Instruct                       1                         1                         1                          1                          1
+                Qwen3-8B-MLX-4bit                         1                         1                         1                          0                          1
+                Gemma-4-E4B-it                            1                         1                         1                          0                          1
+                Gemma-3-4B-it                             1                         1                         1                          0                          1
+                Llama-3.2-3B-Instruct                     1                         1                         1                          0                          1
+                Llama-3.1-8B-Instruct                     1                         1                         1                          0                          1
+                Phi-4-mini-instruct                       1                         1                         1                          0                          1
+                Phi-3.5-mini-instruct                     1                         1                         1                          0                          1
+MedMCQA         Qwen3.5-4B-Instruct                       1                         1                         1                          1                          1
+                Qwen3-8B-MLX-4bit                         1                         1                         1                          1                          1
+                Gemma-4-E4B-it                            1                         1                         1                          0                          1
+                Gemma-3-4B-it                             1                         1                         1                          0                          1
+                Llama-3.2-3B-Instruct                     1                         1                         1                          0                          1
+                Llama-3.1-8B-Instruct                     1                         1                         1                          0                          1
+                Phi-4-mini-instruct                       1                         1                         1                          0                          1
+                Phi-3.5-mini-instruct                     1                         1                         1                          0                          1
+ProfessionalLaw Qwen3.5-4B-Instruct                       1                         1                         1                          1                          1
+                Qwen3-8B-MLX-4bit                         1                         1                         1                          0                          1
+                Gemma-4-E4B-it                            1                         1                         1                          0                          1
+                Gemma-3-4B-it                             1                         1                         1                          0                          1
+                Llama-3.2-3B-Instruct                     1                         1                         1                          0                          1
+                Llama-3.1-8B-Instruct                     1                         1                         1                          0                          1
+                Phi-4-mini-instruct                       1                         1                         1                          0                          1
+                Phi-3.5-mini-instruct                     1                         1                         1                          0                          1
+
+Total populated: {'CBR_CB_All_Cross_Val': 32, 'CBR_CB_Success_Cross_Val': 32, 'CBR_CB_Failure_Cross_Val': 32, 'CBR_CB_Success_Reputation': 6, 'CBR_CB_Failure_Reputation': 32}
+
+======================================================================
+ACCURACY (%)
+======================================================================
+config                                 CBR_CB_All_Cross_Val  CBR_CB_Success_Cross_Val  CBR_CB_Failure_Cross_Val  CBR_CB_Success_Reputation  CBR_CB_Failure_Reputation
+dataset         llm                                                                                                                                                  
+CaseHOLD        Gemma-3-4B-it                          52.8                      55.4                      54.2                        NaN                       54.4
+                Gemma-4-E4B-it                         61.6                      60.6                      59.8                        NaN                       58.4
+                Llama-3.1-8B-Instruct                  62.0                      60.4                      62.4                        NaN                       61.8
+                Llama-3.2-3B-Instruct                  48.8                      49.2                      45.2                        NaN                       45.0
+                Phi-3.5-mini-instruct                  49.4                      48.6                      49.2                        NaN                       48.8
+                Phi-4-mini-instruct                    49.4                      47.8                      48.6                        NaN                       47.2
+                Qwen3-8B-MLX-4bit                      63.0                      61.2                      63.2                       60.6                       64.0
+                Qwen3.5-4B-Instruct                    69.0                      67.0                      68.2                       67.0                       68.2
+MedMCQA         Gemma-3-4B-it                          49.2                      46.8                      48.6                        NaN                       48.4
+                Gemma-4-E4B-it                         62.6                      60.8                      60.4                        NaN                       60.6
+                Llama-3.1-8B-Instruct                  71.8                      71.2                      72.8                        NaN                       72.6
+                Llama-3.2-3B-Instruct                  60.4                      61.0                      59.4                        NaN                       59.4
+                Phi-3.5-mini-instruct                  50.8                      51.4                      50.4                        NaN                       51.0
+                Phi-4-mini-instruct                    49.4                      47.0                      45.8                        NaN                       48.0
+                Qwen3-8B-MLX-4bit                      64.2                      64.6                      66.2                       65.2                       64.8
+                Qwen3.5-4B-Instruct                    68.8                      68.2                      67.2                       68.0                       67.4
+MedQA           Gemma-3-4B-it                          47.0                      44.2                      46.6                        NaN                       47.4
+                Gemma-4-E4B-it                         57.2                      57.0                      56.2                        NaN                       56.2
+                Llama-3.1-8B-Instruct                  67.6                      65.4                      66.2                        NaN                       67.0
+                Llama-3.2-3B-Instruct                  56.0                      57.2                      57.6                        NaN                       57.8
+                Phi-3.5-mini-instruct                  50.8                      47.8                      50.8                        NaN                       50.4
+                Phi-4-mini-instruct                    43.8                      45.2                      44.0                        NaN                       44.0
+                Qwen3-8B-MLX-4bit                      61.8                      61.8                      62.0                        NaN                       63.0
+                Qwen3.5-4B-Instruct                    66.6                      66.8                      67.6                       66.0                       66.4
+ProfessionalLaw Gemma-3-4B-it                          39.6                      38.6                      39.4                        NaN                       38.6
+                Gemma-4-E4B-it                         47.2                      48.2                      44.2                        NaN                       44.2
+                Llama-3.1-8B-Instruct                  47.4                      47.8                      47.4                        NaN                       49.0
+                Llama-3.2-3B-Instruct                  42.2                      44.6                      42.2                        NaN                       41.8
+                Phi-3.5-mini-instruct                  45.8                      44.8                      45.0                        NaN                       46.0
+                Phi-4-mini-instruct                    45.2                      44.0                      43.8                        NaN                       44.2
+                Qwen3-8B-MLX-4bit                      51.0                      50.6                      51.6                        NaN                       50.4
+                Qwen3.5-4B-Instruct                    52.2                      50.4                      50.4                       51.0                       50.2
+
+Saved accuracy plot to accuracy_cross_val_by_dataset.png

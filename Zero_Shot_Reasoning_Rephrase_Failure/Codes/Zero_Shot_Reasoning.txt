@@ -1,0 +1,548 @@
+
+===== SANITY CHECK: first SUCCESS summarization [Qwen3.5-4B-Instruct | CaseHOLD | thinking=false] =====
+Predicted: D | Ground truth: D
+--- PROMPT ---
+You previously answered a multiple-choice question correctly.
+
+Question:
+impaired to the degree of being incapable of effectively participating in a [legal] proceeding and thus need[s] the assistance of a fiduciary representative.” People ex rel. M.M., 726 P.2d 1108, 1119 (Colo.1986); see also May v. Colo. Civil Rights Comm’n, 43 P.3d 750, 755 (Colo.App.2002). Again, Graham has not established he meets Colorado’s statutory definition of mental incompetence. Nor do we find he is incapable of effectively participating in his legal proceedings. Graham filed two well-drafted complaints, and he prepared and responded to several substantive motions. Indeed, in light of the quality of his filings, the district court questioned wheth er Graham was really appearing pro se. See' Lichtenhafm v. Bureau of Land Mgmt., 72 F.3d 138, at *1 (10th Cir.1995) (unpublished) (<HOLDING>). Because we find Graham is hot mentally
+
+Correct answer: holding plaintiff didnt satisfy the requirements for appointment of a guardian to pursue the instant case because the plaintiffs notice of appeal to the administrative agency appearing in the record  is the work of a competent person either plaintiff is competent enough to handle that appeal or he had the help of obviously competent counsel
+
+Task: Write (1) a standalone summary of the question that keeps ONLY the critical details in the question, and (2) a justification explaining why the correct answer is right.
+
+Instructions:
+1. The question summary MUST be under 50 words. Include only details that matter for answering; omit everything else.
+2. The correct answer justification MUST be under 75 words.
+3. Respond in EXACTLY this format, with no text before or after it:
+    "Summary: <YOUR SUMMARY>
+    Justification: <YOUR JUSTIFICATION>"
+4. Plain text only. No headings, bullet points, or markdown.
+
+Your response (SUMMARY UNDER 50 WORDS, JUSTIFICATION UNDER 75 WORDS):
+--- RAW OUTPUT ---
+Summary: Graham challenged his mental incompetence to participate in legal proceedings. The court found he could effectively handle his appeal or had competent counsel, thus denying guardian appointment.
+
+Justification: The court correctly rejected the claim because Graham's filings demonstrated competence. His ability to draft complaints and motions, plus the district court's doubt about his pro se status, proved he met the statutory definition of incompetence required for a guardian.
+--- PARSED (status=ok) ---
+Summary: Graham challenged his mental incompetence to participate in legal proceedings. The court found he could effectively handle his appeal or had competent counsel, thus denying guardian appointment.
+Justification: The court correctly rejected the claim because Graham's filings demonstrated competence. His ability to draft complaints and motions, plus the district court's doubt about his pro se status, proved he met the statutory definition of incompetence required for a guardian.
+======================================================================
+
+
+===== SANITY CHECK: first FAILURE summarization [Qwen3.5-4B-Instruct | CaseHOLD | thinking=false] =====
+Predicted: D | Ground truth: A
+--- PROMPT ---
+You previously answered a multiple-choice question incorrectly.
+
+Question:
+did not suffer any physical injury and that she did not recall being hit by Taylor. We do not sustain the ALJ’s legal conclusion that Taylor engaged in physical abuse of a patient as defined by Administrative Order 4:08-C.3. On this record, we are satisfied that Taylor’s conduct constituted “inappropriate physical contact” within the meaning of Administrative Order 4:08-C.5 and that removal would be an excessive sanction. Accord Harcum v. New Lisbon Dev. Ctr., 96 N.J.A.R.2d (CSV) 324, 1996 WL 433210 (1996) (reducing physical abuse charge to charge of inappropriate physical contact because employee did not act with malice and patient was not injured); Lyew v. Morris View Nursing Home, 93 N.J.A.R.2d (CSV) 673, 1993 WL 470770, aff'd, 94 N.J.A.R.2d (CSV) 718, 1994 WL 757555 (App.Div.1994) (<HOLDING>). IV We acknowledge the responsibility of DHS
+
+Your (incorrect) answer: holding that defendant medical center which allowed a patient who would likely cause bodily harm to his wife if he had the opportunity to leave the center for a weekend could be liable for the patients actions of killing his wife and her paramour during that weekend because inter alia when the course of treatment of a mental patient involves an exercise of control over him by a physician who knows or should know that the patient is likely to cause bodily harm to others an independent duty arises from that relationship and falls upon the physician to exercise that control with such reasonable care as to prevent harm to others at the hands of the patient punctuation omitted emphasis supplied
+Correct answer: holding that sanction of removal for nursing home attendant who was found to have hit patient suffering from dementia should be reduced to penalty of sixmonth suspension because act of hitting patient was isolated instance in which patient was aggressor
+
+Task: Write (1) a standalone summary of the question that keeps ONLY the critical details in the question, and (2) a justification explaining why the correct answer is right.
+
+Instructions:
+1. The question summary MUST be under 50 words. Include only details that matter for answering; omit everything else.
+2. The correct answer justification MUST be under 75 words.
+3. Respond in EXACTLY this format, with no text before or after it:
+    "Summary: <YOUR SUMMARY>
+    Justification: <YOUR JUSTIFICATION>"
+4. Plain text only. No headings, bullet points, or markdown.
+
+Your response (SUMMARY UNDER 50 WORDS, JUSTIFICATION UNDER 75 WORDS):
+--- RAW OUTPUT ---
+Summary: A nursing home attendant hit a dementia patient, but since the patient was the aggressor and no physical injury occurred, the ALJ reduced the removal sanction to a six-month suspension.
+
+Justification: The correct answer is right because the court distinguished "physical abuse" from "inappropriate physical contact" when the patient initiated the altercation and suffered no injury. Consequently, the excessive sanction of removal was legally reduced to a six-month suspension, aligning with the cited precedents regarding lack of malice and patient injury.
+--- PARSED (status=ok) ---
+Summary: A nursing home attendant hit a dementia patient, but since the patient was the aggressor and no physical injury occurred, the ALJ reduced the removal sanction to a six-month suspension.
+Justification: The correct answer is right because the court distinguished "physical abuse" from "inappropriate physical contact" when the patient initiated the altercation and suffered no injury. Consequently, the excessive sanction of removal was legally reduced to a six-month suspension, aligning with the cited precedents regarding lack of malice and patient injury.
+======================================================================
+
+[Qwen3.5-4B-Instruct | CaseHOLD | thinking=false] RAM=1.79 GB | total_time=865.0s | queries=500 | per_query=1.73s | accuracy=65.20% | failures=0 | summarization_time=1380.3s | corpus_entries=500 | summarization_failures=0
+[Qwen3.5-4B-Instruct | MedMCQA | thinking=false] RAM=1.79 GB | total_time=300.6s | queries=500 | per_query=0.60s | accuracy=66.80% | failures=0 | summarization_time=914.5s | corpus_entries=499 | summarization_failures=1
+    ! 1/500 summarizations excluded from corpora (truncated=1)
+[Qwen3.5-4B-Instruct | MedQA | thinking=false] RAM=1.79 GB | total_time=496.5s | queries=500 | per_query=0.99s | accuracy=69.40% | failures=0 | summarization_time=1335.1s | corpus_entries=497 | summarization_failures=3
+    ! 3/500 summarizations excluded from corpora (truncated=3)
+[Qwen3.5-4B-Instruct | ProfessionalLaw | thinking=false] RAM=1.79 GB | total_time=552.4s | queries=500 | per_query=1.10s | accuracy=53.80% | failures=0 | summarization_time=1285.1s | corpus_entries=497 | summarization_failures=3
+    ! 3/500 summarizations excluded from corpora (truncated=3)
+
+===== SANITY CHECK: first SUCCESS summarization [Qwen3-8B-MLX-4bit | CaseHOLD | thinking=false] =====
+Predicted: D | Ground truth: D
+--- PROMPT ---
+You previously answered a multiple-choice question correctly.
+
+Question:
+impaired to the degree of being incapable of effectively participating in a [legal] proceeding and thus need[s] the assistance of a fiduciary representative.” People ex rel. M.M., 726 P.2d 1108, 1119 (Colo.1986); see also May v. Colo. Civil Rights Comm’n, 43 P.3d 750, 755 (Colo.App.2002). Again, Graham has not established he meets Colorado’s statutory definition of mental incompetence. Nor do we find he is incapable of effectively participating in his legal proceedings. Graham filed two well-drafted complaints, and he prepared and responded to several substantive motions. Indeed, in light of the quality of his filings, the district court questioned wheth er Graham was really appearing pro se. See' Lichtenhafm v. Bureau of Land Mgmt., 72 F.3d 138, at *1 (10th Cir.1995) (unpublished) (<HOLDING>). Because we find Graham is hot mentally
+
+Correct answer: holding plaintiff didnt satisfy the requirements for appointment of a guardian to pursue the instant case because the plaintiffs notice of appeal to the administrative agency appearing in the record  is the work of a competent person either plaintiff is competent enough to handle that appeal or he had the help of obviously competent counsel
+
+Task: Write (1) a standalone summary of the question that keeps ONLY the critical details in the question, and (2) a justification explaining why the correct answer is right.
+
+Instructions:
+1. The question summary MUST be under 50 words. Include only details that matter for answering; omit everything else.
+2. The correct answer justification MUST be under 75 words.
+3. Respond in EXACTLY this format, with no text before or after it:
+    "Summary: <YOUR SUMMARY>
+    Justification: <YOUR JUSTIFICATION>"
+4. Plain text only. No headings, bullet points, or markdown.
+
+Your response (SUMMARY UNDER 50 WORDS, JUSTIFICATION UNDER 75 WORDS):
+--- RAW OUTPUT ---
+"Summary: Graham's mental competence to handle legal proceedings is questioned, but his well-prepared filings suggest competency. The court finds he doesn't meet Colorado's incompetence standard for a guardian.  
+Justification: The correct answer states Graham's appeal notice, prepared by a competent person or with competent help, shows he meets the legal standards for handling his case, thus not requiring a guardian."
+--- PARSED (status=ok) ---
+Summary: Graham's mental competence to handle legal proceedings is questioned, but his well-prepared filings suggest competency. The court finds he doesn't meet Colorado's incompetence standard for a guardian.
+Justification: The correct answer states Graham's appeal notice, prepared by a competent person or with competent help, shows he meets the legal standards for handling his case, thus not requiring a guardian.
+======================================================================
+
+
+===== SANITY CHECK: first FAILURE summarization [Qwen3-8B-MLX-4bit | CaseHOLD | thinking=false] =====
+Predicted: D | Ground truth: A
+--- PROMPT ---
+You previously answered a multiple-choice question incorrectly.
+
+Question:
+did not suffer any physical injury and that she did not recall being hit by Taylor. We do not sustain the ALJ’s legal conclusion that Taylor engaged in physical abuse of a patient as defined by Administrative Order 4:08-C.3. On this record, we are satisfied that Taylor’s conduct constituted “inappropriate physical contact” within the meaning of Administrative Order 4:08-C.5 and that removal would be an excessive sanction. Accord Harcum v. New Lisbon Dev. Ctr., 96 N.J.A.R.2d (CSV) 324, 1996 WL 433210 (1996) (reducing physical abuse charge to charge of inappropriate physical contact because employee did not act with malice and patient was not injured); Lyew v. Morris View Nursing Home, 93 N.J.A.R.2d (CSV) 673, 1993 WL 470770, aff'd, 94 N.J.A.R.2d (CSV) 718, 1994 WL 757555 (App.Div.1994) (<HOLDING>). IV We acknowledge the responsibility of DHS
+
+Your (incorrect) answer: holding that defendant medical center which allowed a patient who would likely cause bodily harm to his wife if he had the opportunity to leave the center for a weekend could be liable for the patients actions of killing his wife and her paramour during that weekend because inter alia when the course of treatment of a mental patient involves an exercise of control over him by a physician who knows or should know that the patient is likely to cause bodily harm to others an independent duty arises from that relationship and falls upon the physician to exercise that control with such reasonable care as to prevent harm to others at the hands of the patient punctuation omitted emphasis supplied
+Correct answer: holding that sanction of removal for nursing home attendant who was found to have hit patient suffering from dementia should be reduced to penalty of sixmonth suspension because act of hitting patient was isolated instance in which patient was aggressor
+
+Task: Write (1) a standalone summary of the question that keeps ONLY the critical details in the question, and (2) a justification explaining why the correct answer is right.
+
+Instructions:
+1. The question summary MUST be under 50 words. Include only details that matter for answering; omit everything else.
+2. The correct answer justification MUST be under 75 words.
+3. Respond in EXACTLY this format, with no text before or after it:
+    "Summary: <YOUR SUMMARY>
+    Justification: <YOUR JUSTIFICATION>"
+4. Plain text only. No headings, bullet points, or markdown.
+
+Your response (SUMMARY UNDER 50 WORDS, JUSTIFICATION UNDER 75 WORDS):
+--- RAW OUTPUT ---
+Summary: Court reduces nursing home staff's removal sanction to six-month suspension due to isolated incident where patient was aggressor, not physical abuse as defined.  
+Justification: The correct answer reflects the court's decision to reduce the penalty based on the finding that the act was an isolated incident with the patient as the aggressor, not meeting the threshold for physical abuse.
+--- PARSED (status=ok) ---
+Summary: Court reduces nursing home staff's removal sanction to six-month suspension due to isolated incident where patient was aggressor, not physical abuse as defined.
+Justification: The correct answer reflects the court's decision to reduce the penalty based on the finding that the act was an isolated incident with the patient as the aggressor, not meeting the threshold for physical abuse.
+======================================================================
+
+[Qwen3-8B-MLX-4bit | CaseHOLD | thinking=false] RAM=1.79 GB | total_time=1504.2s | queries=500 | per_query=3.01s | accuracy=63.60% | failures=0 | summarization_time=2229.7s | corpus_entries=500 | summarization_failures=0
+[Qwen3-8B-MLX-4bit | MedMCQA | thinking=false] RAM=1.79 GB | total_time=433.1s | queries=500 | per_query=0.87s | accuracy=65.20% | failures=1 | summarization_time=1431.8s | corpus_entries=500 | summarization_failures=0
+[Qwen3-8B-MLX-4bit | MedQA | thinking=false] RAM=1.79 GB | total_time=788.5s | queries=500 | per_query=1.58s | accuracy=62.20% | failures=0 | summarization_time=2104.5s | corpus_entries=500 | summarization_failures=0
+[Qwen3-8B-MLX-4bit | ProfessionalLaw | thinking=false] RAM=1.79 GB | total_time=888.0s | queries=500 | per_query=1.78s | accuracy=49.20% | failures=0 | summarization_time=2044.5s | corpus_entries=500 | summarization_failures=0
+
+===== SANITY CHECK: first SUCCESS summarization [Gemma-4-E4B-it | CaseHOLD | thinking=false] =====
+Predicted: D | Ground truth: D
+--- PROMPT ---
+You previously answered a multiple-choice question correctly.
+
+Question:
+impaired to the degree of being incapable of effectively participating in a [legal] proceeding and thus need[s] the assistance of a fiduciary representative.” People ex rel. M.M., 726 P.2d 1108, 1119 (Colo.1986); see also May v. Colo. Civil Rights Comm’n, 43 P.3d 750, 755 (Colo.App.2002). Again, Graham has not established he meets Colorado’s statutory definition of mental incompetence. Nor do we find he is incapable of effectively participating in his legal proceedings. Graham filed two well-drafted complaints, and he prepared and responded to several substantive motions. Indeed, in light of the quality of his filings, the district court questioned wheth er Graham was really appearing pro se. See' Lichtenhafm v. Bureau of Land Mgmt., 72 F.3d 138, at *1 (10th Cir.1995) (unpublished) (<HOLDING>). Because we find Graham is hot mentally
+
+Correct answer: holding plaintiff didnt satisfy the requirements for appointment of a guardian to pursue the instant case because the plaintiffs notice of appeal to the administrative agency appearing in the record  is the work of a competent person either plaintiff is competent enough to handle that appeal or he had the help of obviously competent counsel
+
+Task: Write (1) a standalone summary of the question that keeps ONLY the critical details in the question, and (2) a justification explaining why the correct answer is right.
+
+Instructions:
+1. The question summary MUST be under 50 words. Include only details that matter for answering; omit everything else.
+2. The correct answer justification MUST be under 75 words.
+3. Respond in EXACTLY this format, with no text before or after it:
+    "Summary: <YOUR SUMMARY>
+    Justification: <YOUR JUSTIFICATION>"
+4. Plain text only. No headings, bullet points, or markdown.
+
+Your response (SUMMARY UNDER 50 WORDS, JUSTIFICATION UNDER 75 WORDS):
+--- RAW OUTPUT ---
+Summary: The court reviewed whether Graham met the statutory definition of mental incompetence requiring a fiduciary representative, given his legal filings.
+Justification: The court found Graham was mentally capable and effectively participating in his legal proceedings. His competent filings suggest he was not incompetent, thus negating the need for a guardian to pursue the case.
+--- PARSED (status=ok) ---
+Summary: The court reviewed whether Graham met the statutory definition of mental incompetence requiring a fiduciary representative, given his legal filings.
+Justification: The court found Graham was mentally capable and effectively participating in his legal proceedings. His competent filings suggest he was not incompetent, thus negating the need for a guardian to pursue the case.
+======================================================================
+
+
+===== SANITY CHECK: first FAILURE summarization [Gemma-4-E4B-it | CaseHOLD | thinking=false] =====
+Predicted: E | Ground truth: D
+--- PROMPT ---
+You previously answered a multiple-choice question incorrectly.
+
+Question:
+or prior contact with authorities, can never be more than speculation; a warning is a cleareut fact. More important, whatever the background of the person interrogated, a warning at the time of the interrogation is indispensable to overcome its pressures and to insure that the individual knows he is free to exercise the privilege at that point in time. Miranda v. Arizona, 384 U.S. 436, 468-69, 86 S.Ct. 1602, 1625, 16 L.Ed.2d 694 (1966) (emphasis added) (footnote omitted). We detect no indication in this language that the Court intended to distinguish between individuals based on occupation or training in determining when Miranda warnings are required. Indeed, subsequent cases have so held. See, e.g., Desire v. Attorney General of California, 969 F.2d 802, 805 (9th Cir.1992) (<HOLDING>); United States v. Longbehn, 850 F.2d 450, 453
+
+Your (incorrect) answer: holding that because miranda warnings make defendant aware of right to counsel and of consequences of waiving sixth amendment rights defendants waiver of right to counsel after receiving such warnings is valid
+Correct answer: holding that although defendant was a deputy sheriff miranda warnings were required irrespective of defendants knowledge of his fifth amendment rights
+
+Task: Write (1) a standalone summary of the question that keeps ONLY the critical details in the question, and (2) a justification explaining why the correct answer is right.
+
+Instructions:
+1. The question summary MUST be under 50 words. Include only details that matter for answering; omit everything else.
+2. The correct answer justification MUST be under 75 words.
+3. Respond in EXACTLY this format, with no text before or after it:
+    "Summary: <YOUR SUMMARY>
+    Justification: <YOUR JUSTIFICATION>"
+4. Plain text only. No headings, bullet points, or markdown.
+
+Your response (SUMMARY UNDER 50 WORDS, JUSTIFICATION UNDER 75 WORDS):
+--- RAW OUTPUT ---
+Summary: Miranda warnings are required regardless of the suspect's occupation or prior knowledge of their Fifth Amendment rights, as established by subsequent case law.
+Justification: The text emphasizes that the requirement for Miranda warnings is universal. The Court found no indication in the language suggesting that an individual's training or occupation could exempt them from the requirement to advise of their rights during interrogation.
+--- PARSED (status=ok) ---
+Summary: Miranda warnings are required regardless of the suspect's occupation or prior knowledge of their Fifth Amendment rights, as established by subsequent case law.
+Justification: The text emphasizes that the requirement for Miranda warnings is universal. The Court found no indication in the language suggesting that an individual's training or occupation could exempt them from the requirement to advise of their rights during interrogation.
+======================================================================
+
+[Gemma-4-E4B-it | CaseHOLD | thinking=false] RAM=1.79 GB | total_time=513.8s | queries=500 | per_query=1.03s | accuracy=55.60% | failures=0 | summarization_time=1277.8s | corpus_entries=500 | summarization_failures=0
+[Gemma-4-E4B-it | MedMCQA | thinking=false] RAM=1.79 GB | total_time=169.4s | queries=500 | per_query=0.34s | accuracy=59.00% | failures=0 | summarization_time=904.9s | corpus_entries=500 | summarization_failures=0
+[Gemma-4-E4B-it | MedQA | thinking=false] RAM=1.79 GB | total_time=288.7s | queries=500 | per_query=0.58s | accuracy=55.80% | failures=0 | summarization_time=1676.1s | corpus_entries=495 | summarization_failures=5
+    ! 5/500 summarizations excluded from corpora (truncated=5)
+[Gemma-4-E4B-it | ProfessionalLaw | thinking=false] RAM=1.79 GB | total_time=328.3s | queries=500 | per_query=0.66s | accuracy=46.80% | failures=0 | summarization_time=1395.0s | corpus_entries=496 | summarization_failures=4
+    ! 4/500 summarizations excluded from corpora (truncated=4)
+
+===== SANITY CHECK: first SUCCESS summarization [Gemma-3-4B-it | CaseHOLD | thinking=na] =====
+Predicted: D | Ground truth: D
+--- PROMPT ---
+You previously answered a multiple-choice question correctly.
+
+Question:
+impaired to the degree of being incapable of effectively participating in a [legal] proceeding and thus need[s] the assistance of a fiduciary representative.” People ex rel. M.M., 726 P.2d 1108, 1119 (Colo.1986); see also May v. Colo. Civil Rights Comm’n, 43 P.3d 750, 755 (Colo.App.2002). Again, Graham has not established he meets Colorado’s statutory definition of mental incompetence. Nor do we find he is incapable of effectively participating in his legal proceedings. Graham filed two well-drafted complaints, and he prepared and responded to several substantive motions. Indeed, in light of the quality of his filings, the district court questioned wheth er Graham was really appearing pro se. See' Lichtenhafm v. Bureau of Land Mgmt., 72 F.3d 138, at *1 (10th Cir.1995) (unpublished) (<HOLDING>). Because we find Graham is hot mentally
+
+Correct answer: holding plaintiff didnt satisfy the requirements for appointment of a guardian to pursue the instant case because the plaintiffs notice of appeal to the administrative agency appearing in the record  is the work of a competent person either plaintiff is competent enough to handle that appeal or he had the help of obviously competent counsel
+
+Task: Write (1) a standalone summary of the question that keeps ONLY the critical details in the question, and (2) a justification explaining why the correct answer is right.
+
+Instructions:
+1. The question summary MUST be under 50 words. Include only details that matter for answering; omit everything else.
+2. The correct answer justification MUST be under 75 words.
+3. Respond in EXACTLY this format, with no text before or after it:
+    "Summary: <YOUR SUMMARY>
+    Justification: <YOUR JUSTIFICATION>"
+4. Plain text only. No headings, bullet points, or markdown.
+
+Your response (SUMMARY UNDER 50 WORDS, JUSTIFICATION UNDER 75 WORDS):
+--- RAW OUTPUT ---
+Summary: Graham failed to demonstrate mental incompetence to warrant a guardian. Despite filing complaints and responding to motions, the court questioned whether he was truly representing himself, suggesting competence.
+
+Justification: The court determined Graham was capable of participating in his legal proceedings, evidenced by his well-drafted filings and responses to motions. Therefore, they rejected the request for a guardian, finding he did not meet Colorado’s standard of mental incapacity to justify such an appointment.
+--- PARSED (status=ok) ---
+Summary: Graham failed to demonstrate mental incompetence to warrant a guardian. Despite filing complaints and responding to motions, the court questioned whether he was truly representing himself, suggesting competence.
+Justification: The court determined Graham was capable of participating in his legal proceedings, evidenced by his well-drafted filings and responses to motions. Therefore, they rejected the request for a guardian, finding he did not meet Colorado’s standard of mental incapacity to justify such an appointment.
+======================================================================
+
+
+===== SANITY CHECK: first FAILURE summarization [Gemma-3-4B-it | CaseHOLD | thinking=na] =====
+Predicted: D | Ground truth: E
+--- PROMPT ---
+You previously answered a multiple-choice question incorrectly.
+
+Question:
+administrative or judicial action.” 20 C.F.R. § 404.957(c)(1) (2011). The Commissioner may elect to reopen a prior decision, 20 C.F.R. §§ 404.987, 988 (2011), but this decision is not reviewable. See Culbertson v. Sec’y of Health & Human Servs., 859 F.2d 319, 322 (4th Cir.1988) (“When deciding whether to reopen or to reconsider his own administrative determinations, the Secretary enjoys broad discretion, which is generally not subject to judicial review.”). Here, the Appeals Council determined that res judicata barred a finding of disability during the period at issue in Fiske’s prior disability application. The Council’s inquiry into the ALJ’s decision and evidence concerning this period does not constructively reopen the claim. See Hall v. Chater, 52 F.3d 518, 521 (4th Cir.1995) (<HOLDING>). Because the Commissioner’s decision not to
+
+Your (incorrect) answer: holding that appeals council must consider evidence submitted with a request for review if it is a new b material and c related to the period on or before the date of the aljs decision
+Correct answer: holding that appeals council did not explicitly or implicitly reopen case and stating that appeals council must be afforded opportunity to look far enough into record to determine whether res judicata applies
+
+Task: Write (1) a standalone summary of the question that keeps ONLY the critical details in the question, and (2) a justification explaining why the correct answer is right.
+
+Instructions:
+1. The question summary MUST be under 50 words. Include only details that matter for answering; omit everything else.
+2. The correct answer justification MUST be under 75 words.
+3. Respond in EXACTLY this format, with no text before or after it:
+    "Summary: <YOUR SUMMARY>
+    Justification: <YOUR JUSTIFICATION>"
+4. Plain text only. No headings, bullet points, or markdown.
+
+Your response (SUMMARY UNDER 50 WORDS, JUSTIFICATION UNDER 75 WORDS):
+--- RAW OUTPUT ---
+Summary: The Appeals Council determined res judicata barred a disability claim. They reviewed the ALJ’s decision and evidence, but this didn’t constitute a reopening of the case.
+
+Justification: The correct answer emphasizes that the Appeals Council’s review didn’t functionally reopen the claim. It’s not about whether new evidence was considered, but whether the Council’s actions constituted a reopening as defined by precedent. The key is that the Council’s actions didn’t create a new opportunity to litigate.
+--- PARSED (status=ok) ---
+Summary: The Appeals Council determined res judicata barred a disability claim. They reviewed the ALJ’s decision and evidence, but this didn’t constitute a reopening of the case.
+Justification: The correct answer emphasizes that the Appeals Council’s review didn’t functionally reopen the claim. It’s not about whether new evidence was considered, but whether the Council’s actions constituted a reopening as defined by precedent. The key is that the Council’s actions didn’t create a new opportunity to litigate.
+======================================================================
+
+[Gemma-3-4B-it | CaseHOLD | thinking=na] RAM=2.50 GB | total_time=679.1s | queries=500 | per_query=1.36s | accuracy=59.60% | failures=0 | summarization_time=1440.2s | corpus_entries=500 | summarization_failures=0
+[Gemma-3-4B-it | MedMCQA | thinking=na] RAM=2.50 GB | total_time=205.2s | queries=500 | per_query=0.41s | accuracy=47.20% | failures=0 | summarization_time=887.4s | corpus_entries=500 | summarization_failures=0
+[Gemma-3-4B-it | MedQA | thinking=na] RAM=2.50 GB | total_time=375.4s | queries=500 | per_query=0.75s | accuracy=44.20% | failures=0 | summarization_time=1311.4s | corpus_entries=500 | summarization_failures=0
+[Gemma-3-4B-it | ProfessionalLaw | thinking=na] RAM=2.50 GB | total_time=431.8s | queries=500 | per_query=0.86s | accuracy=40.60% | failures=0 | summarization_time=1294.4s | corpus_entries=500 | summarization_failures=0
+
+===== SANITY CHECK: first SUCCESS summarization [Llama-3.2-3B-Instruct | CaseHOLD | thinking=na] =====
+Predicted: D | Ground truth: D
+--- PROMPT ---
+You previously answered a multiple-choice question correctly.
+
+Question:
+impaired to the degree of being incapable of effectively participating in a [legal] proceeding and thus need[s] the assistance of a fiduciary representative.” People ex rel. M.M., 726 P.2d 1108, 1119 (Colo.1986); see also May v. Colo. Civil Rights Comm’n, 43 P.3d 750, 755 (Colo.App.2002). Again, Graham has not established he meets Colorado’s statutory definition of mental incompetence. Nor do we find he is incapable of effectively participating in his legal proceedings. Graham filed two well-drafted complaints, and he prepared and responded to several substantive motions. Indeed, in light of the quality of his filings, the district court questioned wheth er Graham was really appearing pro se. See' Lichtenhafm v. Bureau of Land Mgmt., 72 F.3d 138, at *1 (10th Cir.1995) (unpublished) (<HOLDING>). Because we find Graham is hot mentally
+
+Correct answer: holding plaintiff didnt satisfy the requirements for appointment of a guardian to pursue the instant case because the plaintiffs notice of appeal to the administrative agency appearing in the record  is the work of a competent person either plaintiff is competent enough to handle that appeal or he had the help of obviously competent counsel
+
+Task: Write (1) a standalone summary of the question that keeps ONLY the critical details in the question, and (2) a justification explaining why the correct answer is right.
+
+Instructions:
+1. The question summary MUST be under 50 words. Include only details that matter for answering; omit everything else.
+2. The correct answer justification MUST be under 75 words.
+3. Respond in EXACTLY this format, with no text before or after it:
+    "Summary: <YOUR SUMMARY>
+    Justification: <YOUR JUSTIFICATION>"
+4. Plain text only. No headings, bullet points, or markdown.
+
+Your response (SUMMARY UNDER 50 WORDS, JUSTIFICATION UNDER 75 WORDS):
+--- RAW OUTPUT ---
+"Summary: A plaintiff in Colorado is not entitled to a guardian due to mental incompetence, as evidenced by his competent filings and questioning of his own competence in handling an appeal.
+Justification: The correct answer is right because the plaintiff's notice of appeal, which is a critical document, suggests he is competent enough to handle the appeal or had the help of obviously competent counsel, thus not meeting the requirements for a guardian."
+--- PARSED (status=ok) ---
+Summary: A plaintiff in Colorado is not entitled to a guardian due to mental incompetence, as evidenced by his competent filings and questioning of his own competence in handling an appeal.
+Justification: The correct answer is right because the plaintiff's notice of appeal, which is a critical document, suggests he is competent enough to handle the appeal or had the help of obviously competent counsel, thus not meeting the requirements for a guardian.
+======================================================================
+
+
+===== SANITY CHECK: first FAILURE summarization [Llama-3.2-3B-Instruct | CaseHOLD | thinking=na] =====
+Predicted: A | Ground truth: C
+--- PROMPT ---
+You previously answered a multiple-choice question incorrectly.
+
+Question:
+some rational basis rather than be arbitrary and capricious). Petitioner’s prior escape, his history of attempted escapes, and possession of escape paraphernalia, guns and ammunition did provide a rational basis for initially placing him in CM status and for confining him there for some period of time. However, these violations are over ten years old, and petitioner has had only one minor disciplinary infraction since. Consequently, we believe a substantial question exists on whether the Assignment Team’s assessment that petitioner remains a severe escape risk provides a sufficient rational basis to support his continued confinement in CM in the absence of any reported objective evidence other than these ten-year old violations. B. Due Process Petitioner next asserts that hi ir.1981) (<HOLDING>) In Hewitt v. Helms, 459 U.S. 460, 103 S.Ct.
+
+Your (incorrect) answer: recognizing that the due process clause protects the interests in fair notice and repose that may be compromised by retroactive legisla tion
+Correct answer: holding that the due process clause protects only those liberty interests created by the state
+
+Task: Write (1) a standalone summary of the question that keeps ONLY the critical details in the question, and (2) a justification explaining why the correct answer is right.
+
+Instructions:
+1. The question summary MUST be under 50 words. Include only details that matter for answering; omit everything else.
+2. The correct answer justification MUST be under 75 words.
+3. Respond in EXACTLY this format, with no text before or after it:
+    "Summary: <YOUR SUMMARY>
+    Justification: <YOUR JUSTIFICATION>"
+4. Plain text only. No headings, bullet points, or markdown.
+
+Your response (SUMMARY UNDER 50 WORDS, JUSTIFICATION UNDER 75 WORDS):
+--- RAW OUTPUT ---
+"Summary: Petitioner is confined in CM status due to prior escape attempts and possession of escape paraphernalia, but these violations are over ten years old.
+Justification: The correct answer is right because the due process clause only protects liberty interests created by the state, not other interests such as fair notice and repose. Retroactive legislation does not create a liberty interest."
+--- PARSED (status=ok) ---
+Summary: Petitioner is confined in CM status due to prior escape attempts and possession of escape paraphernalia, but these violations are over ten years old.
+Justification: The correct answer is right because the due process clause only protects liberty interests created by the state, not other interests such as fair notice and repose. Retroactive legislation does not create a liberty interest.
+======================================================================
+
+[Llama-3.2-3B-Instruct | CaseHOLD | thinking=na] RAM=2.50 GB | total_time=470.6s | queries=500 | per_query=0.94s | accuracy=54.60% | failures=0 | summarization_time=962.4s | corpus_entries=405 | summarization_failures=95
+    ! 95/500 summarizations excluded from corpora (no_labels=62, missing_summary=31, truncated=1, missing_justification=1)
+[Llama-3.2-3B-Instruct | MedMCQA | thinking=na] RAM=2.50 GB | total_time=181.0s | queries=500 | per_query=0.36s | accuracy=64.80% | failures=0 | summarization_time=730.5s | corpus_entries=393 | summarization_failures=107
+    ! 107/500 summarizations excluded from corpora (no_labels=49, missing_summary=48, missing_justification=10)
+[Llama-3.2-3B-Instruct | MedQA | thinking=na] RAM=2.50 GB | total_time=273.9s | queries=500 | per_query=0.55s | accuracy=62.60% | failures=1 | summarization_time=1018.3s | corpus_entries=471 | summarization_failures=29
+    ! 29/500 summarizations excluded from corpora (missing_summary=21, no_labels=8)
+[Llama-3.2-3B-Instruct | ProfessionalLaw | thinking=na] RAM=2.50 GB | total_time=307.3s | queries=500 | per_query=0.61s | accuracy=42.00% | failures=4 | summarization_time=923.7s | corpus_entries=355 | summarization_failures=145
+    ! 145/500 summarizations excluded from corpora (missing_summary=74, no_labels=71)
+
+===== SANITY CHECK: first SUCCESS summarization [Llama-3.1-8B-Instruct | CaseHOLD | thinking=na] =====
+Predicted: D | Ground truth: D
+--- PROMPT ---
+You previously answered a multiple-choice question correctly.
+
+Question:
+impaired to the degree of being incapable of effectively participating in a [legal] proceeding and thus need[s] the assistance of a fiduciary representative.” People ex rel. M.M., 726 P.2d 1108, 1119 (Colo.1986); see also May v. Colo. Civil Rights Comm’n, 43 P.3d 750, 755 (Colo.App.2002). Again, Graham has not established he meets Colorado’s statutory definition of mental incompetence. Nor do we find he is incapable of effectively participating in his legal proceedings. Graham filed two well-drafted complaints, and he prepared and responded to several substantive motions. Indeed, in light of the quality of his filings, the district court questioned wheth er Graham was really appearing pro se. See' Lichtenhafm v. Bureau of Land Mgmt., 72 F.3d 138, at *1 (10th Cir.1995) (unpublished) (<HOLDING>). Because we find Graham is hot mentally
+
+Correct answer: holding plaintiff didnt satisfy the requirements for appointment of a guardian to pursue the instant case because the plaintiffs notice of appeal to the administrative agency appearing in the record  is the work of a competent person either plaintiff is competent enough to handle that appeal or he had the help of obviously competent counsel
+
+Task: Write (1) a standalone summary of the question that keeps ONLY the critical details in the question, and (2) a justification explaining why the correct answer is right.
+
+Instructions:
+1. The question summary MUST be under 50 words. Include only details that matter for answering; omit everything else.
+2. The correct answer justification MUST be under 75 words.
+3. Respond in EXACTLY this format, with no text before or after it:
+    "Summary: <YOUR SUMMARY>
+    Justification: <YOUR JUSTIFICATION>"
+4. Plain text only. No headings, bullet points, or markdown.
+
+Your response (SUMMARY UNDER 50 WORDS, JUSTIFICATION UNDER 75 WORDS):
+--- RAW OUTPUT ---
+Summary: Graham's mental competence is questioned, but he filed well-drafted complaints and prepared motions, leading to a question about his ability to participate in legal proceedings.
+
+Justification: The correct answer is that the plaintiff didn't satisfy the requirements for a guardian because his notice of appeal to the administrative agency is the work of a competent person, either the plaintiff himself or obviously competent counsel, indicating he's capable of handling his case.
+--- PARSED (status=ok) ---
+Summary: Graham's mental competence is questioned, but he filed well-drafted complaints and prepared motions, leading to a question about his ability to participate in legal proceedings.
+Justification: The correct answer is that the plaintiff didn't satisfy the requirements for a guardian because his notice of appeal to the administrative agency is the work of a competent person, either the plaintiff himself or obviously competent counsel, indicating he's capable of handling his case.
+======================================================================
+
+
+===== SANITY CHECK: first FAILURE summarization [Llama-3.1-8B-Instruct | CaseHOLD | thinking=na] =====
+Predicted: D | Ground truth: A
+--- PROMPT ---
+You previously answered a multiple-choice question incorrectly.
+
+Question:
+did not suffer any physical injury and that she did not recall being hit by Taylor. We do not sustain the ALJ’s legal conclusion that Taylor engaged in physical abuse of a patient as defined by Administrative Order 4:08-C.3. On this record, we are satisfied that Taylor’s conduct constituted “inappropriate physical contact” within the meaning of Administrative Order 4:08-C.5 and that removal would be an excessive sanction. Accord Harcum v. New Lisbon Dev. Ctr., 96 N.J.A.R.2d (CSV) 324, 1996 WL 433210 (1996) (reducing physical abuse charge to charge of inappropriate physical contact because employee did not act with malice and patient was not injured); Lyew v. Morris View Nursing Home, 93 N.J.A.R.2d (CSV) 673, 1993 WL 470770, aff'd, 94 N.J.A.R.2d (CSV) 718, 1994 WL 757555 (App.Div.1994) (<HOLDING>). IV We acknowledge the responsibility of DHS
+
+Your (incorrect) answer: holding that defendant medical center which allowed a patient who would likely cause bodily harm to his wife if he had the opportunity to leave the center for a weekend could be liable for the patients actions of killing his wife and her paramour during that weekend because inter alia when the course of treatment of a mental patient involves an exercise of control over him by a physician who knows or should know that the patient is likely to cause bodily harm to others an independent duty arises from that relationship and falls upon the physician to exercise that control with such reasonable care as to prevent harm to others at the hands of the patient punctuation omitted emphasis supplied
+Correct answer: holding that sanction of removal for nursing home attendant who was found to have hit patient suffering from dementia should be reduced to penalty of sixmonth suspension because act of hitting patient was isolated instance in which patient was aggressor
+
+Task: Write (1) a standalone summary of the question that keeps ONLY the critical details in the question, and (2) a justification explaining why the correct answer is right.
+
+Instructions:
+1. The question summary MUST be under 50 words. Include only details that matter for answering; omit everything else.
+2. The correct answer justification MUST be under 75 words.
+3. Respond in EXACTLY this format, with no text before or after it:
+    "Summary: <YOUR SUMMARY>
+    Justification: <YOUR JUSTIFICATION>"
+4. Plain text only. No headings, bullet points, or markdown.
+
+Your response (SUMMARY UNDER 50 WORDS, JUSTIFICATION UNDER 75 WORDS):
+--- RAW OUTPUT ---
+Summary: A nursing home attendant hit a patient with dementia, but the patient did not suffer physical injury and did not recall the incident. The attendant's action was an isolated instance, and the patient was the aggressor.
+
+Justification: The correct answer is right because the attendant's action was an isolated instance, and the patient was the aggressor. This context suggests a lesser penalty than removal, as the attendant's mistake was not a pattern of behavior, but rather a single incident.
+--- PARSED (status=ok) ---
+Summary: A nursing home attendant hit a patient with dementia, but the patient did not suffer physical injury and did not recall the incident. The attendant's action was an isolated instance, and the patient was the aggressor.
+Justification: The correct answer is right because the attendant's action was an isolated instance, and the patient was the aggressor. This context suggests a lesser penalty than removal, as the attendant's mistake was not a pattern of behavior, but rather a single incident.
+======================================================================
+
+[Llama-3.1-8B-Instruct | CaseHOLD | thinking=na] RAM=2.50 GB | total_time=1058.8s | queries=500 | per_query=2.12s | accuracy=60.60% | failures=0 | summarization_time=2245.4s | corpus_entries=500 | summarization_failures=0
+[Llama-3.1-8B-Instruct | MedMCQA | thinking=na] RAM=2.50 GB | total_time=374.4s | queries=500 | per_query=0.75s | accuracy=72.80% | failures=0 | summarization_time=1504.6s | corpus_entries=500 | summarization_failures=0
+[Llama-3.1-8B-Instruct | MedQA | thinking=na] RAM=2.50 GB | total_time=613.6s | queries=500 | per_query=1.23s | accuracy=69.00% | failures=0 | summarization_time=2205.0s | corpus_entries=500 | summarization_failures=0
+[Llama-3.1-8B-Instruct | ProfessionalLaw | thinking=na] RAM=2.50 GB | total_time=682.7s | queries=500 | per_query=1.37s | accuracy=48.60% | failures=0 | summarization_time=2073.1s | corpus_entries=500 | summarization_failures=0
+
+===== SANITY CHECK: first SUCCESS summarization [Phi-4-mini-instruct | CaseHOLD | thinking=na] =====
+Predicted: D | Ground truth: D
+--- PROMPT ---
+You previously answered a multiple-choice question correctly.
+
+Question:
+impaired to the degree of being incapable of effectively participating in a [legal] proceeding and thus need[s] the assistance of a fiduciary representative.” People ex rel. M.M., 726 P.2d 1108, 1119 (Colo.1986); see also May v. Colo. Civil Rights Comm’n, 43 P.3d 750, 755 (Colo.App.2002). Again, Graham has not established he meets Colorado’s statutory definition of mental incompetence. Nor do we find he is incapable of effectively participating in his legal proceedings. Graham filed two well-drafted complaints, and he prepared and responded to several substantive motions. Indeed, in light of the quality of his filings, the district court questioned wheth er Graham was really appearing pro se. See' Lichtenhafm v. Bureau of Land Mgmt., 72 F.3d 138, at *1 (10th Cir.1995) (unpublished) (<HOLDING>). Because we find Graham is hot mentally
+
+Correct answer: holding plaintiff didnt satisfy the requirements for appointment of a guardian to pursue the instant case because the plaintiffs notice of appeal to the administrative agency appearing in the record  is the work of a competent person either plaintiff is competent enough to handle that appeal or he had the help of obviously competent counsel
+
+Task: Write (1) a standalone summary of the question that keeps ONLY the critical details in the question, and (2) a justification explaining why the correct answer is right.
+
+Instructions:
+1. The question summary MUST be under 50 words. Include only details that matter for answering; omit everything else.
+2. The correct answer justification MUST be under 75 words.
+3. Respond in EXACTLY this format, with no text before or after it:
+    "Summary: <YOUR SUMMARY>
+    Justification: <YOUR JUSTIFICATION>"
+4. Plain text only. No headings, bullet points, or markdown.
+
+Your response (SUMMARY UNDER 50 WORDS, JUSTIFICATION UNDER 75 WORDS):
+--- RAW OUTPUT ---
+"Summary: Graham was found mentally competent to handle his case and appeals, demonstrating capability in legal filings and procedural responses."
+"Justification: The correct answer is right because Graham met mental incompetence standards, prepared legal documents competently, and was not found mentally incapable as required for a fiduciary representative appointment."
+--- PARSED (status=ok) ---
+Summary: Graham was found mentally competent to handle his case and appeals, demonstrating capability in legal filings and procedural responses.
+Justification: The correct answer is right because Graham met mental incompetence standards, prepared legal documents competently, and was not found mentally incapable as required for a fiduciary representative appointment.
+======================================================================
+
+
+===== SANITY CHECK: first FAILURE summarization [Phi-4-mini-instruct | CaseHOLD | thinking=na] =====
+Predicted: D | Ground truth: A
+--- PROMPT ---
+You previously answered a multiple-choice question incorrectly.
+
+Question:
+did not suffer any physical injury and that she did not recall being hit by Taylor. We do not sustain the ALJ’s legal conclusion that Taylor engaged in physical abuse of a patient as defined by Administrative Order 4:08-C.3. On this record, we are satisfied that Taylor’s conduct constituted “inappropriate physical contact” within the meaning of Administrative Order 4:08-C.5 and that removal would be an excessive sanction. Accord Harcum v. New Lisbon Dev. Ctr., 96 N.J.A.R.2d (CSV) 324, 1996 WL 433210 (1996) (reducing physical abuse charge to charge of inappropriate physical contact because employee did not act with malice and patient was not injured); Lyew v. Morris View Nursing Home, 93 N.J.A.R.2d (CSV) 673, 1993 WL 470770, aff'd, 94 N.J.A.R.2d (CSV) 718, 1994 WL 757555 (App.Div.1994) (<HOLDING>). IV We acknowledge the responsibility of DHS
+
+Your (incorrect) answer: holding that defendant medical center which allowed a patient who would likely cause bodily harm to his wife if he had the opportunity to leave the center for a weekend could be liable for the patients actions of killing his wife and her paramour during that weekend because inter alia when the course of treatment of a mental patient involves an exercise of control over him by a physician who knows or should know that the patient is likely to cause bodily harm to others an independent duty arises from that relationship and falls upon the physician to exercise that control with such reasonable care as to prevent harm to others at the hands of the patient punctuation omitted emphasis supplied
+Correct answer: holding that sanction of removal for nursing home attendant who was found to have hit patient suffering from dementia should be reduced to penalty of sixmonth suspension because act of hitting patient was isolated instance in which patient was aggressor
+
+Task: Write (1) a standalone summary of the question that keeps ONLY the critical details in the question, and (2) a justification explaining why the correct answer is right.
+
+Instructions:
+1. The question summary MUST be under 50 words. Include only details that matter for answering; omit everything else.
+2. The correct answer justification MUST be under 75 words.
+3. Respond in EXACTLY this format, with no text before or after it:
+    "Summary: <YOUR SUMMARY>
+    Justification: <YOUR JUSTIFICATION>"
+4. Plain text only. No headings, bullet points, or markdown.
+
+Your response (SUMMARY UNDER 50 WORDS, JUSTIFICATION UNDER 75 WORDS):
+--- RAW OUTPUT ---
+"Summary: Case concerns reduction of sanction from removal to a six-month suspension for a nursing home attendant who struck a dementia patient, treating the act as an isolated instance where the patient was an aggressor."
+
+"Justification: This is correct as it references a specific case law precedent where an attendant's sanction was reduced due to circumstances that involved an isolated incident with an aggressor patient, aligning with legal standards on proportionality of disciplinary actions in healthcare settings."
+--- PARSED (status=ok) ---
+Summary: Case concerns reduction of sanction from removal to a six-month suspension for a nursing home attendant who struck a dementia patient, treating the act as an isolated instance where the patient was an aggressor.
+Justification: This is correct as it references a specific case law precedent where an attendant's sanction was reduced due to circumstances that involved an isolated incident with an aggressor patient, aligning with legal standards on proportionality of disciplinary actions in healthcare settings.
+======================================================================
+
+[Phi-4-mini-instruct | CaseHOLD | thinking=na] RAM=2.50 GB | total_time=532.1s | queries=500 | per_query=1.06s | accuracy=48.00% | failures=0 | summarization_time=1002.1s | corpus_entries=497 | summarization_failures=3
+    ! 3/500 summarizations excluded from corpora (missing_justification=2, truncated=1)
+[Phi-4-mini-instruct | MedMCQA | thinking=na] RAM=2.50 GB | total_time=198.7s | queries=500 | per_query=0.40s | accuracy=51.20% | failures=2 | summarization_time=770.5s | corpus_entries=491 | summarization_failures=9
+    ! 9/500 summarizations excluded from corpora (truncated=7, missing_justification=2)
+[Phi-4-mini-instruct | MedQA | thinking=na] RAM=2.50 GB | total_time=307.5s | queries=500 | per_query=0.61s | accuracy=47.80% | failures=0 | summarization_time=1025.1s | corpus_entries=485 | summarization_failures=15
+    ! 15/500 summarizations excluded from corpora (truncated=10, missing_justification=5)
+[Phi-4-mini-instruct | ProfessionalLaw | thinking=na] RAM=2.50 GB | total_time=343.7s | queries=500 | per_query=0.69s | accuracy=44.00% | failures=1 | summarization_time=916.2s | corpus_entries=498 | summarization_failures=2
+    ! 2/500 summarizations excluded from corpora (truncated=1, missing_justification=1)
+
+===== SANITY CHECK: first SUCCESS summarization [Phi-3.5-mini-instruct | CaseHOLD | thinking=na] =====
+Predicted: D | Ground truth: D
+--- PROMPT ---
+You previously answered a multiple-choice question correctly.
+
+Question:
+impaired to the degree of being incapable of effectively participating in a [legal] proceeding and thus need[s] the assistance of a fiduciary representative.” People ex rel. M.M., 726 P.2d 1108, 1119 (Colo.1986); see also May v. Colo. Civil Rights Comm’n, 43 P.3d 750, 755 (Colo.App.2002). Again, Graham has not established he meets Colorado’s statutory definition of mental incompetence. Nor do we find he is incapable of effectively participating in his legal proceedings. Graham filed two well-drafted complaints, and he prepared and responded to several substantive motions. Indeed, in light of the quality of his filings, the district court questioned wheth er Graham was really appearing pro se. See' Lichtenhafm v. Bureau of Land Mgmt., 72 F.3d 138, at *1 (10th Cir.1995) (unpublished) (<HOLDING>). Because we find Graham is hot mentally
+
+Correct answer: holding plaintiff didnt satisfy the requirements for appointment of a guardian to pursue the instant case because the plaintiffs notice of appeal to the administrative agency appearing in the record  is the work of a competent person either plaintiff is competent enough to handle that appeal or he had the help of obviously competent counsel
+
+Task: Write (1) a standalone summary of the question that keeps ONLY the critical details in the question, and (2) a justification explaining why the correct answer is right.
+
+Instructions:
+1. The question summary MUST be under 50 words. Include only details that matter for answering; omit everything else.
+2. The correct answer justification MUST be under 75 words.
+3. Respond in EXACTLY this format, with no text before or after it:
+    "Summary: <YOUR SUMMARY>
+    Justification: <YOUR JUSTIFICATION>"
+4. Plain text only. No headings, bullet points, or markdown.
+
+Your response (SUMMARY UNDER 50 WORDS, JUSTIFICATION UNDER 75 WORDS):
+--- RAW OUTPUT ---
+Summary: The court must determine if Graham, claiming mental incapacity, is competent to handle his legal proceedings without a guardian.
+
+Justification: Graham filed two well-drafted complaints and responded to motions, indicating competence. The district court questioned his pro se appearance, suggesting he could effectively participate. Precedents require clear evidence of incapacity, which Graham lacks. The correct answer holds that Graham's actions demonstrate sufficient competence to manage his legal matters without a guardian.<|end|>
+--- PARSED (status=truncated) ---
+Summary: The court must determine if Graham, claiming mental incapacity, is competent to handle his legal proceedings without a guardian.
+Justification: Graham filed two well-drafted complaints and responded to motions, indicating competence. The district court questioned his pro se appearance, suggesting he could effectively participate. Precedents require clear evidence of incapacity, which Graham lacks. The correct answer holds that Graham's actions demonstrate sufficient competence to manage his legal matters without a guardian.<|end|>
+======================================================================
+
+
+===== SANITY CHECK: first FAILURE summarization [Phi-3.5-mini-instruct | CaseHOLD | thinking=na] =====
+Predicted: A | Ground truth: C
+--- PROMPT ---
+You previously answered a multiple-choice question incorrectly.
+
+Question:
+some rational basis rather than be arbitrary and capricious). Petitioner’s prior escape, his history of attempted escapes, and possession of escape paraphernalia, guns and ammunition did provide a rational basis for initially placing him in CM status and for confining him there for some period of time. However, these violations are over ten years old, and petitioner has had only one minor disciplinary infraction since. Consequently, we believe a substantial question exists on whether the Assignment Team’s assessment that petitioner remains a severe escape risk provides a sufficient rational basis to support his continued confinement in CM in the absence of any reported objective evidence other than these ten-year old violations. B. Due Process Petitioner next asserts that hi ir.1981) (<HOLDING>) In Hewitt v. Helms, 459 U.S. 460, 103 S.Ct.
+
+Your (incorrect) answer: recognizing that the due process clause protects the interests in fair notice and repose that may be compromised by retroactive legisla tion
+Correct answer: holding that the due process clause protects only those liberty interests created by the state
+
+Task: Write (1) a standalone summary of the question that keeps ONLY the critical details in the question, and (2) a justification explaining why the correct answer is right.
+
+Instructions:
+1. The question summary MUST be under 50 words. Include only details that matter for answering; omit everything else.
+2. The correct answer justification MUST be under 75 words.
+3. Respond in EXACTLY this format, with no text before or after it:
+    "Summary: <YOUR SUMMARY>
+    Justification: <YOUR JUSTIFICATION>"
+4. Plain text only. No headings, bullet points, or markdown.
+
+Your response (SUMMARY UNDER 50 WORDS, JUSTIFICATION UNDER 75 WORDS):
+--- RAW OUTPUT ---
+Summary: Petitioner argues for due process based on past escape attempts and possession of escape tools, claiming a rational basis for continued confinement in Controlled Minimum (CM) status despite a decade without further incidents.
+
+Justification: The due process claim is incorrect because the U.S. Supreme Court has held that the due process clause protects only those liberty interests created by the state, not inherent rights. The petitioner's liberty interests in this case stem from state-created conditions and rules, and any challenge to these must be assessed against the state's authority and the specific protections afforded by law. The state's decision to confine the petitioner in CM status must be justified by current, not outdated, state interests and procedures, and the petitioner must have been afforded due process in line with these interests. The past escape attempts and possession of tools provide a rational basis for initial confinement, but the continued justification for such confinement must be reevaluated in light of the petitioner's recent behavior and any changes in state law or policy. The key issue is whether the state has provided a current, rational basis for the
+--- PARSED (status=truncated) ---
+Summary: Petitioner argues for due process based on past escape attempts and possession of escape tools, claiming a rational basis for continued confinement in Controlled Minimum (CM) status despite a decade without further incidents.
+Justification: The due process claim is incorrect because the U.S. Supreme Court has held that the due process clause protects only those liberty interests created by the state, not inherent rights. The petitioner's liberty interests in this case stem from state-created conditions and rules, and any challenge to these must be assessed against the state's authority and the specific protections afforded by law. The state's decision to confine the petitioner in CM status must be justified by current, not outdated, state interests and procedures, and the petitioner must have been afforded due process in line with these interests. The past escape attempts and possession of tools provide a rational basis for initial confinement, but the continued justification for such confinement must be reevaluated in light of the petitioner's recent behavior and any changes in state law or policy. The key issue is whether the state has provided a current, rational basis for the
+======================================================================
+
+[Phi-3.5-mini-instruct | CaseHOLD | thinking=na] RAM=2.50 GB | total_time=741.2s | queries=500 | per_query=1.48s | accuracy=56.40% | failures=2 | summarization_time=1824.4s | corpus_entries=0 | summarization_failures=500
+    ! 500/500 summarizations excluded from corpora (truncated=499, generation_error=1)
+[Phi-3.5-mini-instruct | MedMCQA | thinking=na] RAM=2.50 GB | total_time=245.8s | queries=500 | per_query=0.49s | accuracy=55.20% | failures=0 | summarization_time=1242.7s | corpus_entries=0 | summarization_failures=500
+    ! 500/500 summarizations excluded from corpora (truncated=500)
+[Phi-3.5-mini-instruct | MedQA | thinking=na] RAM=2.50 GB | total_time=405.3s | queries=500 | per_query=0.81s | accuracy=52.60% | failures=0 | summarization_time=1568.8s | corpus_entries=0 | summarization_failures=500
+    ! 500/500 summarizations excluded from corpora (truncated=500)
+[Phi-3.5-mini-instruct | ProfessionalLaw | thinking=na] RAM=2.50 GB | total_time=423.8s | queries=500 | per_query=0.85s | accuracy=46.00% | failures=0 | summarization_time=1617.9s | corpus_entries=1 | summarization_failures=499
+    ! 499/500 summarizations excluded from corpora (truncated=499)
+Total summarization failures this run: 2420 (truncated=2034, no_labels=190, missing_summary=174, missing_justification=21, generation_error=1)
+Done.

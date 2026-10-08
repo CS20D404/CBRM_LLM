@@ -1,0 +1,339 @@
+{
+  "locale": "CaseHOLD",
+  "average_similarity": 0.7402398784955343,
+  "query": {
+    "id": "casehold_train_24650",
+    "dataset": "CaseHOLD",
+    "domain": "legal",
+    "problem_statement": "Judge, filed Dec. 1, 2008 (citing, inter alia, McIntosh v. U.S. Parole Comm’n, 115 F.3d 809, 811-12 (10th Cir. 1997))); see R. at 97-98 (Order Adopting and Affirming Magistrate Judge’s Recommendation, filed Dec. 29, 2008, 2008 WL 5411474). 3 . On May 18, 2009, Mr. Portley-El also filed a petition for a determination. In this petition, Mr. Portley-El sought to have the district court promptly issue an order on his habeas petition. On May 18, 2009, the district court denied the petition for a determination as moot. 4 . On August 24, 2009, we entered an order directing the parties to file memoranda addressing whether Mr. Portley-El waived his appellate rights by failing to object to the magistrate judge’s recommendation. E.g., Morales-Fernandez v. INS, 418 F.3d 1116, 1119 (10th Cir.2005) (<HOLDING>). The parties filed briefs on this issue. Mr.",
+    "options": {
+      "A": "holding party must make timely and specific objection at trial to preserve issue for appellate review",
+      "B": "holding that under the firm waiver rule a party who fails to make a timely objection to the magistrate judges findings and recommendations waives appellate review of both factual and legal questions",
+      "C": "holding that under current eleventh circuit rule the failure to object limits the scope of our appellate review to plain error review of the magistrate judges factual findings  however failure to object to the magistrate judges legal conclusions does not preclude the party from challenging those conclusions on appeal",
+      "D": "holding that under the firm waiver rule a partys failure to timely object to the proposed findings and recommendations of the magistrate judge waives appellate review of both factual and legal questions internal quotation  marks omitted",
+      "E": "holding failure to timely object to magistrate judges recommendation waives appellate review of factual and legal questions"
+    },
+    "ground_truth": "B",
+    "ground_truth_text": "holding that under the firm waiver rule a party who fails to make a timely objection to the magistrate judges findings and recommendations waives appellate review of both factual and legal questions",
+    "metadata": {
+      "split": "train"
+    }
+  },
+  "top_3_retrieved_cases": [
+    {
+      "case": {
+        "id": "casehold_train_36251",
+        "dataset": "CaseHOLD",
+        "domain": "legal",
+        "problem_statement": "omitted). “Even then, whether to grant the requested relief is a matter for the district court’s sound discretion.” Id. (quotation and alteration omitted). In order for an appellant to demonstrate that the court abused its discretion in denying relief under Rule 60(b), the appellant must show a justification “so compelling” that it requires that the district court vacate its order. Id. A habeas petitioner does not have a constitutional right to counsel. Henderson v. Campbell, 353 F.3d 880, 892 (11th Cir.2003) (held in the context of a habeas proceeding under 28 U.S.C. § 2254). As a result, a petitioner cannot claim that he was denied effective assistance of counsel in a post-conviction proceeding. Coleman v. Thompson, 501 U.S. 722, 752, 111 S.Ct. 2546, 2566, 115 L.Ed.2d 640 (1991) (<HOLDING>). Assuming that it is true that Cherniak",
+        "options": {
+          "A": "holding that successive motions for postconviction relief are procedurally barred",
+          "B": "holding that the defendants habeas claim was procedurally barred because it could have been or was raised in his postconviction motion",
+          "C": "holding that a  2254 petitioner cannot demonstrate cause for procedurally defaulting his claims by relying on postconviction counsels error",
+          "D": "holding that to prevail on a claim that an immigration hearing was procedurally insufficient the petitioner must demonstrate prejudice",
+          "E": "holding that state postconviction delays do not give rise to independent due process claims that are cognizable under  2254"
+        },
+        "ground_truth": "C",
+        "ground_truth_text": "holding that a  2254 petitioner cannot demonstrate cause for procedurally defaulting his claims by relying on postconviction counsels error",
+        "llm_output": "Option: C\n",
+        "prediction": "C",
+        "evaluation_correct": true
+      },
+      "similarity": 0.7587475180625916
+    },
+    {
+      "case": {
+        "id": "casehold_test_3286",
+        "dataset": "CaseHOLD",
+        "domain": "legal",
+        "problem_statement": "Felipe Lugo, an Arizona state prisoner, appeals pro se from the district court’s judgment dismissing his 42 U.S.C. § 1983 action without leave to amend. We have jurisdiction pursuant to 28 U.S.C. § 1291. We review de novo a district court’s dismissal for failure to state a claim pursuant to 28 U.S.C. § 1915A, Resnick v. Hayes, 213 F.3d 443, 447 (9th Cir.2000), and we review for an abuse of discretion the denial of leave to amend, Halet v. Wend Inv. Co., 672 F.2d 1305, 1310 (9th Cir.1982). We affirm. The district court correctly dismissed Lugo’s complaint because he failed to allege that the defendants were acting under color of state law. See O’Guinn v. Lovel-ock Corr. Ctr., 502 F.3d 1056, 1060 (9th Cir.2007) (<HOLDING>). Because Lugo has failed to explain how the",
+        "options": {
+          "A": "holding that an antitrust injury is a necessary element of a  2 claim",
+          "B": "holding that a defendants personal involvement in an alleged deprivation of constitutional rights is a necessary element of a  1983 complaint",
+          "C": "recognizing such a claim under  1983",
+          "D": "holding an allegation of damages is a necessary element of any claim under  2605",
+          "E": "recognizing that allegation of state action is a necessary element of a  1983 claim"
+        },
+        "ground_truth": "E",
+        "ground_truth_text": "recognizing that allegation of state action is a necessary element of a  1983 claim",
+        "llm_output": "Option: E",
+        "prediction": "E",
+        "evaluation_correct": true
+      },
+      "similarity": 0.7406632900238037
+    },
+    {
+      "case": {
+        "id": "casehold_train_39897",
+        "dataset": "CaseHOLD",
+        "domain": "legal",
+        "problem_statement": "not hold that a trial judge may not give a mitigating circumstances instruction if he or she is disposed to grant the defendant’s request. The purpose of a contemporaneous objection requirement is to give the trial judge the opportunity to rule on the defendant’s constitutional claim, see Engle v. Isaac, 456 U.S. 107, 128-29, 102 S.Ct. 1558, 1572, 71 L.Ed.2d 783 (1982); this is what O’Bryan failed to do. Accordingly, we hold that the defendant is barred from raising his claim about the absence of a mitigating circumstances instruction in these federal habeas proceedings. See also O’Bryan v. Estelle, 691 F.2d, 706, 710 (5th Cir.1982) (Gee, J., dissenting). We note further that the Supreme Court’s recent decision in Zant v. Stephens, - U.S. -, 103 S.Ct. 2733, 2744, 77 L.Ed.2d 235 (1983) (<HOLDING>) makes the defendant’s argument on the merits",
+        "options": {
+          "A": "holding that when one of the other sentencing factors enables the sentencer to give aggravating weight to the same facts and circumstances that underlie the invalidated aggravating factor areviewing court need not apply harmlesserror review",
+          "B": "holding that death sentence need not be set aside where one of three statutory aggravating circumstances found by juror was subsequently held to be invalid by state supreme court but other two were specifically upheld and stating that the absence of legislature or courtimposed standards to govern the jury in weighing the significance of either or both of those aggravating circumstances does not render capital sentencing statute invalid as applied",
+          "C": "holding that apprendi does not apply to state capital sentencing schemes where judges are required to find certain aggravating circumstances before imposing a death sentence",
+          "D": "holding that it was permissible to ask whether a juror would consider death sentence if juror determined aggravating circumstances outweighed mitigating circumstances",
+          "E": "holding that under the alabama death penalty statute because the judge did not consider the jurys recommendation the statute which forced the jury to sentence the defendant to death whenever aggravating circumstances existed was not unconstitutional"
+        },
+        "ground_truth": "B",
+        "ground_truth_text": "holding that death sentence need not be set aside where one of three statutory aggravating circumstances found by juror was subsequently held to be invalid by state supreme court but other two were specifically upheld and stating that the absence of legislature or courtimposed standards to govern the jury in weighing the significance of either or both of those aggravating circumstances does not render capital sentencing statute invalid as applied",
+        "llm_output": "Option: C\n",
+        "prediction": "C",
+        "evaluation_correct": false
+      },
+      "similarity": 0.7213088274002075
+    }
+  ]
+}
+{
+  "locale": "MedMCQA",
+  "average_similarity": 0.7452329198519388,
+  "query": {
+    "id": "medmcqa_train_10151",
+    "dataset": "MedMCQA",
+    "domain": "medical",
+    "problem_statement": "Mesothelioma is most commonly caused by?",
+    "options": {
+      "A": "Asbestosis",
+      "B": "Silicosis",
+      "C": "Anthracosis",
+      "D": "Coal workers pneumoconiosis"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Asbestosis",
+    "metadata": {
+      "split": "train",
+      "subject": "Medicine",
+      "topic": "Pneumoconiosis"
+    }
+  },
+  "top_3_retrieved_cases": [
+    {
+      "case": {
+        "id": "medmcqa_train_146518",
+        "dataset": "MedMCQA",
+        "domain": "medical",
+        "problem_statement": "Which of the following causes malignant mesothelioma?",
+        "options": {
+          "A": "Smoking",
+          "B": "Asbestosis",
+          "C": "Silicosis",
+          "D": "Pneumoconiosis"
+        },
+        "ground_truth": "B",
+        "ground_truth_text": "Asbestosis",
+        "llm_output": "Option: A",
+        "prediction": "A",
+        "evaluation_correct": false
+      },
+      "similarity": 0.8944476246833801
+    },
+    {
+      "case": {
+        "id": "medmcqa_train_115466",
+        "dataset": "MedMCQA",
+        "domain": "medical",
+        "problem_statement": "Most common presentation of neuroblastoma is ?",
+        "options": {
+          "A": "Lytic lesion in skull with suture diasthesis",
+          "B": "Lung metastasis",
+          "C": "Renal invasion",
+          "D": "Secondaries in brain"
+        },
+        "ground_truth": "A",
+        "ground_truth_text": "Lytic lesion in skull with suture diasthesis",
+        "llm_output": "Option: B",
+        "prediction": "B",
+        "evaluation_correct": false
+      },
+      "similarity": 0.6842293739318848
+    },
+    {
+      "case": {
+        "id": "medmcqa_train_178131",
+        "dataset": "MedMCQA",
+        "domain": "medical",
+        "problem_statement": "Epidemic pleurodynia is caused by ?",
+        "options": {
+          "A": "Enterovirus -70",
+          "B": "Coxsackie - A virus",
+          "C": "Coxsackie -B virus",
+          "D": "Enterovirus"
+        },
+        "ground_truth": "C",
+        "ground_truth_text": "Coxsackie -B virus",
+        "llm_output": "Option: B",
+        "prediction": "B",
+        "evaluation_correct": false
+      },
+      "similarity": 0.6570217609405518
+    }
+  ]
+}
+{
+  "locale": "MedQA",
+  "average_similarity": 0.8629737893740336,
+  "query": {
+    "id": "medqa_train_5288",
+    "dataset": "MedQA",
+    "domain": "medical",
+    "problem_statement": "A 46-year-old woman comes to the emergency department because of intermittent abdominal pain and vomiting for 2 days. The abdominal pain is colicky and diffuse. The patient's last bowel movement was 3 days ago. She has had multiple episodes of upper abdominal pain that radiates to her scapulae and vomiting over the past 3 months; her symptoms subsided after taking ibuprofen. She has coronary artery disease, type 2 diabetes mellitus, gastroesophageal reflux disease, and osteoarthritis of both knees. Current medications include aspirin, atorvastatin, rabeprazole, insulin, and ibuprofen. She appears uncomfortable. Her temperature is 39°C (102.2°F), pulse is 111/min, and blood pressure is 108/68 mm Hg. Examination shows dry mucous membranes. The abdomen is distended and tympanitic with diffuse tenderness; bowel sounds are high-pitched. Rectal examination shows a collapsed rectum. Her hemoglobin concentration is 13.8 g/dL, leukocyte count is 14,400/mm3, and platelet count is 312,000/mm3. An x-ray of the abdomen is shown. Which of the following is the most likely cause of this patient's findings?",
+    "options": {
+      "A": "Cholecystoenteric fistula",
+      "B": "Cecal torsion",
+      "C": "Bowel infarction",
+      "D": "Viscus perforation"
+    },
+    "ground_truth": "A",
+    "ground_truth_text": "Cholecystoenteric fistula",
+    "metadata": {
+      "split": "train"
+    }
+  },
+  "top_3_retrieved_cases": [
+    {
+      "case": {
+        "id": "medqa_train_2544",
+        "dataset": "MedQA",
+        "domain": "medical",
+        "problem_statement": "A 33-year-old woman comes to the physician because of a 4-month history of intermittent lower abdominal cramps associated with diarrhea, bloating, and mild nausea. During this period, she has had a 5-kg (11-lb) weight loss. She feels like she cannot fully empty her bowels. She has no history of serious illness. She has a high-fiber diet. Her father is of Ashkenazi Jewish descent. She appears well. Her temperature is 36.9°C (98.5°F), pulse is 90/min, and blood pressure is 130/90 mm Hg. The lungs are clear to auscultation. Cardiac examination shows no murmurs, rubs, or gallops. Abdominal examination shows mild tenderness to palpation in the right lower quadrant without guarding or rebound. Bowel sounds are normal. Test of the stool for occult blood is negative. Her hemoglobin concentration is 10.5 g/dL, leukocyte count is 12,000 mm3, platelet count is 480,000 mm3, and erythrocyte sedimentation rate is 129 mm/h. A barium enema shows ulceration and narrowing of the right colon. Which of the following is the most likely diagnosis?",
+        "options": {
+          "A": "Ulcerative colitis",
+          "B": "Celiac disease",
+          "C": "Intestinal carcinoid tumor",
+          "D": "Crohn disease"
+        },
+        "ground_truth": "D",
+        "ground_truth_text": "Crohn disease",
+        "llm_output": "Option: A",
+        "prediction": "A",
+        "evaluation_correct": false
+      },
+      "similarity": 0.8696098923683167
+    },
+    {
+      "case": {
+        "id": "medqa_train_474",
+        "dataset": "MedQA",
+        "domain": "medical",
+        "problem_statement": "A 42-year-old woman is brought to the emergency department because of intermittent sharp right upper quadrant abdominal pain and nausea for the past 10 hours. She has vomited 3 times. There is no associated fever, chills, diarrhea, or urinary symptoms. She has 2 children who both attend high school. She appears uncomfortable. She is 165 cm (5 ft 5 in) tall and weighs 86 kg (190 lb). Her BMI is 32 kg/m2. Her temperature is 37.0°C (98.6°F), pulse is 100/min, and blood pressure is 140/90 mm Hg. She has mild scleral icterus. On physical examination, her abdomen is soft and nondistended, with tenderness to palpation of the right upper quadrant without guarding or rebound. Bowel sounds are normal. Laboratory studies show the following:\nBlood\nHemoglobin count 14 g/dL\nLeukocyte count 9,000 mm3\nPlatelet count 160,000 mm3\nSerum\nAlkaline phosphatase 238 U/L\nAspartate aminotransferase 60 U/L\nBilirubin  \nTotal 2.8 mg/dL\nDirect 2.1 mg/dL\nWhich of the following is the most appropriate next step in diagnosis?",
+        "options": {
+          "A": "Endoscopic retrograde cholangiopancreatography (ERCP)",
+          "B": "Hepatobiliary iminodiacetic acid (HIDA) scan of the biliary tract",
+          "C": "Supine and erect X-rays of the abdomen",
+          "D": "Transabdominal ultrasonography"
+        },
+        "ground_truth": "D",
+        "ground_truth_text": "Transabdominal ultrasonography",
+        "llm_output": "Option: D",
+        "prediction": "D",
+        "evaluation_correct": true
+      },
+      "similarity": 0.864456295967102
+    },
+    {
+      "case": {
+        "id": "medqa_train_7775",
+        "dataset": "MedQA",
+        "domain": "medical",
+        "problem_statement": "A 25-year-old woman presents to the emergency department for the evaluation of a severe abdominal pain of 5 hours duration. The pain is colicky but is not localized. She also complains of nausea and an episode of vomiting. For the past 2 days, she has been constipated. She has had similar episodes of varying intensity in the past that resolved over a few hours. Several laboratory tests and imaging studies have been conducted in the past which were all within normal limits. The medical history is otherwise unremarkable. She denies smoking cigarettes or drinking alcohol. The vital signs are as follows: pulse 100/min, respiratory rate 16/min, and blood pressure 138/84 mm Hg. The physical examination reveals a young woman in obvious distress. There is no tenderness on abdominal examination. Laboratory tests are ordered, analgesics are administered, and the patient was admitted overnight for observation. In the morning, a urine sample was shown to have darkened overnight. Abnormal levels of which of the following most likely led to this patient’s condition?",
+        "options": {
+          "A": "Aminolevulinic acid dehydratase",
+          "B": "Porphobilinogen deaminase",
+          "C": "Uroporphyrinogen III synthase",
+          "D": "Uroporphyrinogen decarboxylase"
+        },
+        "ground_truth": "B",
+        "ground_truth_text": "Porphobilinogen deaminase",
+        "llm_output": "Option: C",
+        "prediction": "C",
+        "evaluation_correct": false
+      },
+      "similarity": 0.8548551797866821
+    }
+  ]
+}
+{
+  "locale": "ProfessionalLaw",
+  "average_similarity": 0.8803809285163879,
+  "query": {
+    "id": "professionallaw_test_245",
+    "dataset": "ProfessionalLaw",
+    "domain": "legal",
+    "problem_statement": "A land-development company was the owner of a400-acre tract of land in the Southwest. Over the course of time, the land-development company developed two residential subdivisions of the land, an eastern tract and a western tract, each of which contained 150 acres. These subdivisions were created by separate plats that made no reference to each other. The restrictions in the plats were, however, substantially identical. The plats and each deed provided that \"the use of the land herein conveyed is restricted to single-family dwellings only, and this covenant is intended to apply to each and every lot in the subdivision and runs with the land, binding every lot owner, his heirs, and assigns. \"After all but four lots in each subdivision had been sold by the land-development company, it sold 50 acres of the remaining 100 acres of land to a country club by a deed containing the following provisions:\"This deed is executed and accepted with the understanding that the property above described is hereby restricted so that(1) said property may be used as a country club, with a golf course, pool, tennis courts, club house, eating facilities, and other improvements appropriate to a country club. (2) said property may also be subdivided and platted as a residential subdivision similar to the eastern tract and the property shall thereafter be used in accordance with and conveyed subject to residential restrictions that shall conform with those restrictions in force against the eastern tract. (3) the restrictions herein contained shall be deemed covenants running with the land, and for breach of any covenant herein, the land-development company, its successors and assigns may, at its option, re-enter and terminate the estate conveyed hereby. \"At the time of this conveyance, the land- development company retained title to the remaining 50 acres in the original 400-acre tract. Thereafter, the land-development company developed an exclusive shopping center on 25 acres of the retained land. In February 2001, the land-development company sold the remaining eight residential lots in the eastern tract and the western tract. The next month, the land-development company executed the following instrument to the country club:\"The land-development company, for itself, its successors, and assigns, does hereby release,surrender and quitclaim all rights, title, or other property interest in that certain acres owned by the country club. \"At the time this instrument was executed, the country club had built a club house, golf course, and tennis courts on a portion of its land, and it had 25 acres of vacant land remaining. The country club wishes to commence construction of a new high- rise complex (containing a hotel, shopping mall, apartments, etc. ) on the 25 acres of vacant land it possesses. In an action by one of the homeowners in the western tract to enjoin construction of the complex, plaintiff will most likely",
+    "options": {
+      "A": "succeed, because the homeowner (or any other landowner in the eastern tract or the western tract) as assignee of the land development company could re-enter the land upon breach of condition subsequent.",
+      "B": "succeed, because a common development scheme had been established for the entire 400-acre tract, and the country club's proposed complex would constitute a non-conforming use.",
+      "C": "not succeed, because the land development company's instrument of March 2001 effectuated an abrogation of the deed restrictions on the country club's use of its property.",
+      "D": "not succeed, because in accordance with deed restriction (b), only a homeowner in the eastern tract would have standing to challenge the country club's proposed construction plan."
+    },
+    "ground_truth": "C",
+    "ground_truth_text": "not succeed, because the land development company's instrument of March 2001 effectuated an abrogation of the deed restrictions on the country club's use of its property.",
+    "metadata": {
+      "split": "test",
+      "subject": "professional_law"
+    }
+  },
+  "top_3_retrieved_cases": [
+    {
+      "case": {
+        "id": "professionallaw_test_748",
+        "dataset": "ProfessionalLaw",
+        "domain": "legal",
+        "problem_statement": "A land development company was the owner of a400-acre tract of land in the Great Lakes region. Over the course of time, the land development company developed two residential subdivisions of the land, an eastern development and a western development, each of which contained 150 acres. These subdivisions were created by separate plats that made no reference to each other. The restrictions in the plats were, however, substantially identical. The plats and each deed provided that \"the use of the land herein conveyed is restricted to single- family dwellings only, and this covenant is intended to apply to each and every lot in the subdivision and runs with the land, binding every lot owner, his heirs, and assigns. \"After all but four lots in each subdivision had been sold by the land development company, it sold 50 acres of the remaining 100 acres of land to a country club by a deed containing the following provisions:\"This deed is executed and accepted with the understanding that the property above described is hereby restricted so that(1) said property may be used as a country club, with a golf course, pool, tennis courts, club house, eating facilities, and other improvements appropriate to a country club. (2) said property may also be subdivided and platted as a residential subdivision similar to the eastern development and the property shall thereafter be used in accordance with and conveyed subject to residential restrictions that shall conform with those restrictions in force against the eastern development. (3) the restrictions herein contained shall be deemed covenants running with the land, and for breach of any covenant herein, grantor  land development company, its successors and assigns may, at its option, re-enter and terminate the estate conveyed hereby. \"At the time of this conveyance, the land development company retained title to the remaining 50 acres in the original 400-acre tract. Which of the following would best describe the country club's interest in the SO-acre tract that it purchased from the land development company?",
+        "options": {
+          "A": "Fee simple determinable.",
+          "B": "Fee simple subject to condition subsequent.",
+          "C": "Determinable fee subject to an executory interest.",
+          "D": "Easement appurtenant."
+        },
+        "ground_truth": "B",
+        "ground_truth_text": "Fee simple subject to condition subsequent.",
+        "llm_output": "Option: C\n",
+        "prediction": "C",
+        "evaluation_correct": false
+      },
+      "similarity": 0.9356937408447266
+    },
+    {
+      "case": {
+        "id": "professionallaw_test_1088",
+        "dataset": "ProfessionalLaw",
+        "domain": "legal",
+        "problem_statement": "A landowner, advancing in age, realizes that he is no longer able to farm his 1,000 acres and therefore decides to sell some of the farmland in parcels of 250 acres. The president of a development company is interested in purchasing three of the four parcels. The president buys the three parcels from the landowner and begins formulating plans for constructing single-family dwelling units on the land. The original deed between the landowner and the development company contains a provision expressly binding \"upon all subsequent grantees, their heirs, and assigns,\" stipulating that any further subdivisions by any such persons shall be restricted to minimum two-acre lots to be used for single family dwelling units only. The development company immediately subdivided two of the parcels into lots of three, four, and five acres, and began construction of homes thereon. The original deed restrictions were enumerated within the special warranty deeds and were given to the purchasers of the homes in the new development, called phase 1. Two years later, the president sold the remaining parcel, which had not been included in the phase 1 subdivision plan, to a contractor. The contractor, in turn, drafted a subdivision plan for the last 250-acre parcel dividing it into one-acre lots. The contractor then commenced construction of single-family dwelling units in the new development, to be known as phase 2. There was no mention of the restriction for two-acre minimum lots in the deeds to the purchasers of the new homes in phase 2. Meanwhile, after the landowner's death, his estate is required to sell the remaining 250-acre parcel of his farmland. The buyer is an investor, who proposes to construct a two-level shopping center and parking lot on the property. The deed for the remaining 250-acre parcel contained the identical restrictions as the deeds to the other three parcels. The investor, ignoring these restrictions, was able to use his political influence to persuade the county zoning board to rezone the said parcel for commercial use. The residents of phase I seek to enjoin the construction of the shopping center. The residents will have",
+        "options": {
+          "A": "little chance of preventing the projected commercial development.",
+          "B": "no standing to enjoin the construction of the shopping center.",
+          "C": "no chance of succeeding, because the zoning ordinance takes precedence over the covenant running with the land.",
+          "D": "success in their cause of action in accordance with the common development scheme."
+        },
+        "ground_truth": "D",
+        "ground_truth_text": "success in their cause of action in accordance with the common development scheme.",
+        "llm_output": "Option: C\n",
+        "prediction": "C",
+        "evaluation_correct": false
+      },
+      "similarity": 0.8626429438591003
+    },
+    {
+      "case": {
+        "id": "professionallaw_test_1344",
+        "dataset": "ProfessionalLaw",
+        "domain": "legal",
+        "problem_statement": "In 1998, a farmer, advancing in age, realizes that he is no longer able to farm his 1,000 acres and therefore decides to sell some of the farmland in parcels of 250 acres. The president of a development company is interested in purchasing three of the four parcels. The president buys the three parcels from the farmer and begins formulating plans for constructing single-family dwelling units on the land. The original deed between the farmer and the development company contains a provision expressly binding \"upon all subsequent grantees, their heirs, and assigns,\" stipulating that any further subdivisions by any such persons shall be restricted to minimum two-acre lots to be used for single- family dwelling units only. The development company immediately subdivided two of the parcels into lots of three, four, and five acres, and began construction of homes thereon. The original deed restrictions were enumerated within the special warranty deeds and were given to the purchasers of the homes in the new development, called phase 1. Two years later, the president sold the remaining parcel, which had not been included in the phase 1 subdivision plan, to a contractor. The contractor, in turn, drafted a subdivision plan for the last 250-acre parcel, dividing it into one-acre lots. The contractor then commenced construction of single-family dwelling units in the new development, to be known as phase 2. There was no mention of the restriction for two-acre minimum lots in the deeds to the purchasers of the new homes in phase 2. Meanwhile, after the farmer's death, his estate isrequired to sell the remaining 250-acre parcel of his farmland. The buyer is an investor, who proposes to construct a two-level shopping center and parking lot on the property. The area surrounding phase 1 and phase 2 was rezoned for commercial and industrial uses in 2010. The investor's shopping center has grown to include 150 stores. Now, one of the lot owners in phase 1 contracts to sell his property to two physicians who plan to start a suburban medical practice. In an action by the homeowners in phase 1 to prevent such commercial use by the physicians, the court will most likely hold that",
+        "options": {
+          "A": "the restrictions are still enforceable, thus preventing such commercial use.",
+          "B": "the restrictions would no longer be enforceable, because the offering of personal services (i. e. , medical) would be a conforming use.",
+          "C": "the restrictions would no longer be enforceable, because of the change in the character of the neighborhood.",
+          "D": "the restrictions would no longer be enforceable, because the opening of a physician's office in a private home would not be construed as a commercial enterprise."
+        },
+        "ground_truth": "A",
+        "ground_truth_text": "the restrictions are still enforceable, thus preventing such commercial use.",
+        "llm_output": "Option: A\n",
+        "prediction": "A",
+        "evaluation_correct": true
+      },
+      "similarity": 0.8428061008453369
+    }
+  ]
+}

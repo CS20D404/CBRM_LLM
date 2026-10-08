@@ -1,0 +1,18 @@
+You previously answered a multiple-choice question correctly.
+
+Question:
+{problem_statement}
+
+Correct answer: {correct_answer}
+
+Task: Write (1) a standalone summary of the question that keeps ONLY the critical details in the question, and (2) a justification explaining why the correct answer is right.
+
+Instructions:
+1. The question summary MUST be under 50 words. Include only details that matter for answering; omit everything else.
+2. The correct answer justification MUST be under 75 words.
+3. Respond in EXACTLY this format, with no text before or after it:
+    "Summary: <YOUR SUMMARY>
+    Justification: <YOUR JUSTIFICATION>"
+4. Plain text only. No headings, bullet points, or markdown.
+
+Your response (SUMMARY UNDER 50 WORDS, JUSTIFICATION UNDER 75 WORDS):

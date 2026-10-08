@@ -1,0 +1,16 @@
+You are solving a multiple-choice question.
+
+Question:
+{problem_statement}
+
+Options:
+{options}
+
+Choose the best answer.
+
+Instructions:
+1. Do not provide any explanation, reasoning or additional text.
+2. ONLY Respond with EXACTLY ONE line in the format:
+    "Option: <LETTER>"
+
+Your response (NO EXPLANATION, ONLY THE OPTION LETTER):
