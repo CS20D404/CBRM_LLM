@@ -1,9 +1,9 @@
 """
 source myenv/bin/activate
 pip install mlx-lm mlx-vlm pyyaml tqdm psutil sentence-transformers numpy scipy
-python3 CBR_CB_Success_Reputation/Codes/RAG.py all > CBR_CB_Success_Reputation/Codes/RAG_all.txt
-python3 CBR_CB_Success_Reputation/Codes/RAG.py failure > CBR_CB_Success_Reputation/Codes/RAG_failure.txt
-python3 CBR_CB_Success_Reputation/Codes/RAG.py success > CBR_CB_Success_Reputation/Codes/RAG_success.txt
+python3 CBR_CB_Rephrase_Consolidation/Codes/RAG.py all > CBR_CB_Rephrase_Consolidation/Codes/RAG_all.txt
+python3 CBR_CB_Rephrase_Consolidation/Codes/RAG.py failure > CBR_CB_Rephrase_Consolidation/Codes/RAG_failure.txt
+python3 CBR_CB_Rephrase_Consolidation/Codes/RAG.py success > CBR_CB_Rephrase_Consolidation/Codes/RAG_success.txt
 """
 
 import os
